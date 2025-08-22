@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax 
+\par \nobreak \textbf {{\scshape Figure} \hfill Page}\par \nobreak 
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{19}{figure.caption.9}%
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{27}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{29}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{29}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{30}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{30}{figure.caption.17}%
+\addvspace {10pt}

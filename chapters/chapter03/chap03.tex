@@ -76,34 +76,76 @@ Table 3-1 provides a detailed representation of datasets including GEO accession
 % \end{center}
 % \end{table}
 
-As a result of these augmentation processes, the dataset was expanded to a total of 7,500 samples, providing greater variety and resilience against overfitting. After performing feature extraction on the augmented dataset, the data was partitioned into two subsets. Following standard machine learning practices, 80\% of the data (6,000 samples) was allocated for training the model, while the remaining 20\% (1,500 samples) was used for testing.
+\vspace*{-\parskip} % Remove extra paragraph spacing before table
+\begin{longtable}{|p{0.5cm}|p{2.0cm}|p{1.4cm}|p{1.8cm}|p{2.0cm}|p{2.3cm}|p{2.0cm}|}
+\caption{Representation of Datasets Information} \label{tab:3.1} \\
+\hline
+\textbf{S. No.} & \textbf{Disease Name} & \textbf{GEO Accession Id.} & \textbf{Gender (Male + Female)} & \textbf{Sample (Case + Control)} & \textbf{Disease status (case, control)} & \textbf{Source Name} \\
+\hline
+\endfirsthead
+\caption[]{Representation of Datasets Information (Continued)} \\
+\hline
+\textbf{S. No.} & \textbf{Disease Name} & \textbf{GEO Accession Id.} & \textbf{Gender (Male + Female)} & \textbf{Sample (Case + Control)} & \textbf{Disease status (case, control)} & \textbf{Source Name} \\
+\hline
+\endhead
+\hline
+\endfoot
+1 & Beta-thalassemia & GSE-117221 & 49 total, (23 + 26) & 49 samples, (32 + 17) & Thalassemia intermediate (TI) and Thalassemia major (TM), and Healthy patient & Healthy-ErPCs, TI-ErPCs, TM-ErPCs \\
+\hline
+2 & T2D & GSE-25724 & 13 total, (07 + 06) & 13 samples, (06 + 07) & Non-diabetic, and Type 2 diabetes & Human islets, non-diabetic and Human islets, diabetic \\
+\hline
+3 & PCOS & GSE-216609 & 07 total, (07 female) & 07 samples, (03 + 04) & Control, and PCOS & Cumulus granule cells \\
+\hline
+4 & Hypothyroi-dism & GSE-176153 & 08 total, (02 + 06) & 08 samples, (04 + 04) & Control, and Hypothyroidism & Whole blood \\
+\hline
+5 & ACM & GSE-233780 & 12 total, (10 + 02) & 12 samples, (06 + 06) & ACM, and Healthy control & Cardiac mesenchymal stromal cells \\
+\hline
+6 & Hypogona-dism & GSE-26966 & 23 total, (12 + 11) & 23 samples, (09 + 14) & Normal pituitary (NP), and Gonadotrope tumor (GT) & NP at autopsy within 2--18 hr. of death, and GT at time of transsphenoidal surgery \\
+\hline
+7 & Arrhythmia & GSE-175944 & Not mentioned & 06 samples, (03 + 03) & Control, and PITX2 knockout & Cell line of human induced pluripotent stem cells (hiPSC) \\
+\hline
+\end{longtable}
+
 
 \newpage
-\section{Proposed Deep Learning Architectures}
-\label{sec:sec3_3}
+\section{Methodology}
+\label{sec:sec3_4}
+
+This section provides a detailed overview of the methodology applied in this study. Different analytical approaches have been applied to investigate the genetic profiling of beta-thalassemia and its associated comorbidities. The process includes data collection, preprocessing, identification of important functional genes, enrichment analysis, and network-based evaluations such as protein-protein and protein-drug interactions. Additionally, evolutionary relationships has been incorporated to strengthen the findings. By combining these diverse methods, the study aims to ensure a comprehensive and reliable analysis framework that captures both the molecular and clinical perspectives of beta-thalassemia.
+
+\subsection{Selection of mRNA-seq and Microarray Datasets}
+\label{sec:sec3_4_1}
 For BdSL classification, this study used pre-trained convolutional neural networks, ResNet-50 for feature extraction and evaluating two classifiers SVM (Support Vector Machine) and CNN (Convolutional Neural Network) for the final classification job.
 
-\begin{figure}[H]
-\begin{center}
-    % First row of images
-    \includegraphics[width=15cm]{./fig/methodology.pdf}
-\caption{Procedure of methodological steps.}
-\label{tab:augmentation}
-\end{center}
-\end{figure}
+For this study, a reliable and relevant data was selected for investigating the genetic association between BT and its comorbidities. Two types of datasets were utilized that are mRNA-seq datasets and microarray datasets which were selected from the Gene Expression Omnibus (GEO), a public functional genomics data repository maintained by the National Center for Biotechnology Information (NCBI) [new ref].
+
+\begin{itemize}
+    \item mRNA-seq datasets (gene expression that is profiling by high throughput sequencing ) were selected for BT, PCOS, hypothyroidism, ACM and arrhythmia. These datasets provide a comprehensive view of transcriptional expression.
+    \item Microarray datasets (gene expression that is profiling by array) were selected for T2D and hypogonadism from GEO. Microarray datasets remain valuable for differential expression analysis for experimental designs.
+\end{itemize}
+
+% \begin{figure}[H]
+% \begin{center}
+%     % First row of images
+%     \includegraphics[width=15cm]{./fig/methodology.pdf}
+% \caption{Procedure of methodological steps.}
+% \label{tab:augmentation}
+% \end{center}
+% \end{figure}
+
 
 \newpage
-\subsection{ResNet-50}
-\label{sec:sec3_3_1}
-ResNet-50 is a deep convolutional neural network that is 50 layers deep and is part of the Residual Network (ResNet) family \cite{b25}.This architecture allows the network to learn residual mappings, which are easier to optimize compared to traditional raw mappings, enabling deeper networks to achieve higher accuracy. ResNet-50 processes input images of size 224x224x3 (RGB) and outputs feature maps or class probabilities depending on the task. With approximately 25.6 million parameters. ResNet-50 is widely used in computer vision tasks such as image classification, object detection, and feature extraction due to its high accuracy and efficient training.
+\subsection{Differential Gene Expression Analysis}
+\label{sec:sec3_4_2}
+Differential gene expression analysis is a base of bioinformatics for understanding the molecular and genetic inter-relations of complex diseases like beta-thalassemia and its comorbidities. In this study, we performed gene expression analysis on microarray and mRNA-seq datasets to identify differentially expressed genes (DEGs) between case disease and control samples for BT, PCOS, hypothyroidism, hypogonadism, T2D, ACM and arrhythmia. The analysis was conducted using the GEO2R tool on NCBI Gene Expression Omnibus (GEO) website and the Limma package in R which are widely used for strong statistical frameworks.
 
-\begin{figure}[H]
-\begin{center}
- \includegraphics[width=15cm]{./fig/ResNet50.pdf}
-\caption{ResNet-50 architecture.}
-\label{tab:ResNet-50}
-\end{center}
-\end{figure}
+% \begin{figure}[H]
+% \begin{center}
+%  \includegraphics[width=15cm]{./fig/ResNet50.pdf}
+% \caption{ResNet-50 architecture.}
+% \label{tab:ResNet-50}
+% \end{center}
+% \end{figure}
 
 \subsection{Support Vector Machine (SVM)}
 \label{sec:sec3_3_2}

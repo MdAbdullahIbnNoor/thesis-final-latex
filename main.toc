@@ -1,0 +1,40 @@
+\babel@toc {english}{}\relax 
+\par \nobreak \mbox {}\hfill {\nag@@warning@vi \bfseries Page}\par \nobreak 
+\contentsline {chapter}{Abbreviations and Acronyms}{vii}{chapter*.6}%
+\contentsline {chapter}{List of Tables}{viii}{section*.7}%
+\contentsline {chapter}{List of Figures}{ix}{section*.8}%
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}General Background}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Motivation}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Problem Statement}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Thesis Objectives}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Thesis Contribution}{6}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Significance}{6}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Thesis Layout}{7}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Conclusion}{8}{section.1.9}%
+\contentsline {chapter}{\chapternumberline {2}Literature Review}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Thesis Literature}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Brief Summary of Related Work}{12}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Research Gap}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Conclusion}{15}{section.2.4}%
+\contentsline {chapter}{\chapternumberline {3}Methodology}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{18}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Overview of Analytical Approaches}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dataset Information}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Methodology}{22}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Selection of mRNA-seq and Microarray Datasets}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Differential Gene Expression Analysis}{23}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Support Vector Machine (SVM)}{23}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Dense Layer}{23}{subsection.3.4.4}%
+\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental Elements}{26}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Result}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Classification Report}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{30}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Discussion}{31}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{33}{section.5.2}%
+\contentsline {chapter}{REFERENCES}{34}{chapter*.18}%
