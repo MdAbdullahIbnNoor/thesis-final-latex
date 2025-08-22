@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  22 AUG 2025 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  22 AUG 2025 17:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1576,7 +1576,7 @@ Package nag Info: Command \captionbelow not defined, skipping amendment on input
 Package nag Info: Command \hc@caption not defined, skipping amendment on input line 230.
 Package nag Info: Command \topcaption not defined, skipping amendment on input line 230.
  (frontmatter/title.tex
-<logos/pust_logo.jpg, id=150, 1778.645pt x 2133.9725pt>
+<logos/pust_logo.jpg, id=202, 1778.645pt x 2133.9725pt>
 File: logos/pust_logo.jpg Graphic file (type jpg)
 <use logos/pust_logo.jpg>
 Package pdftex.def Info: logos/pust_logo.jpg  used on input line 18.
@@ -2429,7 +2429,7 @@ Overfull \hbox (9.76198pt too wide) in alignment at lines 95--108
 [17
 
 ]
-<chapters/chapter03/./fig/p1.PNG, id=404, 551.81157pt x 441.14813pt>
+<chapters/chapter03/./fig/p1.PNG, id=476, 551.81157pt x 441.14813pt>
 File: chapters/chapter03/./fig/p1.PNG Graphic file (type png)
 <use chapters/chapter03/./fig/p1.PNG>
 Package pdftex.def Info: chapters/chapter03/./fig/p1.PNG  used on input line 30.
@@ -2917,31 +2917,106 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.63599pt on input line 286.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 286.
-) (chapters/chapter04/chap04.tex
+
+
+Package natbib Warning: Citation `updown_reg_ref' on page 28 undefined on input line 298.
+
+
 
 [28]
+<chapters/chapter03/./fig/disease.png, id=533, 1204.5pt x 685.56125pt>
+File: chapters/chapter03/./fig/disease.png Graphic file (type png)
+<use chapters/chapter03/./fig/disease.png>
+Package pdftex.def Info: chapters/chapter03/./fig/disease.png  used on input line 302.
+(pdftex.def)             Requested size: 395.98996pt x 225.38858pt.
+
+
+Package natbib Warning: Citation `common_deg_ref' on page 29 undefined on input line 311.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package natbib Warning: Citation `ppi_ref1' on page 29 undefined on input line 317.
+
+
+Package natbib Warning: Citation `ppi_ref2' on page 29 undefined on input line 317.
+
+
+
+[29 <./chapters/chapter03/./fig/disease.png>]
+
+Package natbib Warning: Citation `pdi_ref1' on page 30 undefined on input line 332.
+
+
+Package natbib Warning: Citation `pdi_ref2' on page 30 undefined on input line 332.
+
+
+Package natbib Warning: Citation `pdi_ref3' on page 30 undefined on input line 332.
+
+
+Package natbib Warning: Citation `pdi_ref1' on page 30 undefined on input line 336.
+
+
+Package natbib Warning: Citation `pdi_colinge' on page 30 undefined on input line 340.
+
+
+
+[30]
+
+Package natbib Warning: Citation `phy_ref1' on page 31 undefined on input line 352.
+
+
+Package natbib Warning: Citation `phy_ref1' on page 31 undefined on input line 352.
+
+
+Package natbib Warning: Citation `phy_ref2' on page 31 undefined on input line 354.
+
+
+Package natbib Warning: Citation `phy_ref3' on page 31 undefined on input line 357.
+
+
+
+[31]
+
+Package natbib Warning: Citation `val_ref1' on page 32 undefined on input line 364.
+
+
+Package natbib Warning: Citation `val_ref1' on page 32 undefined on input line 364.
+
+
+Package natbib Warning: Citation `algo_ref1' on page 32 undefined on input line 374.
+
+
+
+[32]
+
+[33]) (chapters/chapter04/chap04.tex
+
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
 
-[29
+[35
 
 ]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/accuracy_curve.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/accuracy_curve.pdf, id=470, 727.44772pt x 494.76846pt>
+<chapters/chapter04/./fig/accuracy_curve.pdf, id=581, 727.44772pt x 494.76846pt>
 File: chapters/chapter04/./fig/accuracy_curve.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/accuracy_curve.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/accuracy_curve.pdf  used on input line 27.
 (pdftex.def)             Requested size: 334.66331pt x 227.62204pt.
 
 
-[30]
+[36]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/loss_curve.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/loss_curve.pdf, id=475, 725.66107pt x 500.12848pt>
+<chapters/chapter04/./fig/loss_curve.pdf, id=586, 725.66107pt x 500.12848pt>
 File: chapters/chapter04/./fig/loss_curve.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/loss_curve.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/loss_curve.pdf  used on input line 35.
@@ -2958,12 +3033,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
 
 
-[31 <./chapters/chapter04/./fig/accuracy_curve.pdf> <./chapters/chapter04/./fig/loss_curve.pdf>]
+[37 <./chapters/chapter04/./fig/accuracy_curve.pdf> <./chapters/chapter04/./fig/loss_curve.pdf>]
 
-[32]
+[38]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/per_class.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/per_class.pdf, id=553, 607.70035pt x 384.82773pt>
+<chapters/chapter04/./fig/per_class.pdf, id=664, 607.70035pt x 384.82773pt>
 File: chapters/chapter04/./fig/per_class.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/per_class.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/per_class.pdf  used on input line 89.
@@ -2971,17 +3046,17 @@ Package pdftex.def Info: chapters/chapter04/./fig/per_class.pdf  used on input l
 
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/per_class2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/per_class2.pdf, id=554, 612.15701pt x 372.93329pt>
+<chapters/chapter04/./fig/per_class2.pdf, id=665, 612.15701pt x 372.93329pt>
 File: chapters/chapter04/./fig/per_class2.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/per_class2.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/per_class2.pdf  used on input line 97.
 (pdftex.def)             Requested size: 373.6394pt x 227.62204pt.
 
 
-[33 <./chapters/chapter04/./fig/per_class.pdf> <./chapters/chapter04/./fig/per_class2.pdf>]
+[39 <./chapters/chapter04/./fig/per_class.pdf> <./chapters/chapter04/./fig/per_class2.pdf>]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/confusion_matrix.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/confusion_matrix.pdf, id=620, 553.46777pt x 482.14127pt>
+<chapters/chapter04/./fig/confusion_matrix.pdf, id=731, 553.46777pt x 482.14127pt>
 File: chapters/chapter04/./fig/confusion_matrix.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/confusion_matrix.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/confusion_matrix.pdf  used on input line 110.
@@ -2989,33 +3064,33 @@ Package pdftex.def Info: chapters/chapter04/./fig/confusion_matrix.pdf  used on 
 
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/confusion_matrix_2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/confusion_matrix_2.pdf, id=621, 554.95331pt x 485.11237pt>
+<chapters/chapter04/./fig/confusion_matrix_2.pdf, id=732, 554.95331pt x 485.11237pt>
 File: chapters/chapter04/./fig/confusion_matrix_2.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/confusion_matrix_2.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/confusion_matrix_2.pdf  used on input line 118.
 (pdftex.def)             Requested size: 260.38776pt x 227.62204pt.
 
 
-[34 <./chapters/chapter04/./fig/confusion_matrix.pdf> <./chapters/chapter04/./fig/confusion_matrix_2.pdf>]) (chapters/chapter05/chap05.tex
+[40 <./chapters/chapter04/./fig/confusion_matrix.pdf> <./chapters/chapter04/./fig/confusion_matrix_2.pdf>]) (chapters/chapter05/chap05.tex
 
-[35]
+[41]
 
-[36
+[42
 
 ])
 
-[37]
+[43]
 
 Package nag Warning: Command \centerline is TeX. 
 (nag)                Use \centering or center environment instead on input line 266.
 
 
 
-[38
+[44
 
 ]
 
-[39]
+[45]
 Underfull \hbox (badness 1168) in paragraph at lines 293--294
 []\T1/futs/m/n/12 (+20) Gupta, R., et al., 2023. Preva-lence of en-docrine com-pli-ca-tions in beta-
  []
@@ -3028,7 +3103,7 @@ Package nag Warning: 4 complaints in total.
 
 
 
-[40]
+[46]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -3048,20 +3123,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D87F25C5AF2A28DEE02EDF81DE22AC4;5188.
+(rerunfilecheck)             Checksum: E8C6AEE882EC322A9FF7BF575A895BC6;7667.
  ) 
 Here is how much of TeX's memory you used:
- 39259 strings out of 468134
- 738824 string characters out of 5429736
- 1303541 words of memory out of 5000000
- 66346 multiletter control sequences out of 15000+600000
- 807495 words of font info for 528 fonts, out of 8000000 for 9000
+ 39354 strings out of 468134
+ 740306 string characters out of 5429736
+ 1304541 words of memory out of 5000000
+ 66387 multiletter control sequences out of 15000+600000
+ 808904 words of font info for 541 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  86i,13n,131p,2071b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (50 pages, 706505 bytes).
+ <C:\Users\AB Noor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on main.pdf (56 pages, 771620 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 135509 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 929 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 136130 words of extra memory for PDF output out of 154059 (max. 10000000)
 

@@ -25,18 +25,28 @@
 \contentsline {section}{\numberline {3.4}Methodology}{22}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Selection of mRNA-seq and Microarray Datasets}{22}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Differential Gene Expression Analysis}{23}{subsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.2.1}Gene Diseases Network Analysis}{25}{subsubsection.3.4.2.1}%
-\contentsline {subsubsection}{\numberline {3.4.2.2}Pathway and Functional Association Analysis}{26}{subsubsection.3.4.2.2}%
-\contentsline {subsubsection}{\numberline {3.4.2.3}Gene Ontology Analysis}{27}{subsubsection.3.4.2.3}%
+\contentsline {subsection}{\numberline {3.4.3}Gene Diseases Network Analysis}{25}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Pathway and Functional Association Analysis}{26}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Gene Ontology Analysis}{27}{subsection.3.4.5}%
 \contentsline {paragraph}{GO Analysis Workflow}{28}{section*.11}%
-\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Experimental Elements}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Result}{30}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Classification Report}{31}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{33}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{34}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Discussion}{35}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{36}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{37}{section.5.2}%
-\contentsline {chapter}{REFERENCES}{38}{chapter*.20}%
+\contentsline {subsection}{\numberline {3.4.6}Up and Down-regulated Identification}{28}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Common Dysregulated Genes}{29}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Network Construction of PPI}{29}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}Protein-Drug Interactions Network Analysis}{30}{subsection.3.4.9}%
+\contentsline {subsection}{\numberline {3.4.10}Phylogenetic Analysis}{31}{subsection.3.4.10}%
+\contentsline {subsection}{\numberline {3.4.11}Validation Analysis}{32}{subsection.3.4.11}%
+\contentsline {subsection}{\numberline {3.4.12}Working Algorithm}{32}{subsection.3.4.12}%
+\contentsline {subsection}{\numberline {3.4.13}Algorithm}{32}{subsection.3.4.13}%
+\contentsline {subsection}{\numberline {3.4.14}Experimental Setup}{34}{subsection.3.4.14}%
+\contentsline {subsection}{\numberline {3.4.15}Conclusion}{34}{subsection.3.4.15}%
+\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental Elements}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Result}{36}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Classification Report}{37}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{39}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{40}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Discussion}{41}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{42}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{43}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{43}{section.5.2}%
+\contentsline {chapter}{REFERENCES}{44}{chapter*.23}%

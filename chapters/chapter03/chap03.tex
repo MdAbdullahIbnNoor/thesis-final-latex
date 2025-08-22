@@ -218,7 +218,7 @@ The adjusted $p$-value threshold of BH was set to $\leq 0.05$ to ensure statisti
 These threshold values were used to identify significant DEGs between case and control groups.
 
 \vspace*{-\parskip} % Counteract extra paragraph spacing
-\subsubsection{Gene Diseases Network Analysis}
+\subsection{Gene Diseases Network Analysis}
 \label{sec:sec3_4_3}
 
 This study constructed Disease-Gene Networks (DGNs) using a neighborhood-based benchmarking and topological approach to investigate the genetic associations between beta-thalassemia and its comorbidities. These networks of up- and down-regulated genes show the relationships between diseases and differentially expressed genes (DEGs), providing a visual framework to identify shared genetic signatures.
@@ -239,7 +239,7 @@ Here, \(|Z_1 \cap Z_2|\) represents the set of common DEGs, and \(|Z_1 \cup Z_2|
 Two separate networks were constructed for up-regulated and down-regulated DEGs to show the distinct regulatory patterns. The DGNs were visualized and analyzed using the Cytoscape platform. Cytoscape enabled the mapping of disease-gene associations by optimizing the layouts to highlight connectivity patterns, such as hub genes across multiple comorbidities.
 
 \vspace*{-\parskip} % Counteract extra paragraph spacing
-\subsubsection{Pathway and Functional Association Analysis}
+\subsection{Pathway and Functional Association Analysis}
 \label{sec:sec:sec3_4_4}
 
 Pathway analysis involves the systematic identification of enriched biological pathways from sets of differentially expressed genes (DEGs) that are shared between beta-thalassemia and its comorbidities. This study identifies significant pathways using Enrichr, a public tool developed by the Ma'ayan Laboratory for Computational Systems Biology for gene set enrichment analysis (GSEA). Enrichr works by comparing input gene lists with collections of curated biological databases. The method applies statistical tests to measure significance, ensuring reliable and meaningful insights into the underlying molecular mechanisms.
@@ -262,7 +262,7 @@ A pathway is a sequence of molecular interactions that results in a specific cha
 Using Enrichr, we analyzed the common DEGs identified from the cross-comparative analysis of beta-thalassemia and its comorbidities. Pathways were considered significant if their adjusted $p$-value was $\leq 0.05$, ensuring robust statistical reliability. The analysis identified key pathways for each comorbidity, such as GPCR ligand binding for PCOS, interferon gamma signaling for hypogonadism, and zinc homeostasis for arrhythmia, among others.
 
 \vspace*{-\parskip} % Counteract extra paragraph spacing
-\subsubsection{Gene Ontology Analysis}
+\subsection{Gene Ontology Analysis}
 \label{sec:sec3_4_5}
 
 Gene Ontology (GO) analysis is a structured framework for describing genes by their molecular functions, biological processes, and cellular components, enabling a deeper understanding of their roles in disease mechanisms~\cite{go_ref}. In this study, we conducted GO analysis to explore the functional associations of common differentially expressed genes (DEGs) shared between beta-thalassemia and its comorbidities. The analysis was performed using Enrichr, a web-based enrichment tool developed by the Ma'ayan Laboratory, which queries gene sets against standardized ontology databases to identify significant functional terms~\cite{go_ref}.
@@ -290,3 +290,172 @@ The common DEGs identified through cross-comparative analysis of GEO datasets we
 \caption{Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}
 \label{fig:go_workflow}
 \end{figure}
+
+\vspace*{-\parskip} % Counteract extra paragraph spacing
+\subsection{Up and Down-regulated Identification}
+\label{sec:sec3_4_6}
+
+Downregulation is the process in which a cell reduces the expression level of a gene compared to a reference in response to an external variable. Upregulation refers to an increase in expression level compared to a reference. Here, the expression level indicates the abundance of biological components, such as RNA or protein~\cite{updown_reg_ref}. These changes are typically determined by comparing two groups: a reference or control sample, often healthy tissue, and a test sample, such as diseased or mutant tissue. The expression values of the test sample are compared against those of the reference sample to generate expression ratios, which is standard practice in gene expression analysis. These ratios are typically transformed into a logarithmic scale for easier interpretation. A positive log value indicates that the gene expression is higher in the test sample compared to the reference, indicating upregulation. A negative log value signifies reduced expression in the test sample relative to the reference, indicating downregulation. Thus, by comparing the expression profiles of two samples, it is possible to determine whether a gene is up- or down-regulated under specific conditions.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\textwidth]{./fig/disease}
+\caption{Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log_2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}
+\label{fig:up_down_genes}
+\end{figure}
+
+\vspace*{-\parskip}
+\subsection{Common Dysregulated Genes}
+\label{sec:common_degs}
+
+This study identified common differentially expressed genes (DEGs) shared between beta-thalassemia (BT) and its comorbidities by using statistical analysis to explore genetic relationships among these diseases. We retrieved GEO datasets from NCBI for the diseases under investigation. To reject the null hypothesis, a statistical \( p \)-value of \( \leq 0.05 \) was used. For up-regulated gene identification, a threshold of \( |\log FC| \geq 1 \) was applied, and for down-regulated gene identification, a threshold of \( |\log FC| \leq -1 \) was used~\cite{common_deg_ref}. By performing an intersection set operation using the R \texttt{limma} package, we identified common genes between BT and its comorbidities. Using these datasets and methods, we obtained results that demonstrate the connections between BT and the selected diseases. Other detailed information is discussed in the next chapter.
+
+\vspace*{-\parskip}
+\subsection{Network Construction of PPI}
+\label{sec:ppi_network}
+
+Protein-Protein Interaction (PPI) analysis is a primary goal of systems biology, predicting protein functions and drug targets through molecular interactions~\cite{ppi_ref1}. These interactions are significant for driving cellular processes and mapping connections between beta-thalassemia (BT) and its comorbidities~\cite{ppi_ref2}. We constructed PPI networks to explore how proteins encoded by shared differentially expressed genes (DEGs) interact.
+
+We used the STRING database, inputting common DEGs and setting a high confidence score of 0.9 for reliable interactions. The NetworkAnalyst platform, utilizing the Markov Clustering algorithm, facilitated clustering of proteins based on connectivity. The resulting networks were visualized in Cytoscape, with proteins represented as nodes and interactions as edges.
+
+Hub proteins were selected based on topological parameters, specifically a degree greater than 10. The distance between a pair of proteins (\( i, j \)) is defined as follows:
+\begin{equation}
+d(i,j) = 1 - \frac{|N_i \cap N_j|}{|N_i \cup N_j|}
+\label{eq:protein_distance}
+\end{equation}
+where \( N_i \) and \( N_j \) are the neighbor sets of proteins \( i \) and \( j \), respectively.
+
+\vspace*{-\parskip}
+\subsection{Protein-Drug Interactions Network Analysis}
+\label{sec:pdi_network}
+
+The primary objective of this investigation is to identify potential therapeutic drug particles~\cite{pdi_ref1}. The Protein-Drug Interaction (PDI) network was constructed using NetworkAnalyst and prepared with the DrugBank database, which is designed for common genes of beta-thalassemia and its comorbidities. To explore potential therapeutic options for beta-thalassemia and its comorbidities, we constructed PDI networks. These networks map how proteins encoded by the shared differentially expressed genes (DEGs) interact with drug molecules, which is used to identify possible treatments~\cite{pdi_ref2}. Using systems biology-based strategies for studying protein-drug interactions~\cite{pdi_ref3}, the goal of this work was to identify potential drug targets capable of addressing the molecular mechanisms that connect these diseases.
+
+\subsection*{Building the PDI Networks}
+
+Firstly, we identified the common DEGs between beta-thalassemia and each comorbidity. These genes were input into the NetworkAnalyst platform, which integrates the DrugBank database to map interactions between proteins and known drug compounds~\cite{pdi_ref1}. DrugBank provides a comprehensive repository of drugs and their protein targets, including approved, experimental, and investigational compounds, which is used to ensure a broad scope of potential interactions.
+
+\subsection*{Analytical Approach}
+
+Following the systems biology framework outlined by Colinge et al. (2012)~\cite{pdi_colinge}, we analyzed the PDI network by:
+\begin{itemize}
+    \item Topological Analysis is used to identify hub proteins with multiple drug interactions by using metrics like degree (the number of connections) to prioritize potential therapeutic targets.
+    \item Functional Mapping is used for cross-referenced protein functions to ensure drugs targeted biologically relevant proteins, such as those involved in immune response or signaling pathways linked to beta-thalassemia’s comorbidities.
+    \item Drug Prioritization were ranked based on the number of protein targets and their relevance to disease pathways, ensuring focus on compounds with potential clinical applicability.
+\end{itemize}
+The PDI network helps us see which drugs might influence the proteins driving beta-thalassemia and its comorbidities.
+
+\vspace*{-\parskip}
+\subsection{Phylogenetic Analysis}
+\label{sec:phylogenetic}
+
+Phylogenetic analysis enhances the understanding of the evolutionary relationships among genes, proteins, and diseases~\cite{phy_ref1}. We constructed a phylogenetic tree for beta-thalassemia and its comorbidities to illustrate the associative relationships among them by using Molecular Evolutionary Genetics Analysis (MEGA) tools and FASTA sequences of nucleotide datasets from NCBI~\cite{phy_ref1}. The tree shows a strong evolutionary relationship between beta-thalassemia and hypogonadism as they belong to a common species.
+We retrieved nucleotide sequences in FASTA format from the NCBI database for representative genes associated with beta-thalassemia and its comorbidities by selecting sequences based on their relevance to shared differentially expressed genes (DEGs). To ensure comprehensive coverage, we included multiple sequences per disease and prioritized those linked to key pathways like iron metabolism or endocrine signaling.
+Following standard molecular phylogenetic protocols~\cite{phy_ref2}:
+\begin{itemize}
+    \item Sequence Alignment: Sequences were aligned using ClustalX to identify homologous regions, accounting for insertions, deletions, and substitutions. This step ensures accurate comparison for evolutionary inferences.
+    \item Tree Construction: We used the Molecular Evolutionary Genetics Analysis (MEGA) software to generate phylogenetic trees. The Neighbor-Joining (NJ) method was employed, with the Kimura 2-parameter model for distance calculation to handle nucleotide substitutions~\cite{phy_ref3}.
+\end{itemize}
+
+\vspace*{-\parskip}
+\subsection{Validation Analysis}
+\label{sec:validation}
+
+To ensure the reliability of our findings on the genetic links between beta-thalassemia and its comorbidities, we conducted a validation analysis using gold-standard biomedical databases. This step confirms that the DEGs and their disease associations are consistent~\cite{val_ref1}. We used two benchmark databases, including dbGaP and OMIM from Enrichr tools, on the up-regulated and down-regulated genes of beta-thalassemia to validate our findings~\cite{val_ref1}:
+\begin{itemize}
+    \item dbGaP (Database of Genotypes and Phenotypes): This NCBI-hosted database contains genotype-phenotype relationships from large-scale genomic studies. We queried dbGaP with our shared DEGs to identify diseases with overlapping genetic profiles.
+    \item OMIM (Online Mendelian Inheritance in Man): This comprehensive catalog of human genes and genetic disorders was used to verify whether our DEGs are linked to beta-thalassemia or its comorbidities in Mendelian or complex disease contexts.
+\end{itemize}
+
+\vspace*{-\parskip}
+\subsection{Working Algorithm}
+\label{sec:working_algorithm}
+
+A systematic methodology outlines the entire operational process as a set of structured steps. The following guidelines offer a detailed summary of all procedures carried out in our research~\cite{algo_ref1}.
+
+\vspace*{-\parskip}
+\subsection{Algorithm}
+\label{sec:algorithm}
+
+\textbf{Input:} Microarray and mRNA-Seq GEO datasets. \\
+\textbf{Output:} Differentially Expressed Genes (DEGs), Common DEGs, Disease-Gene Networks (DGNs), Signaling Pathways, Ontological Pathways, Protein-Protein Interactions (PPIs), Protein-Drug Interactions (PDIs), Phylogenetic Tree, and Validation Network.
+
+\begin{enumerate}
+    \item \textbf{Dataset Selection:}
+    \begin{itemize}
+        \item Selecting relevant Gene Expression Omnibus (GEO) datasets from the NCBI using disease-specific criteria.
+    \end{itemize}
+    \item \textbf{Differential Gene Expression Analysis:}
+    \begin{itemize}
+        \item For every dataset \( i = 1, 2, 3, \ldots, N \)
+        \begin{enumerate}
+            \item Load the datasets.
+            \item Normalize datasets using Z-score transformation to ensure comparability.
+            \item Create a case vs. control design matrix.
+            \item Apply the R \texttt{Limma} package and GEO2R to compute DEGs using the Benjamini-Hochberg method.
+            \item Filter DEGs based on adjusted \( p \)-value \( \leq 0.05 \).
+            \item Modify \( |\log FC| \geq 1 \) for Upregulation and \( |\log FC| \leq -1 \) for Downregulation.
+            \item Identify significant DEGs.
+        \end{enumerate}
+    \end{itemize}
+    \item \textbf{Cross-Comparative Analysis:}
+    \begin{itemize}
+        \item Compare DEG gene sets between beta-thalassemia and each comorbidity including T2D, PCOS, ACM, hypothyroidism, hypogonadism, and arrhythmia to identify common up- and down-regulated genes.
+        \item Use the Jaccard Coefficient to quantify similarity between gene sets.
+    \end{itemize}
+    \item \textbf{Some Analysis for Common DEGs:}
+    \begin{itemize}
+        \item Disease-Gene Networks (DGNs) construction.
+        \item Enrichment analysis for significant signaling pathways.
+        \item Enrichment analysis for Ontological pathways.
+        \item PPI network construction.
+        \item PDI network construction.
+        \item Evolutionary phylogenetic Analysis.
+        \item Plot these pathways in tabular form.
+    \end{itemize}
+    \item \textbf{Validation Analysis:}
+    \begin{itemize}
+        \item Build a validation network in Cytoscape.
+    \end{itemize}
+    \item \textbf{Results:}
+    \begin{itemize}
+        \item List of common DEGs.
+        \item DGNs for up- and down-regulated genes.
+        \item Heatmap Visualization.
+        \item Enriched signaling and ontological pathways.
+        \item PPI networks and hub proteins.
+        \item PDI networks with potential drug targets.
+        \item Phylogenetic tree showing disease relationships.
+        \item Validated disease-gene associations.
+    \end{itemize}
+\end{enumerate}
+
+\vspace*{-\parskip}
+\subsection{Experimental Setup}
+\label{sec:experimental_setup}
+
+To conduct the genetic and molecular analysis of beta-thalassemia and its comorbidities, we used the following computational setup and tools:
+\begin{itemize}
+    \item \textbf{Hardware:}
+    \begin{itemize}
+        \item Device: Desktop PC
+        \item Processor: Intel Core i5-7200U CPU @ 2.50GHz (2.71 GHz)
+        \item RAM: 4.00 GB (3.26 GB usable)
+        \item System: 64-bit Windows 10 Pro, Version 21H2, OS Build 19044.2006
+    \end{itemize}
+    \item \textbf{Software and Tools:}
+    \begin{itemize}
+        \item R Studio: For differential gene expression analysis using the \texttt{Limma} package.
+        \item Cytoscape: For constructing and visualizing disease-gene and validation networks.
+        \item MEGA: For phylogenetic tree construction.
+        \item STRING: For protein-protein interaction (PPI) network analysis.
+        \item Enrichr: For pathway and gene ontology enrichment analysis.
+        \item Network Analyst: For PPI and protein-drug interaction (PDI) network construction with DrugBank integration.
+    \end{itemize}
+\end{itemize}
+
+\vspace*{-\parskip}
+\subsection{Conclusion}
+\label{sec:conclusion}
+
+This chapter outlined the methodology for investigating the genetic and molecular links between beta-thalassemia and its comorbidities. Using GEO datasets, we identified DEGs, constructed DGNs, performed pathway and GO enrichment, built PPI and PDI networks, conducted phylogenetic analysis, and validated findings with dbGaP and OMIM. The systematic approach, supported by tools like R, Cytoscape, Enrichr, STRING, NetworkAnalyst, and MEGA, ensures robust and reproducible results, setting the stage for detailed findings in Chapter 4.

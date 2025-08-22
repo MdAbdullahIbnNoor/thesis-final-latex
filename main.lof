@@ -6,11 +6,12 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{19}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{24}{figure.caption.10}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{28}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log _2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}}{29}{figure.caption.13}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{31}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{31}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{33}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{33}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{34}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{34}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{37}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{37}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{39}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{40}{figure.caption.22}%
 \addvspace {10pt}
