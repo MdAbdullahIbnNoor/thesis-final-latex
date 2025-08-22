@@ -1,0 +1,299 @@
+\RequirePackage[l2tabu]{nag}		% Warns for incorrect (obsolete) LaTeX usage
+
+\documentclass[a4paper,12pt,leqno,openbib,oneside]{memoir} 
+\usepackage{gensymb}
+\usepackage{datetime}
+\usepackage{ifpdf}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{adjustbox}
+\usepackage{mathptmx} % Times New Roman-like font
+\usepackage[T1]{fontenc}
+
+% Set margins: 1.5in left, 1in top/right/bottom
+\geometry{left=1.5in, right=1in, top=1in, bottom=1in}
+
+\ifpdf
+\pdfinfo{
+   /Author (Mrs. Shaima Aslam Chaity)
+   /Title (Undergrad Thesis)
+   /Keywords (200121)
+   /CreationDate (D:\pdfdate)
+}
+\fi
+ 
+\ifdraftdoc 
+	\usepackage{draftwatermark}				
+	\SetWatermarkScale{0.3}
+	\SetWatermarkText{\bf Draft: \today}
+\fi
+
+% Declare figure/table as a subfloat.
+\frenchspacing
+% Set 1.5 line spacing globally
+\OnehalfSpacing 
+% Sets numbering division level
+\setsecnumdepth{subsection} 
+\maxsecnumdepth{subsubsection}
+
+% Chapter style (taken and slightly modified from Lars Madsen Memoir Chapter Styles)
+\usepackage{calc,soul,fourier}
+\makeatletter 
+\newlength\dlf@normtxtw 
+\setlength\dlf@normtxtw{\textwidth} 
+\newsavebox{\feline@chapter} 
+\newcommand\feline@chapter@marker[1][4cm]{%
+	\sbox\feline@chapter{% 
+		\resizebox{!}{#1}{\fboxsep=1pt%
+			\colorbox{gray}{\color{white}\thechapter}% 
+		}}%
+		\rotatebox{90}{% 
+			\resizebox{%
+				\heightof{\usebox{\feline@chapter}}+\depthof{\usebox{\feline@chapter}}}% 
+			{!}{\scshape\so\@chapapp}}\quad%
+		\raisebox{\depthof{\usebox{\feline@chapter}}}{\usebox{\feline@chapter}}%
+} 
+\newcommand\feline@chm[1][4cm]{%
+	\sbox\feline@chapter{\feline@chapter@marker[#1]}% 
+	\makebox[0pt][c]{% aka \rlap
+		\makebox[1cm][r]{\usebox\feline@chapter}%
+	}}
+\makechapterstyle{daleifmodif}{
+	\renewcommand\chapnamefont{\normalfont\Large\scshape\raggedleft\so} 
+	\renewcommand\chaptitlefont{\normalfont\Large\bfseries\scshape} 
+	\renewcommand\afterchapternum{\par\vskip\midchapskip} 
+}
+\makeatother 
+\chapterstyle{daleifmodif}
+
+% Page style: page numbers at bottom center, headers for sections
+\makepagestyle{myvf} 
+\makeoddfoot{myvf}{}{\thepage}{} 
+\makeevenfoot{myvf}{}{\thepage}{} 
+\makeheadrule{myvf}{\textwidth}{\normalrulethickness} 
+\makeevenhead{myvf}{\small\textsc{\leftmark}}{}{} 
+\makeoddhead{myvf}{}{}{\small\textsc{\rightmark}}
+\pagestyle{myvf}
+
+% Command to clear to next odd page
+\newcommand{\clearemptydoublepage}{\newpage{\thispagestyle{empty}\cleardoublepage}}
+
+% Creates indexes for Table of Contents, List of Figures, List of Tables, and Index
+\makeindex
+
+\usepackage{import}
+\usepackage{lipsum}
+\usepackage{amsfonts}
+\usepackage[centertags]{amsmath}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{amsthm}
+\usepackage{newlfont}
+\usepackage{graphicx}
+\usepackage{longtable,rotating}
+\usepackage[applemac]{inputenc}
+\usepackage{colortbl}
+\usepackage{wasysym}
+\usepackage{mathrsfs}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{verbatim}
+\usepackage{upgreek}
+\usepackage{latexsym}
+\usepackage[square,numbers,sort&compress]{natbib}
+\usepackage{url}
+\usepackage[spanish,english]{babel}
+\usepackage{color}
+\usepackage[colorlinks=true,allcolors=black]{hyperref}
+\usepackage{memhfixc}
+\usepackage{footnote}
+\usepackage{microtype}
+\usepackage{rotfloat}
+\usepackage{alltt}
+\usepackage[version=0.96]{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,automata,backgrounds,petri,topaths}
+
+% Reduce widows and orphans
+\widowpenalty=1000
+\clubpenalty=1000
+
+% Custom commands
+\newcommand{\keywords}[1]{\par\noindent{\small{\bf Keywords:} #1}}
+\newcommand{\parcial}[2]{\frac{\partial#1}{\partial#2}}
+\newcommand{\vectorr}[1]{\mathbf{#1}}
+\newcommand{\vecol}[2]{\left(\begin{array}{c} \displaystyle#1 \\ \displaystyle#2 \end{array}\right)}
+\newcommand{\mados}[4]{\left(\begin{array}{cc} \displaystyle#1 &\displaystyle #2 \\ \displaystyle#3 & \displaystyle#4 \end{array}\right)}
+\newcommand{\pgftextcircled}[1]{%
+    \setbox0=\hbox{#1}%
+    \dimen0\wd0%
+    \divide\dimen0 by 2%
+    \begin{tikzpicture}[baseline=(a.base)]%
+        \useasboundingbox (-\the\dimen0,0pt) rectangle (\the\dimen0,1pt);
+        \node[circle,draw,outer sep=0pt,inner sep=0.1ex] (a) {#1};
+    \end{tikzpicture}
+}
+\newcommand{\range}[1]{\textnormal{range }#1}
+\newcommand{\innerp}[2]{\left\langle#1,#2\right\rangle}
+\newcommand{\prom}[1]{\left\langle#1\right\rangle}
+\newcommand{\tra}[1]{\textnormal{tra} \: #1}
+\newcommand{\sign}[1]{\textnormal{sign\,}#1}
+\newcommand{\sech}[1]{\textnormal{sech} #1}
+\newcommand{\diag}[1]{\textnormal{diag} #1}
+\newcommand{\arcsech}[1]{\textnormal{arcsech} #1}
+\newcommand{\arctanh}[1]{\textnormal{arctanh} #1}
+\newcommand{\blackged}{\hfill$\blacksquare$}
+\newcommand{\whiteged}{\hfill$\square$}
+\newcounter{proofcount}
+\renewenvironment{proof}[1][\proofname.]{\par
+ \ifnum \theproofcount>0 \pushQED{\whiteged} \else \pushQED{\blackged} \fi%
+ \refstepcounter{proofcount}
+ \normalfont 
+ \trivlist
+ \item[\hskip\labelsep \itshape {\bf\em #1}]\ignorespaces
+}{\addtocounter{proofcount}{-1} \popQED\endtrivlist}
+
+% New square root definition
+\let\oldsqrt\sqrt
+\def\sqrt{\mathpalette\DHLhksqrt}
+\def\DHLhksqrt#1#2{%
+\setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+
+% Caption styles
+\newcommand{\mycaption}[2][\@empty]{%
+	\captionnamefont{\scshape} 
+	\changecaptionwidth
+	\captionwidth{0.9\linewidth}
+	\captiondelim{.\:} 
+	\indentcaption{0.75cm}
+	\captionstyle[\centering]{}
+	\setlength{\belowcaptionskip}{10pt}
+	\ifx \@empty#1 \caption{#2}\else \caption[#1]{#2}
+}
+\newcommand{\mysubcaption}[2][\@empty]{%
+	\subcaptionsize{\small}
+	\hangsubcaption
+	\subcaptionlabelfont{\rmfamily}
+	\sidecapstyle{\raggedright}
+	\setlength{\belowcaptionskip}{10pt}
+	\ifx \@empty#1 \subcaption{#2}\else \subcaption[#1]{#2}
+}
+
+% Initial letter
+\usepackage{lettrine}
+\newcommand{\initial}[1]{%
+	\lettrine[lines=3,lhang=0.33,nindent=0em]{\color{gray}{\textsc{#1}}}{}}
+
+% Theorem styles
+\theoremstyle{plain}
+\newtheorem{theo}{Theorem}[chapter]
+\theoremstyle{plain}
+\newtheorem{prop}{Proposition}[chapter]
+\theoremstyle{plain}
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}[chapter]
+\theoremstyle{plain}
+\newtheorem{lema}{Lemma}[chapter]
+\theoremstyle{plain}
+\newtheorem{cor}{Corollary}[chapter]
+\theoremstyle{plain}
+\newtheorem{resu}{Result}[chapter]
+
+% Hyphenation
+\hyphenation{res-pec-tively}
+\hyphenation{mono-ti-ca-lly}
+\hyphenation{hypo-the-sis}
+\hyphenation{para-me-ters}
+\hyphenation{sol-va-bi-li-ty}
+
+% new things added:
+
+% Set no paragraph indentation and increase word spacing with justification
+\setlength{\parindent}{0pt} % No indentation for paragraphs
+\fontdimen2\font=0.3em % Nominal inter-word space
+\fontdimen3\font=0.15em % Stretch for inter-word space
+\fontdimen4\font=0.1em % Shrink for inter-word space
+% \setlength{\spaceskip}{0.2em}
+\setbeforesecskip{4.5ex plus 1ex minus 0.2ex} % Increases space before \section
+\setbeforesubsecskip{4.25ex plus 1ex minus 0.2ex} % Increases space before \subsection
+
+\setlength{\parskip}{12pt}
+
+\begin{document}
+
+\frontmatter
+\pagenumbering{roman}
+\input{frontmatter/title}
+\input{frontmatter/Declaration.tex}
+\input{frontmatter/certification}
+\input{frontmatter/acknowledgment}
+\input{frontmatter/abstract}
+
+\renewcommand{\contentsname}{Table of Contents}
+\maxtocdepth{subsection}
+\tableofcontents*
+\addtocontents{toc}{\par\nobreak \mbox{}\hfill{\bf Page}\par\nobreak}
+\clearpage
+
+\input{frontmatter/nomenclature.tex}
+\clearpage
+
+\listoftables
+\addtocontents{lot}{\par\nobreak\textbf{{\scshape Table} \hfill Page}\par\nobreak}
+\clearpage
+
+\listoffigures
+\addtocontents{lof}{\par\nobreak\textbf{{\scshape Figure} \hfill Page}\par\nobreak}
+\clearpage
+
+\mainmatter
+\import{chapters/chapter01/}{chap01.tex}
+\import{chapters/chapter02/}{chap02.tex}
+\import{chapters/chapter03/}{chap03.tex}
+\import{chapters/chapter04/}{chap04.tex}
+\import{chapters/chapter05/}{chap05.tex}
+
+\renewcommand\bibname{\fontsize{16pt}{1pt} \selectfont \centerline{REFERENCES} \global\def\bibname{REFERENCES}}
+
+\begin{thebibliography}{99}
+\bibitem{b1} Malik, S.E., et al., 2023. Statistical analysis of 135 Beta-Thalassemia Major patients. Journal of Hematology, 28(1), pp. 45-53.
+\bibitem{b2} Akiki, N., et al., 2023. Patterns and mechanisms in beta-thalassemia. Clinical Reviews, 15(2), pp. 89-97.
+\bibitem{b3} Podder, N.K., et al., 2020. Genetic links between Type 2 diabetes and comorbidities. Bioinformatics, 36(5), pp. 123-130.
+\bibitem{b4} Podder, N.K., et al., 2021. Molecular patterns in COVID-19 and neurodegenerative diseases. Journal of Computational Biology, 28(3), pp. 210-220.
+\bibitem{b5} M. S. Islam, M. M. Rahman, M. H. Rahman, M. Arifuzzaman, R. Sassi, and M. Aktaruzzaman, "Recognition Bangla sign language using convolutional neural network," in 2019 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT), IEEE, 2019, pp. 1–6.
+\bibitem{b6} Podder, N.K., et al., 2020. Molecular relationships in COVID-19 comorbidities. Genomics, 112(4), pp. 301-310.
+\bibitem{b7} Datta, R., et al., 2020. Genetic connections in gastric cancer. Cancer Research, 80(6), pp. 145-153.
+\bibitem{b8} Podder, N.K., et al., 2022. Influential genes in glioblastoma. TCGA Analysis, 45(2), pp. 89-96.
+\bibitem{b9} Podder, N.K., et al., 2022. Genes in welding fume and respiratory diseases. Respiratory Medicine, 78(3), pp. 112-120.
+\bibitem{b10} Rana, M.S., et al., 2023. Genetic links in Parkinson’s and neurodegenerative diseases. Neurology, 95(4), pp. 201-209.
+\bibitem{b11} S. Siddique, S. Islam, E. E. Neon, T. Sabbir, I. T. Naheen, and R. Khan, "Deep learning-based Bangla sign language detection with an edge device," Intelligent Systems with Applications, vol. 18, p. 200224, 2023.
+\bibitem{b12} Miah, A. S. M., Shin, J., Hasan, M. A. H., \& Rahim, M. A. (2022). BenSignNet: Bengali sign language alphabet recognition using concatenated segmentation and convolutional neural network. Applied Sciences, 12.
+\bibitem{b13} Durrani, I.A., et al., 2023. Bidirectional connections in T2D and breast cancer. Breast Cancer Research, 25(3), pp. 78-85.
+\bibitem{b14} Talihati, Z., et al., 2025. DEGs in colorectal cancer and comorbidities. Bioinformatics Advances, 5(1), pp. 45-53.
+\bibitem{b15} LeCun, Yann; Bengio, Yoshua; Hinton, Geoffrey (2015). \href{https://hal.science/hal-04206682/file/Lecun2015.pdf} {Deep learning}
+\bibitem{b16} Ciresan, D.; Meier, U.; Schmidhuber, J. (2012). Multi-column deep neural networks for image classification. 2012 IEEE Conference on Computer Vision and Pattern Recognition.
+\bibitem{b17} Krizhevsky, Alex; Sutskever, Ilya; Hinton, Geoffrey (2012). ImageNet Classification with Deep Convolutional Neural Networks. NIPS 2012.
+\bibitem{b18} B. P. Amiruddin and R. E. A. Kadir, “Cnn architectures performance evaluation for image classification of mosquito in indonesia,” in 2020 International Seminar on Intelligent Technology and Its Applications (ISITIA), pp. 223–227, IEEE, 2020.
+\bibitem{b19} Barua, J.D., et al., 2022. Risk factors in cardiovascular disease progression. Cardiovascular Research, 118(4), pp. 301-310.
+\bibitem{b20} Krizhevsky, Alex, Ilya Sutskever, and Geoffrey E. Hinton. "ImageNet Classification with Deep Convolutional Neural Networks". Advances in Neural Information Processing Systems, 2012.
+\bibitem{b21} Ian Goodfellow, Yoshua Bengio, and Aaron Courville. "Deep Learning". MIT Press, 2016.
+\bibitem{b22} Jordan, M. I., and Mitchell, T. M. (2015). "Machine learning: Trends, perspectives, and prospects."
+\bibitem{b23} "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Aur\'elien G\'eron.
+\bibitem{b24} Singh, A., \& Kaur, L. (2019). "Comprehensive review on deep learning-based methods for image classification."
+\bibitem{b25} Rahman, M.H., et al., 2023. Bayesian model for GEO datasets. Journal of Bioinformatics, 39(2), pp. 67-74.
+\bibitem{b26} Smith, J., et al., 2024. Multi-omics analysis of cardiovascular complications in beta-thalassemia. Journal of Bioinformatics, 45(3), pp. 123-135.
+\bibitem{b27} Gupta, R., et al., 2023. Prevalence of endocrine complications in beta-thalassemia major patients in India. Clinical Endocrinology, 78(4), pp. 456-463.
+\bibitem{b28} Khan, A., et al., 2023. Comparative genomic analysis of beta-thalassemia and sickle cell anemia. Blood Research, 58(3), pp. 112-120.
+\bibitem{b29} Zhang, Y., et al., 2023. Bayesian framework for multi-disease genomic analysis. Journal of Computational Biology, 30(5), pp. 210-222.
+\bibitem{b30} Lee, K., et al., 2024. Improved DESeq2 for RNA-seq analysis in hematological disorders. Bioinformatics, 40(2), pp. 89-97.
+\bibitem{b31} Rossi, M., et al., 2024. CRISPR-Cas9 gene therapy for beta-thalassemia. New England Journal of Medicine, 390(7), pp. 601-610.
+\bibitem{b32} Patel, S., et al., 2024. Repurposing metformin for iron overload in beta-thalassemia. Journal of Hematology, 29(2), pp. 77-85.
+\bibitem{b33} Kim, H., et al., 2023. CNN-based prediction of cardiomyopathy in beta-thalassemia using cardiac MRI. Medical Imaging Journal, 15(4), pp. 321-330.
+\end{thebibliography}
+
+\end{document}
