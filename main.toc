@@ -25,16 +25,18 @@
 \contentsline {section}{\numberline {3.4}Methodology}{22}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Selection of mRNA-seq and Microarray Datasets}{22}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Differential Gene Expression Analysis}{23}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Support Vector Machine (SVM)}{23}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Dense Layer}{23}{subsection.3.4.4}%
-\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Experimental Elements}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Result}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Classification Report}{27}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{29}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{30}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Discussion}{31}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{32}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{33}{section.5.2}%
-\contentsline {chapter}{REFERENCES}{34}{chapter*.18}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Gene Diseases Network Analysis}{25}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}Pathway and Functional Association Analysis}{26}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.3}Gene Ontology Analysis}{27}{subsubsection.3.4.2.3}%
+\contentsline {paragraph}{GO Analysis Workflow}{28}{section*.11}%
+\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental Elements}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Result}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Classification Report}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{34}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Discussion}{35}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{36}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{37}{section.5.2}%
+\contentsline {chapter}{REFERENCES}{38}{chapter*.20}%

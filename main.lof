@@ -4,11 +4,13 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{24}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{28}{figure.caption.12}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{27}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{27}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{29}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{30}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{31}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{31}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{33}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{33}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{34}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{34}{figure.caption.19}%
 \addvspace {10pt}

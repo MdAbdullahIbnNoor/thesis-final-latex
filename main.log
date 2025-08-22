@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  22 AUG 2025 12:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  22 AUG 2025 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1360,6 +1360,12 @@ File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerboxsaved@background=\box106
 ) (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypetri.code.tex
 File: tikzlibrarypetri.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen362
+\pgfarrowlength=\dimen363
+\pgfarrowwidth=\dimen364
+\pgfarrowlinewidth=\dimen365
 )
 \c@proofcount=\count444
  (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
@@ -1369,32 +1375,32 @@ Package: xfp 2024-08-16 L3 Floating point unit
 )
 \c@DefaultLines=\count445
 \c@DefaultDepth=\count446
-\DefaultFindent=\dimen362
-\DefaultNindent=\dimen363
-\DefaultSlope=\dimen364
-\DiscardVskip=\dimen365
+\DefaultFindent=\dimen366
+\DefaultNindent=\dimen367
+\DefaultSlope=\dimen368
+\DiscardVskip=\dimen369
 \L@lettrine=\box107
 \L@lbox=\box108
 \L@tbox=\box109
 \c@L@lines=\count447
 \c@L@depth=\count448
-\L@Pindent=\dimen366
-\L@Findent=\dimen367
-\L@Nindent=\dimen368
-\L@lraise=\dimen369
-\L@first=\dimen370
-\L@next=\dimen371
-\L@slope=\dimen372
-\L@height=\dimen373
-\L@novskip=\dimen374
-\L@target@ht=\dimen375
-\L@target@dp=\dimen376
-\L@target@tht=\dimen377
-\LettrineWidth=\dimen378
-\LettrineHeight=\dimen379
-\LettrineDepth=\dimen380
-\L@finalht=\dimen381
-\L@finaldp=\dimen382
+\L@Pindent=\dimen370
+\L@Findent=\dimen371
+\L@Nindent=\dimen372
+\L@lraise=\dimen373
+\L@first=\dimen374
+\L@next=\dimen375
+\L@slope=\dimen376
+\L@height=\dimen377
+\L@novskip=\dimen378
+\L@target@ht=\dimen379
+\L@target@dp=\dimen380
+\L@target@tht=\dimen381
+\LettrineWidth=\dimen382
+\LettrineHeight=\dimen383
+\LettrineDepth=\dimen384
+\L@finalht=\dimen385
+\L@finaldp=\dimen386
 
 Loading lettrine.cfg
 (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg)
@@ -1423,60 +1429,60 @@ LaTeX Warning: Label `sec:sec3_2' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 228.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 228.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 230.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 230.
  (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 228.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 228.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 230.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 230.
  (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 228.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 228.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 230.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 230.
  (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
-LaTeX Font Info:    ... okay on input line 228.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 228.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 230.
+LaTeX Font Info:    ... okay on input line 230.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 230.
 
 
 Class memoir Warning: \addtodef is marked deprecated and will be
 (memoir)              removed in 2026, use instead \patchcmd,
 (memoir)              \pretocmd or \apptocmd from the etoolbox package
-(memoir)              (which is autoloaded by the class) on input line 228.
+(memoir)              (which is autoloaded by the class) on input line 230.
 
 \symgns@font=\mathgroup15
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/futs/m/n --> TS1/futs/b/n on input line 228.
-Package gensymb Info: Math companion symbols declared on input line 228.
-LaTeX Info: Redefining \degree on input line 228.
-LaTeX Info: Redefining \celsius on input line 228.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 228.
-LaTeX Info: Redefining \ohm on input line 228.
-Package gensymb Info: Using \textohm for \ohm on input line 228.
-Package gensymb Info: Using \textmu for \micro on input line 228.
+(Font)                  TS1/futs/m/n --> TS1/futs/b/n on input line 230.
+Package gensymb Info: Math companion symbols declared on input line 230.
+LaTeX Info: Redefining \degree on input line 230.
+LaTeX Info: Redefining \celsius on input line 230.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 230.
+LaTeX Info: Redefining \ohm on input line 230.
+Package gensymb Info: Using \textohm for \ohm on input line 230.
+Package gensymb Info: Using \textmu for \micro on input line 230.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1514,13 +1520,13 @@ Package gensymb Info: Using \textmu for \micro on input line 228.
 (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count455
-\scratchdimen=\dimen383
+\scratchdimen=\dimen387
 \scratchbox=\box110
 \nofMPsegments=\count456
 \nofMParguments=\count457
 \everyMPshowfont=\toks72
 \MPscratchCnt=\count458
-\MPscratchDim=\dimen384
+\MPscratchDim=\dimen388
 \MPnumerator=\count459
 \makeMPintoPDFobject=\count460
 \everyMPtoPDFconversion=\toks73
@@ -1530,27 +1536,27 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 228.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 228.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 230.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 230.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 228.
+Package hyperref Info: Link coloring ON on input line 230.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 Package microtype Info: Patching varwidth to enable character protrusion.
-\MT@vwid@leftmargin=\dimen385
-\MT@vwid@rightmargin=\dimen386
-LaTeX Info: Redefining \microtypecontext on input line 228.
-Package microtype Info: Applying patch `item' on input line 228.
-Package microtype Info: Applying patch `toc' on input line 228.
-Package microtype Info: Applying patch `eqnum' on input line 228.
-Package microtype Info: Applying patch `footnote' on input line 228.
-Package microtype Info: Applying patch `verbatim' on input line 228.
-LaTeX Info: Redefining \microtypesetup on input line 228.
+\MT@vwid@leftmargin=\dimen389
+\MT@vwid@rightmargin=\dimen390
+LaTeX Info: Redefining \microtypecontext on input line 230.
+Package microtype Info: Applying patch `item' on input line 230.
+Package microtype Info: Applying patch `toc' on input line 230.
+Package microtype Info: Applying patch `eqnum' on input line 230.
+Package microtype Info: Applying patch `footnote' on input line 230.
+Package microtype Info: Applying patch `verbatim' on input line 230.
+LaTeX Info: Redefining \microtypesetup on input line 230.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1565,12 +1571,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `futs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package nag Info: Command \captionabove not defined, skipping amendment on input line 228.
-Package nag Info: Command \captionbelow not defined, skipping amendment on input line 228.
-Package nag Info: Command \hc@caption not defined, skipping amendment on input line 228.
-Package nag Info: Command \topcaption not defined, skipping amendment on input line 228.
+Package nag Info: Command \captionabove not defined, skipping amendment on input line 230.
+Package nag Info: Command \captionbelow not defined, skipping amendment on input line 230.
+Package nag Info: Command \hc@caption not defined, skipping amendment on input line 230.
+Package nag Info: Command \topcaption not defined, skipping amendment on input line 230.
  (frontmatter/title.tex
-<logos/pust_logo.jpg, id=158, 1778.645pt x 2133.9725pt>
+<logos/pust_logo.jpg, id=150, 1778.645pt x 2133.9725pt>
 File: logos/pust_logo.jpg Graphic file (type jpg)
 <use logos/pust_logo.jpg>
 Package pdftex.def Info: logos/pust_logo.jpg  used on input line 18.
@@ -2423,7 +2429,7 @@ Overfull \hbox (9.76198pt too wide) in alignment at lines 95--108
 [17
 
 ]
-<chapters/chapter03/./fig/p1.PNG, id=410, 551.81157pt x 441.14813pt>
+<chapters/chapter03/./fig/p1.PNG, id=404, 551.81157pt x 441.14813pt>
 File: chapters/chapter03/./fig/p1.PNG Graphic file (type png)
 <use chapters/chapter03/./fig/p1.PNG>
 Package pdftex.def Info: chapters/chapter03/./fig/p1.PNG  used on input line 30.
@@ -2852,57 +2858,90 @@ Overfull \hbox (11.80008pt too wide) in alignment at lines 92--107
 [21]
 
 [22]
-Overfull \hbox (2.27048pt too wide) in paragraph at lines 166--166
-[]|\T1/futs/b/n/12 (-20) Optimization
+Overfull \hbox (44.62694pt too wide) in paragraph at lines 171--172
+ [] 
  []
 
 
-Overfull \hbox (0.85052pt too wide) in paragraph at lines 166--166
-[]|\T1/futs/b/n/12 (-20) Batch 
- []
+Package nag Warning: `center' environment in figure.
+(nag)                Maybe you want \centering instead on input line 174.
 
 
-Overfull \hbox (3.30692pt too wide) in paragraph at lines 166--167
-[]|\T1/futs/b/n/12 (-20) Epoch| 
- []
-
-
-Underfull \hbox (badness 3281) in paragraph at lines 168--168
-[]|\T1/futs/m/n/12 (+20) Sparse cat-e-gor-i-
- []
-
-
-Overfull \hbox (57.32466pt too wide) in paragraph at lines 164--171
-[][] 
- []
-
-) (chapters/chapter04/chap04.tex
 
 [23]
 
+Package natbib Warning: Citation `zscore_ref' on page 24 undefined on input line 181.
+
+
+
 [24]
+
+[25]
+
+Package natbib Warning: Citation `jaccard_ref' on page 26 undefined on input line 237.
+
+
+Package natbib Warning: Citation `pathway_ref' on page 26 undefined on input line 247.
+
+
+
+[26]
+Overfull \hbox (7.26398pt too wide) in paragraph at lines 252--255
+\T1/futs/m/n/12 (-20) Enrichr com-pares the in-put gene list against mul-ti-ple pathway-focused databases.
+ []
+
+
+Package natbib Warning: Citation `go_ref' on page 27 undefined on input line 268.
+
+
+Package natbib Warning: Citation `go_ref' on page 27 undefined on input line 268.
+
+
+
+[27]
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 286.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 286.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 286.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 286.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.3> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 286.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 286.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 286.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 286.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 286.
+) (chapters/chapter04/chap04.tex
+
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
 
-[25
+[29
 
 ]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/accuracy_curve.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/accuracy_curve.pdf, id=449, 727.44772pt x 494.76846pt>
+<chapters/chapter04/./fig/accuracy_curve.pdf, id=470, 727.44772pt x 494.76846pt>
 File: chapters/chapter04/./fig/accuracy_curve.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/accuracy_curve.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/accuracy_curve.pdf  used on input line 27.
 (pdftex.def)             Requested size: 334.66331pt x 227.62204pt.
 
 
-[26]
+[30]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/loss_curve.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/loss_curve.pdf, id=454, 725.66107pt x 500.12848pt>
+<chapters/chapter04/./fig/loss_curve.pdf, id=475, 725.66107pt x 500.12848pt>
 File: chapters/chapter04/./fig/loss_curve.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/loss_curve.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/loss_curve.pdf  used on input line 35.
@@ -2919,12 +2958,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
 
 
-[27 <./chapters/chapter04/./fig/accuracy_curve.pdf> <./chapters/chapter04/./fig/loss_curve.pdf>]
+[31 <./chapters/chapter04/./fig/accuracy_curve.pdf> <./chapters/chapter04/./fig/loss_curve.pdf>]
 
-[28]
+[32]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/per_class.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/per_class.pdf, id=533, 607.70035pt x 384.82773pt>
+<chapters/chapter04/./fig/per_class.pdf, id=553, 607.70035pt x 384.82773pt>
 File: chapters/chapter04/./fig/per_class.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/per_class.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/per_class.pdf  used on input line 89.
@@ -2932,17 +2971,17 @@ Package pdftex.def Info: chapters/chapter04/./fig/per_class.pdf  used on input l
 
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/per_class2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/per_class2.pdf, id=534, 612.15701pt x 372.93329pt>
+<chapters/chapter04/./fig/per_class2.pdf, id=554, 612.15701pt x 372.93329pt>
 File: chapters/chapter04/./fig/per_class2.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/per_class2.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/per_class2.pdf  used on input line 97.
 (pdftex.def)             Requested size: 373.6394pt x 227.62204pt.
 
 
-[29 <./chapters/chapter04/./fig/per_class.pdf> <./chapters/chapter04/./fig/per_class2.pdf>]
+[33 <./chapters/chapter04/./fig/per_class.pdf> <./chapters/chapter04/./fig/per_class2.pdf>]
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/confusion_matrix.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/confusion_matrix.pdf, id=599, 553.46777pt x 482.14127pt>
+<chapters/chapter04/./fig/confusion_matrix.pdf, id=620, 553.46777pt x 482.14127pt>
 File: chapters/chapter04/./fig/confusion_matrix.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/confusion_matrix.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/confusion_matrix.pdf  used on input line 110.
@@ -2950,43 +2989,46 @@ Package pdftex.def Info: chapters/chapter04/./fig/confusion_matrix.pdf  used on 
 
 
 pdfTeX warning: pdflatex (file ./chapters/chapter04/./fig/confusion_matrix_2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/chapter04/./fig/confusion_matrix_2.pdf, id=600, 554.95331pt x 485.11237pt>
+<chapters/chapter04/./fig/confusion_matrix_2.pdf, id=621, 554.95331pt x 485.11237pt>
 File: chapters/chapter04/./fig/confusion_matrix_2.pdf Graphic file (type pdf)
 <use chapters/chapter04/./fig/confusion_matrix_2.pdf>
 Package pdftex.def Info: chapters/chapter04/./fig/confusion_matrix_2.pdf  used on input line 118.
 (pdftex.def)             Requested size: 260.38776pt x 227.62204pt.
 
 
-[30 <./chapters/chapter04/./fig/confusion_matrix.pdf> <./chapters/chapter04/./fig/confusion_matrix_2.pdf>]) (chapters/chapter05/chap05.tex
+[34 <./chapters/chapter04/./fig/confusion_matrix.pdf> <./chapters/chapter04/./fig/confusion_matrix_2.pdf>]) (chapters/chapter05/chap05.tex
 
-[31]
+[35]
 
-[32
+[36
 
 ])
 
-[33]
+[37]
 
 Package nag Warning: Command \centerline is TeX. 
-(nag)                Use \centering or center environment instead on input line 264.
+(nag)                Use \centering or center environment instead on input line 266.
 
 
 
-[34
+[38
 
 ]
 
-[35]
-Underfull \hbox (badness 1168) in paragraph at lines 291--292
+[39]
+Underfull \hbox (badness 1168) in paragraph at lines 293--294
 []\T1/futs/m/n/12 (+20) Gupta, R., et al., 2023. Preva-lence of en-docrine com-pli-ca-tions in beta-
  []
 
 
-Package nag Warning: 3 complaints in total.
+Package natbib Warning: There were undefined citations.
+
+
+Package nag Warning: 4 complaints in total.
 
 
 
-[36]
+[40]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -3006,20 +3048,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 39CC6E4619200B25875EBCE377D62741;5525.
+(rerunfilecheck)             Checksum: 9D87F25C5AF2A28DEE02EDF81DE22AC4;5188.
  ) 
 Here is how much of TeX's memory you used:
- 38576 strings out of 468134
- 723549 string characters out of 5429736
- 1293339 words of memory out of 5000000
- 65730 multiletter control sequences out of 15000+600000
- 770009 words of font info for 452 fonts, out of 8000000 for 9000
+ 39259 strings out of 468134
+ 738824 string characters out of 5429736
+ 1303541 words of memory out of 5000000
+ 66346 multiletter control sequences out of 15000+600000
+ 807495 words of font info for 528 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 86i,13n,131p,2071b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (46 pages, 688732 bytes).
+ 86i,13n,131p,2071b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on main.pdf (50 pages, 706505 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
- 118117 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 135509 words of extra memory for PDF output out of 154059 (max. 10000000)
 

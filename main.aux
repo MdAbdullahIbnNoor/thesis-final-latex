@@ -133,50 +133,64 @@
 \newlabel{sec:sec3_4_1}{{3.4.1}{22}{Selection of mRNA-seq and Microarray Datasets}{subsection.3.4.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Differential Gene Expression Analysis}{23}{subsection.3.4.2}\protected@file@percent }
 \newlabel{sec:sec3_4_2}{{3.4.2}{23}{Differential Gene Expression Analysis}{subsection.3.4.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Support Vector Machine (SVM)}{23}{subsection.3.4.3}\protected@file@percent }
-\newlabel{sec:sec3_3_2}{{3.4.3}{23}{Support Vector Machine (SVM)}{subsection.3.4.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Dense Layer}{23}{subsection.3.4.4}\protected@file@percent }
-\newlabel{sec:sec3_3_3}{{3.4.4}{23}{Dense Layer}{subsection.3.4.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Parameter Used in Dense Layer classification.}}{24}{table.caption.10}\protected@file@percent }
-\newlabel{tab:hyperparameter}{{3.2}{24}{Parameter Used in Dense Layer classification}{table.caption.10}{}}
+\citation{zscore_ref}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{24}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:deg-workflow}{{3.2}{24}{Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities}{figure.caption.10}{}}
+\newlabel{eq:zscore}{{3.1}{24}{Differential Gene Expression Analysis}{equation.3.1}{}}
+\newlabel{eq:bh_formula}{{3.2}{25}{Differential Gene Expression Analysis}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2.1}Gene Diseases Network Analysis}{25}{subsubsection.3.4.2.1}\protected@file@percent }
+\newlabel{sec:sec3_4_3}{{3.4.2.1}{25}{Gene Diseases Network Analysis}{subsubsection.3.4.2.1}{}}
+\citation{jaccard_ref}
+\citation{pathway_ref}
+\newlabel{eq:shared_genes}{{3.3}{26}{Gene Diseases Network Analysis}{equation.3.3}{}}
+\newlabel{eq:jaccard}{{3.4}{26}{Gene Diseases Network Analysis}{equation.3.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2.2}Pathway and Functional Association Analysis}{26}{subsubsection.3.4.2.2}\protected@file@percent }
+\newlabel{sec:sec:sec3_4_4}{{3.4.2.2}{26}{Pathway and Functional Association Analysis}{subsubsection.3.4.2.2}{}}
+\citation{go_ref}
+\citation{go_ref}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2.3}Gene Ontology Analysis}{27}{subsubsection.3.4.2.3}\protected@file@percent }
+\newlabel{sec:sec3_4_5}{{3.4.2.3}{27}{Gene Ontology Analysis}{subsubsection.3.4.2.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{GO Analysis Workflow}{28}{section*.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{28}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:go_workflow}{{3.3}{28}{Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs}{figure.caption.12}{}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{25}{chapter.4}\protected@file@percent }
-\newlabel{chap:implementation}{{4}{25}{Result Analysis and Discussion}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Experimental Elements}{26}{section.4.1}\protected@file@percent }
-\newlabel{sec:sec4_1}{{4.1}{26}{Experimental Elements}{section.4.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Result}{26}{section.4.2}\protected@file@percent }
-\newlabel{sec:sec4_2}{{4.2}{26}{Result}{section.4.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{27}{figure.caption.11}\protected@file@percent }
-\newlabel{Accuracy_Curve}{{4.1}{27}{Accuracy Curve (ResNet-50 + Dense Layer)}{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{27}{figure.caption.12}\protected@file@percent }
-\newlabel{Loss_Curve}{{4.2}{27}{Loss Curve (ResNet-50 + Dense Layer)}{figure.caption.12}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Classification Report}{27}{subsection.4.2.1}\protected@file@percent }
-\newlabel{sec:sec4_3_2}{{4.2.1}{27}{Classification Report}{subsection.4.2.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Classification Report.}}{28}{table.caption.13}\protected@file@percent }
-\newlabel{tab:classification_report}{{4.1}{28}{Classification Report}{table.caption.13}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{29}{subsection.4.2.2}\protected@file@percent }
-\newlabel{sec:sec4_3_3}{{4.2.2}{29}{Per Class Performance}{subsection.4.2.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{29}{figure.caption.14}\protected@file@percent }
-\newlabel{per_class_svm}{{4.3}{29}{Per-Class Performance Metrics (ResNet-50 + SVM)}{figure.caption.14}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{29}{figure.caption.15}\protected@file@percent }
-\newlabel{per_class_dense}{{4.4}{29}{Per-Class Performance Metrics (ResNet-50 + Dense Layer)}{figure.caption.15}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{30}{subsection.4.2.3}\protected@file@percent }
-\newlabel{sec:sec4_3_4}{{4.2.3}{30}{Confusion Matrix}{subsection.4.2.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{30}{figure.caption.16}\protected@file@percent }
-\newlabel{Confusion_matrix_svm}{{4.5}{30}{Confusion Matrix (ResNet-50 + SVM)}{figure.caption.16}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{30}{figure.caption.17}\protected@file@percent }
-\newlabel{Confusion_matrix_dense}{{4.6}{30}{Confusion Matrix (ResNet-50 + Dense Layer)}{figure.caption.17}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Discussion}{31}{section.4.3}\protected@file@percent }
-\newlabel{sec:sec4_4_5}{{4.3}{31}{Discussion}{section.4.3}{}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{29}{chapter.4}\protected@file@percent }
+\newlabel{chap:implementation}{{4}{29}{Result Analysis and Discussion}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Experimental Elements}{30}{section.4.1}\protected@file@percent }
+\newlabel{sec:sec4_1}{{4.1}{30}{Experimental Elements}{section.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Result}{30}{section.4.2}\protected@file@percent }
+\newlabel{sec:sec4_2}{{4.2}{30}{Result}{section.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{31}{figure.caption.13}\protected@file@percent }
+\newlabel{Accuracy_Curve}{{4.1}{31}{Accuracy Curve (ResNet-50 + Dense Layer)}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{31}{figure.caption.14}\protected@file@percent }
+\newlabel{Loss_Curve}{{4.2}{31}{Loss Curve (ResNet-50 + Dense Layer)}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Classification Report}{31}{subsection.4.2.1}\protected@file@percent }
+\newlabel{sec:sec4_3_2}{{4.2.1}{31}{Classification Report}{subsection.4.2.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Classification Report.}}{32}{table.caption.15}\protected@file@percent }
+\newlabel{tab:classification_report}{{4.1}{32}{Classification Report}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{33}{subsection.4.2.2}\protected@file@percent }
+\newlabel{sec:sec4_3_3}{{4.2.2}{33}{Per Class Performance}{subsection.4.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{33}{figure.caption.16}\protected@file@percent }
+\newlabel{per_class_svm}{{4.3}{33}{Per-Class Performance Metrics (ResNet-50 + SVM)}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{33}{figure.caption.17}\protected@file@percent }
+\newlabel{per_class_dense}{{4.4}{33}{Per-Class Performance Metrics (ResNet-50 + Dense Layer)}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{34}{subsection.4.2.3}\protected@file@percent }
+\newlabel{sec:sec4_3_4}{{4.2.3}{34}{Confusion Matrix}{subsection.4.2.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{34}{figure.caption.18}\protected@file@percent }
+\newlabel{Confusion_matrix_svm}{{4.5}{34}{Confusion Matrix (ResNet-50 + SVM)}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{34}{figure.caption.19}\protected@file@percent }
+\newlabel{Confusion_matrix_dense}{{4.6}{34}{Confusion Matrix (ResNet-50 + Dense Layer)}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Discussion}{35}{section.4.3}\protected@file@percent }
+\newlabel{sec:sec4_4_5}{{4.3}{35}{Discussion}{section.4.3}{}}
 \@writefile{lof}{\addvspace {10pt}}
 \@writefile{lot}{\addvspace {10pt}}
-\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{32}{chapter.5}\protected@file@percent }
-\newlabel{chap:result}{{5}{32}{Conclusion and Future Work}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Conclusion}{33}{section.5.1}\protected@file@percent }
-\newlabel{sec:sec5_1}{{5.1}{33}{Conclusion}{section.5.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Future Work}{33}{section.5.2}\protected@file@percent }
-\newlabel{sec:sec5_2}{{5.2}{33}{Future Work}{section.5.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{36}{chapter.5}\protected@file@percent }
+\newlabel{chap:result}{{5}{36}{Conclusion and Future Work}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Conclusion}{37}{section.5.1}\protected@file@percent }
+\newlabel{sec:sec5_1}{{5.1}{37}{Conclusion}{section.5.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Future Work}{37}{section.5.2}\protected@file@percent }
+\newlabel{sec:sec5_2}{{5.2}{37}{Future Work}{section.5.2}{}}
 \bibcite{b1}{{1}{}{{}}{{}}}
 \bibcite{b2}{{2}{}{{}}{{}}}
 \bibcite{b3}{{3}{}{{}}{{}}}
@@ -189,7 +203,7 @@
 \bibcite{b10}{{10}{}{{}}{{}}}
 \bibcite{b11}{{11}{}{{}}{{}}}
 \bibcite{b12}{{12}{}{{}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{REFERENCES}{34}{chapter*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{REFERENCES}{38}{chapter*.20}\protected@file@percent }
 \bibcite{b13}{{13}{}{{}}{{}}}
 \bibcite{b14}{{14}{}{{}}{{}}}
 \bibcite{b15}{{15}{}{{}}{{}}}
@@ -212,6 +226,6 @@
 \bibcite{b32}{{32}{}{{}}{{}}}
 \bibcite{b33}{{33}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\memsetcounter{lastsheet}{46}
-\memsetcounter{lastpage}{36}
-\gdef \@abspage@last{46}
+\memsetcounter{lastsheet}{50}
+\memsetcounter{lastpage}{40}
+\gdef \@abspage@last{50}

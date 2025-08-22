@@ -139,35 +139,154 @@ For this study, a reliable and relevant data was selected for investigating the 
 \label{sec:sec3_4_2}
 Differential gene expression analysis is a base of bioinformatics for understanding the molecular and genetic inter-relations of complex diseases like beta-thalassemia and its comorbidities. In this study, we performed gene expression analysis on microarray and mRNA-seq datasets to identify differentially expressed genes (DEGs) between case disease and control samples for BT, PCOS, hypothyroidism, hypogonadism, T2D, ACM and arrhythmia. The analysis was conducted using the GEO2R tool on NCBI Gene Expression Omnibus (GEO) website and the Limma package in R which are widely used for strong statistical frameworks.
 
-% \begin{figure}[H]
-% \begin{center}
-%  \includegraphics[width=15cm]{./fig/ResNet50.pdf}
-% \caption{ResNet-50 architecture.}
-% \label{tab:ResNet-50}
-% \end{center}
-% \end{figure}
+\begin{figure}[H]
+\begin{center}
+\begin{tikzpicture}[
+  process/.style={rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!20},
+  decision/.style={diamond, minimum width=2.5cm, minimum height=1cm, text centered, draw=black, fill=green!20},
+  startstop/.style={ellipse, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!20},
+  arrow/.style={-Stealth, thick},
+  label/.style={font=\small, midway, auto}
+]
 
-\subsection{Support Vector Machine (SVM)}
-\label{sec:sec3_3_2}
-The Support Vector Machine (SVM) is a supervised machine learning technique extensively employed for classification and regression tasks. It is very productive for high-dimensional data and limited datasets. Support Vector Machines (SVM) seek to identify the ideal hyperplane that maximises the margin between classes, hence assuring effective generalisation to novel data. For linearly separable data, SVM employs a linear hyperplane; conversely, for non-linear data, it applies kernel functions to map the data into a higher-dimensional space for efficient separation.
+% Nodes
+\node[startstop] (start) {Start: DEG Analysis};
+\node[process, below of=start, yshift=-1cm] (data) {Datasets: Microarray, mRNA-seq (GEO)};
+\node[decision, below of=data, yshift=-3.0cm] (samples) {Case vs. Control Samples};
+\node[process, below of=samples, yshift=-3.0cm] (tools) {Tools: GEO2R, Limma (R)};
+\node[process, below of=tools, yshift=-1cm] (analysis) {DEG Analysis};
+\node[process, below of=analysis, yshift=-1cm] (results) {DEGs for BT, PCOS, etc.};
+\node[startstop, below of=results, yshift=-1cm] (end) {End: Molecular Insights};
+\node[process, right of=samples, xshift=8cm, align=left, minimum width=2cm] (diseases) {BT, PCOS, Hypothyroidism,\\ Hypogonadism, T2D, ACM, Arrhythmia};
 
-\subsection{Dense Layer}
-\label{sec:sec3_3_3}
-A custom neural network was designed using TensorFlow's Keras API for multi-class classification. The architecture comprises an input layer followed by two fully connected layers with 256 and 128 neurons, respectively, each using the ReLU activation function to introduce non-linearity. Dropout layers with a 30\% rate were added after each dense layer to mitigate overfitting by randomly deactivating neurons during training. The output layer uses a softmax activation function to generate class probabilities. The model was compiled using the Adam optimizer, which adjusts learning rates dynamically, and sparse categorical cross-entropy as the loss function:
-\[
-L = -\sum_{i=1}^{n} \log(\hat{y}_i, y_i),
-\]
+% Arrows with labels
+\draw[arrow] (start) -- (data) node[label, right] {Begin};
+\draw[arrow] (data) -- (samples) node[label, right] {Data Input};
+\draw[arrow] (samples) -- (tools) node[label, right] {Sample Classification};
+\draw[arrow] (tools) -- (analysis) node[label, right] {Statistical Analysis};
+\draw[arrow] (analysis) -- (results) node[label, right] {Identify DEGs};
+\draw[arrow] (results) -- (end) node[label, right] {Output};
+\draw[arrow, dashed] (samples) -- (diseases) node[label, above] {Diseases Studied};
 
-where \(\hat{y}_i, y_i\) represent the predicted probability and the true class, respectively.
+\end{tikzpicture}
+\caption{Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}
+\label{fig:deg-workflow}
+\end{center}
+\end{figure}
 
-\begin{table}[H]
-  \begin{tabular}{|p{2.7cm}|p{2.3cm}|p{3cm}|p{1.8cm}|p{1.8cm}|p{1cm}|p{1cm}|}
-     \hline
-     \textbf{Model Name}&\textbf{Optimization Algorithm}&\textbf{Loss\newline Function}&\textbf{Activation\newline Function\newline in Hidden \newline Layer}&\textbf{Activation\newline Function\newline in Output \newline Layer}&\textbf{Batch\newline Size}&\textbf{Epoch}\\
-    \hline
-    \textbf{ResNet-50} & Adam & Sparse categorical cross entropy & ReLu & Softmax & 32 & 100\\
-    \hline
-    \end{tabular}
-    \caption{Parameter Used in Dense Layer classification.}
-    \label{tab:hyperparameter}
-\end{table}
+\vspace*{-\parskip} % Counteract extra paragraph spacing
+\textbf{Data Pre-processing and Normalization}
+\vspace{7mm}
+
+To reduce experimental differences and keep the data consistent, gene expression values in each dataset were normalized using the Z-score method. This approach standardizes the expression values to make them comparable across different samples~\cite{zscore_ref}. The Z-score transformation for a gene expression value is calculated as:
+\begin{equation}
+z_{ij} = \frac{x_{ij} - \mu_i}{\sigma_i}
+\label{eq:zscore}
+\end{equation}
+where:
+\begin{itemize}
+    \item $z_{ij}$: Normalized gene expression value for gene $i$ in sample $j$,
+    \item $x_{ij}$: The value of gene expression $i$ in sample $j$,
+    \item $\mu_i$: Mean value of gene expression $i$ in all samples,
+    \item $\sigma_i$: The standard deviation of gene expression values $i$.
+\end{itemize}
+
+The normalization method was applied to both microarray (for T2D and hypogonadism) and mRNA-seq (for BT, hypothyroidism, PCOS, ACM, and arrhythmia) datasets to ensure reliable identification of differentially expressed genes (DEGs).
+
+\vspace{8mm}
+\textbf{Statistical Analysis for DEG Identification}
+\vspace{5mm}
+
+We identified the differentially expressed genes (DEGs) by applying the Benjamini-Hochberg (BH) correction method, which minimizes false positives by controlling the false discovery rate (FDR). The BH formula is:
+\begin{equation}
+\text{BH adjusted } p\text{-value} = \frac{i}{m} Q
+\label{eq:bh_formula}
+\end{equation}
+where:
+\begin{itemize}
+    \item $i$: Rank of individual $p$-value,
+    \item $m$: Total number of tests,
+    \item $Q$: False discovery rate threshold.
+\end{itemize}
+
+The adjusted $p$-value threshold of BH was set to $\leq 0.05$ to ensure statistical significance. These genes were classified based on the $\log_2$ fold change ($\log FC$) values by applying the following conditions:
+\begin{itemize}
+    \item To identify up-regulated genes: $\textbf{log FC} > \text{threshold}$,
+    \item To identify down-regulated genes: $\textbf{log FC} < \text{threshold}$.
+\end{itemize}
+
+These threshold values were used to identify significant DEGs between case and control groups.
+
+\vspace*{-\parskip} % Counteract extra paragraph spacing
+\subsubsection{Gene Diseases Network Analysis}
+\label{sec:sec3_4_3}
+
+This study constructed Disease-Gene Networks (DGNs) using a neighborhood-based benchmarking and topological approach to investigate the genetic associations between beta-thalassemia and its comorbidities. These networks of up- and down-regulated genes show the relationships between diseases and differentially expressed genes (DEGs), providing a visual framework to identify shared genetic signatures.
+
+Each node represents either a disease or a gene, where diseases are source nodes and their associated genes are target nodes in the DGN network. This disease-gene connection forms a bipartite graph. A connection exists if at least one significant DEG is shared between a disease and beta-thalassemia. Let \(D\) represent the set of diseases and \(Z\) represent the set of dysregulated genes identified from the gene expression analysis, where a gene \(z \in Z\) is connected to a disease \(d \in D\) if \(z\) is significantly dysregulated in the dataset for \(d\). If associated diseases \(d_1\) and \(d_2\) have sets of significant dysregulated genes \(Z_1\) and \(Z_2\), respectively, then the number of shared genes is defined as:
+\begin{equation}
+|Z_1 \cap Z_2|
+\label{eq:shared_genes}
+\end{equation}
+
+By using the Jaccard Coefficient, this study measured the similarity between disease pairs, which evaluates the overlap relative to the total unique genes. The edge weight or similarity score between diseases \(d_1\) and \(d_2\) is calculated as:
+\begin{equation}
+X(d_1, d_2) = \frac{|Z_1 \cap Z_2|}{|Z_1 \cup Z_2|}
+\label{eq:jaccard}
+\end{equation}
+Here, \(|Z_1 \cap Z_2|\) represents the set of common DEGs, and \(|Z_1 \cup Z_2|\) represents the union of DEGs for the two diseases. The Jaccard Coefficient \(X(d_1, d_2)\) ranges from 0 to 1, where a higher value indicates greater similarity in the genetic profiles of the diseases~\cite{jaccard_ref}.
+
+Two separate networks were constructed for up-regulated and down-regulated DEGs to show the distinct regulatory patterns. The DGNs were visualized and analyzed using the Cytoscape platform. Cytoscape enabled the mapping of disease-gene associations by optimizing the layouts to highlight connectivity patterns, such as hub genes across multiple comorbidities.
+
+\vspace*{-\parskip} % Counteract extra paragraph spacing
+\subsubsection{Pathway and Functional Association Analysis}
+\label{sec:sec:sec3_4_4}
+
+Pathway analysis involves the systematic identification of enriched biological pathways from sets of differentially expressed genes (DEGs) that are shared between beta-thalassemia and its comorbidities. This study identifies significant pathways using Enrichr, a public tool developed by the Ma'ayan Laboratory for Computational Systems Biology for gene set enrichment analysis (GSEA). Enrichr works by comparing input gene lists with collections of curated biological databases. The method applies statistical tests to measure significance, ensuring reliable and meaningful insights into the underlying molecular mechanisms.
+
+A pathway is a sequence of molecular interactions that results in a specific change or product in a cell. It is a standard method for understanding the connections between complex diseases~\cite{pathway_ref}. We investigated dysregulated gene pathways across four databases using Enrichr: Reactome, KEGG, WikiPathways, and BioCarta.
+
+\begin{enumerate}
+    \item \textbf{Preparation of Input Gene Sets} \\
+          Enrichr compares the input gene list against a reference set that includes all known annotated genes in the human genome (approximately 20,000--30,000), depending on each library. Using this background, it ensures that the analysis is fair and considers the full range of genes that could potentially be expressed.
+    \item \textbf{Selection of Pathway Libraries} \\
+          Enrichr compares the input gene list against multiple pathway-focused databases. This study selects four databases based on their relevance to biological processes:
+          \begin{itemize}
+              \item \textbf{KEGG} (Kyoto Encyclopedia of Genes and Genomes) provides correlated sets of genes involved in metabolic, signaling, and disease pathways.
+              \item \textbf{Reactome} is an open-source database of manually curated biological pathways, focusing on reactions and interactions.
+              \item \textbf{WikiPathways} is a community-curated resource with pathways linked to drug interactions and biological processes.
+              \item \textbf{BioCarta} focuses on gene interaction models in signaling and metabolic pathways.
+          \end{itemize}
+\end{enumerate}
+
+Using Enrichr, we analyzed the common DEGs identified from the cross-comparative analysis of beta-thalassemia and its comorbidities. Pathways were considered significant if their adjusted $p$-value was $\leq 0.05$, ensuring robust statistical reliability. The analysis identified key pathways for each comorbidity, such as GPCR ligand binding for PCOS, interferon gamma signaling for hypogonadism, and zinc homeostasis for arrhythmia, among others.
+
+\vspace*{-\parskip} % Counteract extra paragraph spacing
+\subsubsection{Gene Ontology Analysis}
+\label{sec:sec3_4_5}
+
+Gene Ontology (GO) analysis is a structured framework for describing genes by their molecular functions, biological processes, and cellular components, enabling a deeper understanding of their roles in disease mechanisms~\cite{go_ref}. In this study, we conducted GO analysis to explore the functional associations of common differentially expressed genes (DEGs) shared between beta-thalassemia and its comorbidities. The analysis was performed using Enrichr, a web-based enrichment tool developed by the Ma'ayan Laboratory, which queries gene sets against standardized ontology databases to identify significant functional terms~\cite{go_ref}.
+
+\paragraph{GO Analysis Workflow}
+
+The common DEGs identified through cross-comparative analysis of GEO datasets were used as input for Enrichr. We focused on two key ontology databases:
+\begin{itemize}
+    \item \textbf{GO Biological Process (GO Term)} categorizes genes based on their involvement in coordinated biological processes, such as signaling pathways or metabolic activities.
+    \item \textbf{Human Phenotype Ontology (HP Term)} links genes to phenotypic abnormalities observed in diseases, facilitating the identification of clinical manifestations associated with DEGs.
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[
+    box/.style={rectangle, draw, rounded corners, minimum height=1cm, minimum width=7cm, text width=5cm, align=center, font=\small},
+    arrow/.style={-Stealth, thick}
+]
+\node[box] (input) at (0,0) {Input DEGs from GEO datasets};
+\node[box] (enrichr) at (0,-2) {Query Enrichr with GO Biological Process and HP Ontology};
+\node[box] (output) at (0,-4) {Identify significant terms ($p \leq 0.05$)};
+\draw[arrow] (input) -- (enrichr);
+\draw[arrow] (enrichr) -- (output);
+\end{tikzpicture}
+\caption{Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}
+\label{fig:go_workflow}
+\end{figure}
