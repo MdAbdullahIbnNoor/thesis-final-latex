@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  25 AUG 2025 00:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  25 AUG 2025 01:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3004,12 +3004,6 @@ Overfull \hbox (7.26398pt too wide) in paragraph at lines 226--229
 
 
 [26]
-
-Package natbib Warning: Citation `go_ref' on page 27 undefined on input line 242.
-
-
-Package natbib Warning: Citation `go_ref' on page 27 undefined on input line 242.
-
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 10.07397pt on input line 260.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -3029,39 +3023,15 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 260.
 
-Package natbib Warning: Citation `updown_reg_ref' on page 27 undefined on input line 272.
-
-
 
 [27]
-
-Package natbib Warning: Citation `common_deg_ref' on page 28 undefined on input line 285.
-
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Package natbib Warning: Citation `ppi_ref1' on page 28 undefined on input line 291.
-
-
-Package natbib Warning: Citation `ppi_ref2' on page 28 undefined on input line 291.
-
-
 
 [28]
-
-Package natbib Warning: Citation `pdi_ref1' on page 29 undefined on input line 306.
-
-
-Package natbib Warning: Citation `pdi_ref2' on page 29 undefined on input line 306.
-
-
-Package natbib Warning: Citation `pdi_ref3' on page 29 undefined on input line 306.
-
-
-Package natbib Warning: Citation `pdi_ref1' on page 29 undefined on input line 310.
-
 
 Package natbib Warning: Citation `pdi_colinge' on page 29 undefined on input line 314.
 
@@ -3069,30 +3039,14 @@ Package natbib Warning: Citation `pdi_colinge' on page 29 undefined on input lin
 
 [29]
 
-Package natbib Warning: Citation `phy_ref1' on page 30 undefined on input line 326.
+Package natbib Warning: Citation `23' on page 30 undefined on input line 328.
 
 
-Package natbib Warning: Citation `phy_ref1' on page 30 undefined on input line 326.
-
-
-Package natbib Warning: Citation `phy_ref2' on page 30 undefined on input line 328.
-
-
-Package natbib Warning: Citation `phy_ref3' on page 30 undefined on input line 331.
-
-
-Package natbib Warning: Citation `val_ref1' on page 30 undefined on input line 338.
-
-
-Package natbib Warning: Citation `val_ref1' on page 30 undefined on input line 338.
+Package natbib Warning: Citation `37' on page 30 undefined on input line 331.
 
 
 
 [30]
-
-Package natbib Warning: Citation `algo_ref1' on page 31 undefined on input line 348.
-
-
 
 [31]
 
@@ -3671,7 +3625,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/futs/m/n/12 (+20) FXYD6; SOCS1;
  []
 
-<chapters/chapter04/./fig/fig4_1.png, id=714, 421.137pt x 427.3785pt>
+<chapters/chapter04/./fig/fig4_1.png, id=737, 421.137pt x 427.3785pt>
 File: chapters/chapter04/./fig/fig4_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_1.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_1.png  used on input line 134.
@@ -3679,7 +3633,7 @@ Package pdftex.def Info: chapters/chapter04/./fig/fig4_1.png  used on input line
 
 
 [38]
-<chapters/chapter04/./fig/fig4_2.png, id=720, 470.0835pt x 472.7115pt>
+<chapters/chapter04/./fig/fig4_2.png, id=743, 470.0835pt x 472.7115pt>
 File: chapters/chapter04/./fig/fig4_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_2.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_2.png  used on input line 144.
@@ -3691,11 +3645,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-<chapters/chapter04/./fig/fig4_3.jpg, id=726, 805.0075pt x 663.47874pt>
+<chapters/chapter04/./fig/fig4_3.jpg, id=749, 341.02406pt x 286.82156pt>
 File: chapters/chapter04/./fig/fig4_3.jpg Graphic file (type jpg)
 <use chapters/chapter04/./fig/fig4_3.jpg>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_3.jpg  used on input line 156.
-(pdftex.def)             Requested size: 414.27028pt x 341.43306pt.
+(pdftex.def)             Requested size: 405.96416pt x 341.43306pt.
 
 
 [40 <./chapters/chapter04/./fig/fig4_2.png>]
@@ -3833,7 +3787,7 @@ Overfull \hbox (3.05289pt too wide) in paragraph at lines 174--201
 
 
 [42]
-<chapters/chapter04/./fig/fig4_4.png, id=740, 557.83406pt x 286.06876pt>
+<chapters/chapter04/./fig/fig4_4.png, id=763, 557.83406pt x 286.06876pt>
 File: chapters/chapter04/./fig/fig4_4.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_4.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_4.png  used on input line 228.
@@ -4066,15 +4020,11 @@ Overfull \hbox (3.05289pt too wide) in alignment at lines 236--261
  []
 
 [44]
-
-Package natbib Warning: Citation `6' on page 45 undefined on input line 263.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<chapters/chapter04/./fig/fig4_5.png, id=751, 563.10374pt x 283.0575pt>
+<chapters/chapter04/./fig/fig4_5.png, id=774, 563.10374pt x 283.0575pt>
 File: chapters/chapter04/./fig/fig4_5.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_5.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_5.png  used on input line 267.
@@ -4171,7 +4121,7 @@ Underfull \hbox (badness 1831) in paragraph at lines 298--299
 \T1/futs/m/n/12 (+20) to di-a-betes and tha-
  []
 
-<chapters/chapter04/./fig/fig4_6.png, id=757, 567.62062pt x 284.56313pt>
+<chapters/chapter04/./fig/fig4_6.png, id=780, 567.62062pt x 284.56313pt>
 File: chapters/chapter04/./fig/fig4_6.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_6.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_6.png  used on input line 304.
@@ -4235,7 +4185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/futs/m/n/10.95 (+20) (Homo sapi-ens,
  []
 
-<chapters/chapter04/./fig/fig4_7.png, id=767, 578.91281pt x 279.29344pt>
+<chapters/chapter04/./fig/fig4_7.png, id=790, 578.91281pt x 279.29344pt>
 File: chapters/chapter04/./fig/fig4_7.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_7.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_7.png  used on input line 361.
@@ -4312,7 +4262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--412
 [49 <./chapters/chapter04/./fig/fig4_7.png>]
 
 [50]
-<chapters/chapter04/./fig/fig4_8.png, id=782, 575.90157pt x 282.30469pt>
+<chapters/chapter04/./fig/fig4_8.png, id=805, 575.90157pt x 282.30469pt>
 File: chapters/chapter04/./fig/fig4_8.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_8.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_8.png  used on input line 426.
@@ -4475,7 +4425,7 @@ Underfull \hbox (badness 7256) in paragraph at lines 464--464
 [51 <./chapters/chapter04/./fig/fig4_8.png>]
 
 [52]
-<chapters/chapter04/./fig/fig4_9.png, id=792, 581.92406pt x 280.04625pt>
+<chapters/chapter04/./fig/fig4_9.png, id=815, 581.92406pt x 280.04625pt>
 File: chapters/chapter04/./fig/fig4_9.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_9.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_9.png  used on input line 480.
@@ -4628,9 +4578,6 @@ Underfull \hbox (badness 2057) in paragraph at lines 556--556
 Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) IGHM; BCL2;
  []
-
-
-Package natbib Warning: Citation `6' on page 55 undefined on input line 560.
 
 
 
@@ -4820,7 +4767,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
 
 [60]
-<chapters/chapter04/./fig/fig4_10.png, id=846, 749.04843pt x 447.92343pt>
+<chapters/chapter04/./fig/fig4_10.png, id=866, 749.04843pt x 447.92343pt>
 File: chapters/chapter04/./fig/fig4_10.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_10.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_10.png  used on input line 768.
@@ -4830,7 +4777,7 @@ Overfull \hbox (11.39783pt too wide) in paragraph at lines 768--770
  [][] 
  []
 
-<chapters/chapter04/./fig/fig4_11.png, id=847, 469.755pt x 403.0695pt>
+<chapters/chapter04/./fig/fig4_11.png, id=867, 469.755pt x 403.0695pt>
 File: chapters/chapter04/./fig/fig4_11.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_11.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_11.png  used on input line 779.
@@ -4838,7 +4785,7 @@ Package pdftex.def Info: chapters/chapter04/./fig/fig4_11.png  used on input lin
 
 
 [61 <./chapters/chapter04/./fig/fig4_10.png>]
-<chapters/chapter04/./fig/fig4_17_2.png, id=853, 1363.0925pt x 681.54625pt>
+<chapters/chapter04/./fig/fig4_17_2.png, id=873, 1363.0925pt x 681.54625pt>
 File: chapters/chapter04/./fig/fig4_17_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_17_2.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_17_2.png  used on input line 789.
@@ -4846,10 +4793,6 @@ Package pdftex.def Info: chapters/chapter04/./fig/fig4_17_2.png  used on input l
 
 
 [62 <./chapters/chapter04/./fig/fig4_11.png> <./chapters/chapter04/./fig/fig4_17_2.png>]
-
-Package natbib Warning: Citation `8' on page 63 undefined on input line 819.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
  []
@@ -4867,9 +4810,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 823--824
  []
 
 
-Package natbib Warning: Citation `8' on page 64 undefined on input line 825.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 825--826
 
  []
@@ -4879,7 +4819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 848--848
 []|\T1/futs/m/n/10.95 (+20) Gemtuzumab
  []
 
-<chapters/chapter04/./fig/fig4_12_1.png, id=865, 298.86656pt x 298.86656pt>
+<chapters/chapter04/./fig/fig4_12_1.png, id=885, 298.86656pt x 298.86656pt>
 File: chapters/chapter04/./fig/fig4_12_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_12_1.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_12_1.png  used on input line 865.
@@ -4890,7 +4830,7 @@ Package nag Warning: \label in float, but not after \caption on input line 866.
 
 Package nag Warning: \label in float, but not after \caption on input line 866.
 
-<chapters/chapter04/./fig/fig4_12_2.png, id=866, 298.11375pt x 299.61937pt>
+<chapters/chapter04/./fig/fig4_12_2.png, id=886, 298.11375pt x 299.61937pt>
 File: chapters/chapter04/./fig/fig4_12_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_12_2.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_12_2.png  used on input line 871.
@@ -4913,7 +4853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 908--908
 []|\T1/futs/m/n/10.95 (+20) Hydroxy-Phenyl-Acetic Acid 8-Methyl-8-Aza-
  []
 
-<chapters/chapter04/./fig/fig4_13_1.png, id=871, 298.86656pt x 298.86656pt>
+<chapters/chapter04/./fig/fig4_13_1.png, id=891, 298.86656pt x 298.86656pt>
 File: chapters/chapter04/./fig/fig4_13_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_13_1.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_13_1.png  used on input line 916.
@@ -4924,7 +4864,7 @@ Package nag Warning: \label in float, but not after \caption on input line 917.
 
 Package nag Warning: \label in float, but not after \caption on input line 917.
 
-<chapters/chapter04/./fig/fig4_13_2.png, id=872, 298.11375pt x 299.61937pt>
+<chapters/chapter04/./fig/fig4_13_2.png, id=892, 298.11375pt x 299.61937pt>
 File: chapters/chapter04/./fig/fig4_13_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_13_2.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_13_2.png  used on input line 922.
@@ -4938,7 +4878,7 @@ Package nag Warning: \label in float, but not after \caption on input line 923.
 
 
 [65 <./chapters/chapter04/./fig/fig4_12_1.png> <./chapters/chapter04/./fig/fig4_12_2.png>]
-<chapters/chapter04/./fig/fig4_14_1.png, id=879, 292.09125pt x 706.64pt>
+<chapters/chapter04/./fig/fig4_14_1.png, id=899, 292.09125pt x 706.64pt>
 File: chapters/chapter04/./fig/fig4_14_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_14_1.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_14_1.png  used on input line 933.
@@ -4955,7 +4895,7 @@ Overfull \hbox (35.14632pt too wide) in paragraph at lines 933--935
  [][] 
  []
 
-<chapters/chapter04/./fig/fig4_14_2.png, id=880, 512.91624pt x 669.50125pt>
+<chapters/chapter04/./fig/fig4_14_2.png, id=900, 512.91624pt x 669.50125pt>
 File: chapters/chapter04/./fig/fig4_14_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_14_2.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_14_2.png  used on input line 939.
@@ -4974,16 +4914,6 @@ Overfull \hbox (27.5468pt too wide) in paragraph at lines 939--941
 
 
 [66 <./chapters/chapter04/./fig/fig4_13_1.png> <./chapters/chapter04/./fig/fig4_13_2.png>]
-
-Package natbib Warning: Citation `8' on page 67 undefined on input line 949.
-
-
-Package natbib Warning: Citation `8' on page 67 undefined on input line 949.
-
-
-LaTeX Warning: Reference `fig:phylogenetic_tree' on page 67 undefined on input line 949.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 949--950
 
  []
@@ -4991,27 +4921,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 949--950
 
 
 [67 <./chapters/chapter04/./fig/fig4_14_1.png> <./chapters/chapter04/./fig/fig4_14_2.png>]
-<chapters/chapter04/./fig/fig4_15.png, id=893, 480.29437pt x 336.50719pt>
+<chapters/chapter04/./fig/fig4_15.png, id=914, 480.29437pt x 336.50719pt>
 File: chapters/chapter04/./fig/fig4_15.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_15.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_15.png  used on input line 953.
 (pdftex.def)             Requested size: 406.10483pt x 284.52756pt.
-
-
-[68 <./chapters/chapter04/./fig/fig4_15.png>]
-<chapters/chapter04/./fig/fig4_16.png, id=903, 418.1805pt x 416.2095pt>
+<chapters/chapter04/./fig/fig4_16.png, id=916, 418.1805pt x 416.2095pt>
 File: chapters/chapter04/./fig/fig4_16.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_16.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_16.png  used on input line 963.
 (pdftex.def)             Requested size: 285.884pt x 284.52756pt.
 
+
+[68 <./chapters/chapter04/./fig/fig4_15.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 970--971
 
  []
 
+) (chapters/chapter05/chap05.tex
 
-
-[69 <./chapters/chapter04/./fig/fig4_16.png>]) (chapters/chapter05/chap05.tex
+[69 <./chapters/chapter04/./fig/fig4_16.png>]
 
 [70]
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -5051,6 +4980,8 @@ Package nag Warning: Command \centerline is TeX.
 
 [76]
 
+[77]
+
 Package natbib Warning: There were undefined citations.
 
 
@@ -5058,7 +4989,7 @@ Package nag Warning: 14 complaints in total.
 
 
 
-[77]
+[78]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -5075,9 +5006,6 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -5091,17 +5019,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (\end occurred when \ifx on line 73 was incomplete)
 (\end occurred when \ifx on line 39 was incomplete) 
 Here is how much of TeX's memory you used:
- 39886 strings out of 468134
- 749547 string characters out of 5429736
- 1310863 words of memory out of 5000000
- 66563 multiletter control sequences out of 15000+600000
- 836075 words of font info for 734 fonts, out of 8000000 for 9000
+ 39910 strings out of 468134
+ 749771 string characters out of 5429736
+ 1310992 words of memory out of 5000000
+ 66586 multiletter control sequences out of 15000+600000
+ 835283 words of font info for 728 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
  86i,15n,131p,2116b,857s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\AB Noor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (88 pages, 4803430 bytes).
+Output written on main.pdf (89 pages, 4772177 bytes).
 PDF statistics:
- 1053 PDF objects out of 1200 (max. 8388607)
- 280 named destinations out of 1000 (max. 500000)
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 289 named destinations out of 1000 (max. 500000)
  154659 words of extra memory for PDF output out of 184870 (max. 10000000)
 

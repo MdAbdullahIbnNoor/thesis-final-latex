@@ -14,7 +14,7 @@ In this chapter, the result analysis and discussion have been clarified. For dis
 %=======
 \section{Introduction}
 \label{sec:sec4_1}
-This chapter represents the results of our computational approach to investigate the genetic and molecular relationships between beta-thalassemia and its comorbidities. By applying bioinformatics techniques, we analyzed microarray and mRNA-seq datasets from GEO to identify the DEGs. Based on these DEGs, we then constructed DGNs network, performed pathway and gene ontology pathway, build PPI and PDI networks, conducted phylogenetic analysis and at last validate our findings. The analyses were executed by using some tools such as R Limma package, Cytoscape, Enrichr \cite{b15}, STRING \cite{b15}, Network Analyst \cite{b15} and MEGA tool. Each section below of this chapter provides a detailed evaluation of all results. The chapter concludes with a summary of the findings and their implications for understanding beta-thalassemia's comorbidities.
+This chapter represents the results of our computational approach to investigate the genetic and molecular relationships between beta-thalassemia and its comorbidities. By applying bioinformatics techniques, we analyzed microarray and mRNA-seq datasets from GEO to identify the DEGs. Based on these DEGs, we then constructed DGNs network, performed pathway and gene ontology pathway, build PPI and PDI networks, conducted phylogenetic analysis and at last validate our findings. The analyses were executed by using some tools such as R Limma package, Cytoscape, Enrichr \cite{b40}, STRING \cite{b40}, Network Analyst \cite{b41} and MEGA tool. Each section below of this chapter provides a detailed evaluation of all results. The chapter concludes with a summary of the findings and their implications for understanding beta-thalassemia's comorbidities.
 
 
 \section{Genetic Profiling Analysis}
@@ -260,7 +260,7 @@ From the analysis, we identified 11, 10, 13, 14, 13 and 13 significant pathways 
     \hline
 \end{longtable}
 
-Total ten significant pathways with adjusted p-value $\leq$ 0.05 were identified due to their relevance to hypogonadism pathophysiology \cite{6}. "Innate Immune System", "Interferon Gamma Signaling" and "Interferon Signaling" most significant pathways were selected from Reactome databases. "Network Map of SARS CoV 2 Signaling WP5115", "Ebola Virus Infection In Host WP4217" and "Macrophage Markers WP4146" were selected from WikiPathways databases. And the other four in the table 4-6 were selected from KEEG pathways. These significant pathways shows e relevance with our comorbidities that make a strong evidence for our findings.\\
+Total ten significant pathways with adjusted p-value $\leq$ 0.05 were identified due to their relevance to hypogonadism pathophysiology. "Innate Immune System", "Interferon Gamma Signaling" and "Interferon Signaling" most significant pathways were selected from Reactome databases. "Network Map of SARS CoV 2 Signaling WP5115", "Ebola Virus Infection In Host WP4217" and "Macrophage Markers WP4146" were selected from WikiPathways databases. And the other four in the table 4-6 were selected from KEEG pathways. These significant pathways shows e relevance with our comorbidities that make a strong evidence for our findings.\\
 
 \begin{figure}[H]
 \centering
@@ -485,7 +485,7 @@ Regulation of MAP Kinase Pathways Through Dual Specificity Phosphatases (Homo sa
 
 \section{Gene Ontology (GO) Analysis}
 \label{sec:sec4_5}
-Gene Ontology (GO) analysis provides a structured framework to characterize the molecular functions, biological processes, and cellular components of genes which offering insights into their roles in disease mechanisms \cite{b5}. We performed GO analysis with Enrichr by querying the GO Biological Process and Human Phenotype Ontology (HPO) databases \cite{b6}. This analysis describes detailed in Table 4-11 to Table 4-16 to explain the molecular and phenotypic connections linking these diseases.
+Gene Ontology (GO) analysis provides a structured framework to characterize the molecular functions, biological processes, and cellular components of genes which offering insights into their roles in disease mechanisms. We performed GO analysis with Enrichr by querying the GO Biological Process and Human Phenotype Ontology (HPO) databases. This analysis describes detailed in Table 4-11 to Table 4-16 to explain the molecular and phenotypic connections linking these diseases.
 
 \begin{table}[H]
 \centering
@@ -557,7 +557,7 @@ HP:0001287 & Meningitis & 0.156489906 & \textit{IGHM; BCL2; HLA-DRB1} & T2D \\
 \end{table}
 
 
-Using Enrichr, we queried the GO and HPO databases to identify four significant GO terms and four HPO terms \cite{6}.
+Using Enrichr, we queried the GO and HPO databases to identify four significant GO terms and four HPO terms.
 
 \subsection*{1. GO Terms:}
 \begin{enumerate}
@@ -694,7 +694,7 @@ The GO and HPO analyses, conducted using Enrichr between BT and its comorbiditie
 
 \section{Protein-Protein Interactions Analysis}
 \label{sec:sec4_6}
-Protein-Protein Interaction (PPI) analysis is a cornerstone of systems biology, enabling the prediction of protein functions and potential drug targets through molecular interactions \cite{b7}. Using the STRING database with a high confidence score (900), we analyzed PPIs of the shared differentially expressed genes (DEGs) between BT and its comorbidities. We constructed PPI networks using the Network Analyst platform as visualized in Figure 4-10. The identified hub proteins play critical roles in immune regulation, inflammation, and cellular stress that linking BT iron overload to endocrine and cardiac comorbidities. The high connectivity of CD74 and BCL2 suggests their central role in inflammatory and apoptotic pathways. These findings highlight potential therapeutic targets, such as anti-inflammatory or immune-modulating agents, for managing comorbidities in beta-thalassemia. Network Stats of our findings in Table 4-17. We identified mainly 86 seeds from where top 15 hub proteins are given in Table 4-18. \\
+Protein-Protein Interaction (PPI) analysis is a cornerstone of systems biology, enabling the prediction of protein functions and potential drug targets through molecular interactions. Using the STRING database with a high confidence score (900), we analyzed PPIs of the shared differentially expressed genes (DEGs) between BT and its comorbidities. We constructed PPI networks using the Network Analyst platform as visualized in Figure 4-10. The identified hub proteins play critical roles in immune regulation, inflammation, and cellular stress that linking BT iron overload to endocrine and cardiac comorbidities. The high connectivity of CD74 and BCL2 suggests their central role in inflammatory and apoptotic pathways. These findings highlight potential therapeutic targets, such as anti-inflammatory or immune-modulating agents, for managing comorbidities in beta-thalassemia. Network Stats of our findings in Table 4-17. We identified mainly 86 seeds from where top 15 hub proteins are given in Table 4-18. \\
 
 \begin{table}[H]
     \centering
@@ -816,13 +816,13 @@ The cluster analysis highlights distinct modules within the PPI network, with CD
 \section{Protein-Drug Interactions Analysis}
 \label{sec:sec4_7}
 
-Protein-Drug Interaction (PDI) analysis was conducted to identify potential therapeutic drug targets for beta-thalassemia and its comorbidities by leveraging the Network Analyst platform and the DrugBank database \cite{8}. Two PDI networks were constructed based on shared differentially expressed genes (DEGs) identified by uploading 231 genes in Network Analyst. \\
+Protein-Drug Interaction (PDI) analysis was conducted to identify potential therapeutic drug targets for beta-thalassemia and its comorbidities by leveraging the Network Analyst platform and the DrugBank database. Two PDI networks were constructed based on shared differentially expressed genes (DEGs) identified by uploading 231 genes in Network Analyst. \\
 
 The first PDI network comprises 20 hub genes, represented as circles, including \textit{C1QA} and \textit{C1QB}, with squares indicating their interacting drug molecules. These hubs, part of the complement system, suggest potential anti-inflammatory drug targets to mitigate iron-induced immune dysregulation in comorbidities like T2D and arrhythmia. \\
 
 The second PDI network includes 15 hub genes, highlighting \textit{PLA2G7} and \textit{CES1}, alongside their interacting drug molecules. \textit{PLA2G7} (platelet-activating factor acetylhydrolase) and \textit{CES1} (liver carboxylesterase 1) are linked to lipid metabolism and xenobiotic detoxification, respectively, pointing to therapeutic strategies for endocrine and cardiac complications. \\
 
-These PDI networks are visualized in Figure 4-12 to reveal key molecular targets for drug development, emphasizing anti-inflammatory and metabolic modulators to address iron overload's systemic effects in beta-thalassemia comorbidities \cite{8}. \\
+These PDI networks are visualized in Figure 4-12 to reveal key molecular targets for drug development, emphasizing anti-inflammatory and metabolic modulators to address iron overload's systemic effects in beta-thalassemia comorbidities. \\
 
 \begin{table}[H]
     \centering
@@ -946,7 +946,7 @@ These PDI networks are visualized in Figure 4-12 to reveal key molecular targets
 
 \section{Results of Phylogenetic Analysis}
 \label{sec:sec4_8}
-Phylogenetic analysis enhances the understanding of the evolutionary relationships among genes, proteins and diseases \cite{8}. We constructed a phylogenetic tree for beta-thalassemia and its comorbidities to illustrate the associative relationships among them by using Molecular Evolutionary Genetics Analysis (MEGA) tools and FASTA sequences of nucleotide datasets from NCBI \cite{8}. The phylogenetic tree shows the relationship between beta-thalassemia and the comorbidities including PCOS, T2D, hypogonadism, hypothyroidism, ACM and arrhythmia in Figure~\ref{fig:phylogenetic_tree}. The tree shows a strong evolutionary relationship between beta-thalassemia and hypogonadism as they belong to a common species.\\
+Phylogenetic analysis enhances the understanding of the evolutionary relationships among genes, proteins and diseases. We constructed a phylogenetic tree for beta-thalassemia and its comorbidities to illustrate the associative relationships among them by using Molecular Evolutionary Genetics Analysis (MEGA) tools and FASTA sequences of nucleotide datasets from NCBI. The phylogenetic tree shows the relationship between beta-thalassemia and the comorbidities including PCOS, T2D, hypogonadism, hypothyroidism, ACM and arrhythmia in Figure~\ref{Phylogenetic tree to illustrate associative evolutionary relationship between beta-thalassemia and its comorbidities.}. The tree shows a strong evolutionary relationship between beta-thalassemia and hypogonadism as they belong to a common species.\\
 
 \begin{figure}[H]
     \centering
@@ -956,7 +956,7 @@ Phylogenetic analysis enhances the understanding of the evolutionary relationshi
     \label{Phylogenetic tree to illustrate associative evolutionary relationship between beta-thalassemia and its comorbidities.}
 \end{figure}
 
-To validate our findings, we used two benchmark databases including dbGap and OMIM from Enrichr tools on the up-regulated and down-regulated genes of beta-thalassemia \cite{b9}. The analysis identified several drugs and diseases from which we identified twelve diseases whose genes are similar to the genes of beta-thalassemia. Among those identified diseases, our six selected comorbidities were present that support the validity of our study. The other six diseases may be the potential comorbidities of beta-thalassemia, T2D, hypothyroidism, hypogonadism, PCOS, arrhythmogenic cardiomyopathy and arrhythmia. To illustrate these associations, we constructed a drug-disease validation network using Cytoscape, as shown in Figure~\ref{fig:drug_disease_network} \cite{b10}.
+To validate our findings, we used two benchmark databases including dbGap and OMIM from Enrichr tools on the up-regulated and down-regulated genes of beta-thalassemia . The analysis identified several drugs and diseases from which we identified twelve diseases whose genes are similar to the genes of beta-thalassemia. Among those identified diseases, our six selected comorbidities were present that support the validity of our study. The other six diseases may be the potential comorbidities of beta-thalassemia, T2D, hypothyroidism, hypogonadism, PCOS, arrhythmogenic cardiomyopathy and arrhythmia. To illustrate these associations, we constructed a drug-disease validation network using Cytoscape, as shown in Figure~\ref{fig:drug_disease_network} .
 
 \begin{figure}[H]
     \centering
