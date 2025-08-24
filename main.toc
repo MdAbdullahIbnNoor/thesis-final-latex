@@ -48,7 +48,9 @@
 \contentsline {section}{\numberline {4.5}Gene Ontology (GO) Analysis}{53}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Protein-Protein Interactions Analysis}{60}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Protein-Drug Interactions Analysis}{63}{section.4.7}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{67}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{68}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{68}{section.5.2}%
-\contentsline {chapter}{REFERENCES}{69}{chapter*.50}%
+\contentsline {section}{\numberline {4.8}Results of Phylogenetic Analysis}{67}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Discussion}{68}{section.4.9}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{70}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{71}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{71}{section.5.2}%
+\contentsline {chapter}{REFERENCES}{72}{chapter*.52}%
