@@ -615,9 +615,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fo
 INPUT .\frontmatter\nomenclature.tex
 INPUT .\frontmatter\nomenclature.tex
 INPUT frontmatter\nomenclature.tex
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8c.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8c.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-orns.tfm
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
@@ -654,6 +651,11 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\fut
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8c.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-orns.tfm
 INPUT .\chapters\chapter02\chap02.tex
 INPUT chapters\chapter02\chap02.tex
 INPUT .\chapters\chapter02\chap02.tex
@@ -668,8 +670,6 @@ INPUT .\chapters\chapter03\.\fig\p1.PNG
 INPUT .\chapters\chapter03\.\fig\p1.PNG
 INPUT .\chapters\chapter03\.\fig\p1.PNG
 INPUT .\chapters\chapter03\.\fig\p1.PNG
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8c.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-orns.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futmii.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm

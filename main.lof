@@ -3,25 +3,25 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{22}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{26}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log _2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}}{27}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{23}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log _2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}}{28}{figure.caption.13}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Loss Curve (DGNs network for up-regulation of common DEGs. Orange-colored nodes are genes, pink-colored nodes are comorbidities and the center represents the beta-thalassemia.)}}{39}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces DGNs network for down-regulation of common DEGs. Orange-colored nodes are genes, pink-colored nodes are comorbidities and the center represents the beta-thalassemia. Genes that are linked to several diseases are represented by the red color.}}{40}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Heatmap visualization of gene expression.}}{41}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Graphical depiction of pathways of Hypothyroidism}}{43}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Graphical depiction of pathways of Hypogonadism}}{45}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Graphical depiction of pathways of PCOS.}}{47}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphical depiction of pathways of T2D.}}{49}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical depiction of pathways of ACM.}}{51}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical depiction of pathways of Arrhythmia.}}{53}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Clusters information's of PPI networks of hub proteins of beta-thalassemia and comorbidities.}}{61}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces PPI networks of hub proteins of beta-thalassemia and comorbidities.}}{62}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Network Topology of Subnetwork1. }}{64}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Network Topology of Subnetwork2. }}{65}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces PDI networks of drug proteins of beta-thalassemia and comorbidities.}}{66}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Phylogenetic tree to illustrate associative evolutionary relationship between beta-thalassemia and its comorbidities.}}{67}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Graphical representation of validation network of beta-thalassemia. Octagon shapes indicate the shared genes, circle shapes with brown color indicate our selected diseases and circle shapes with yellow-orange color represent our selected comorbidities.}}{68}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Loss Curve (DGNs network for up-regulation of common DEGs. Orange-colored nodes are genes, pink-colored nodes are comorbidities and the center represents the beta-thalassemia.)}}{40}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces DGNs network for down-regulation of common DEGs. Orange-colored nodes are genes, pink-colored nodes are comorbidities and the center represents the beta-thalassemia. Genes that are linked to several diseases are represented by the red color.}}{41}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Heatmap visualization of gene expression.}}{42}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Graphical depiction of pathways of Hypothyroidism}}{44}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Graphical depiction of pathways of Hypogonadism}}{46}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Graphical depiction of pathways of PCOS.}}{48}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphical depiction of pathways of T2D.}}{50}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical depiction of pathways of ACM.}}{52}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical depiction of pathways of Arrhythmia.}}{54}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Clusters information's of PPI networks of hub proteins of beta-thalassemia and comorbidities.}}{62}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces PPI networks of hub proteins of beta-thalassemia and comorbidities.}}{63}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Network Topology of Subnetwork1. }}{65}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Network Topology of Subnetwork2. }}{66}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces PDI networks of drug proteins of beta-thalassemia and comorbidities.}}{67}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Phylogenetic tree to illustrate associative evolutionary relationship between beta-thalassemia and its comorbidities.}}{68}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Graphical representation of validation network of beta-thalassemia. Octagon shapes indicate the shared genes, circle shapes with brown color indicate our selected diseases and circle shapes with yellow-orange color represent our selected comorbidities.}}{69}{figure.caption.51}%
 \addvspace {10pt}

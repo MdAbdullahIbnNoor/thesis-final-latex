@@ -21,7 +21,7 @@ The methodology involves data preprocessing, genetic profiling, pathway enrichme
 \section{Overview of Analytical Approaches}
 \label{sec:sec3_3}
 
-This chapter show a standard analytical procedure to gain the genetic link between beta-thalassemia and its comorbidities by analyzing the microarray and mRNA sequence datasets. We have used Gene Expression Omnibus (GEO) datasets for each diseases where each datasets has two groups: normal tissue (healthy or control samples) and malignant tissue (affected samples). Comparing these normal and malignant tissues by using Benjamini-Hochberg method to make sure that the significant genes are reliable and control the false discovery rate by adjusting p-value. A Limma package of R language to identify differentially expressed genes (DEGs) between BT and PCOS, T2D, hypothyroidism, hypogonadism, ACM, arrhythmia respectively. After applying the Benjamini-Hochberg correction to control the false discovery rate, this study applies statistical thresholds to differentiate up-regulated and down-regulated genes. And then by finding common DEGs, disease-gene network was constructed to visualize their co-relations. This study performed ontological analysis, pathway analysis, PPI, PDI, phylogenetic analysis and their respective networks. After that it performed validation analysis using gold benchmark datasets including dbGaP and OMIM. 
+This chapter show a standard analytical procedure to gain the genetic link between beta-thalassemia and its comorbidities by analyzing the microarray and mRNA sequence datasets. We have used Gene Expression Omnibus (GEO) datasets for each diseases where each datasets has two groups: normal tissue (healthy or control samples) and malignant tissue (affected samples) \cite{b13}. Comparing these normal and malignant tissues by using Benjamini-Hochberg method to make sure that the significant genes are reliable and control the false discovery rate by adjusting p-value. A Limma package of R language to identify differentially expressed genes (DEGs) between BT and PCOS, T2D, hypothyroidism, hypogonadism, ACM, arrhythmia respectively. After applying the Benjamini-Hochberg correction to control the false discovery rate, this study applies statistical thresholds to differentiate up-regulated and down-regulated genes. And then by finding common DEGs, disease-gene network was constructed to visualize their co-relations. This study performed ontological analysis, pathway analysis, PPI, PDI, phylogenetic analysis and their respective networks. After that it performed validation analysis using gold benchmark datasets including dbGaP and OMIM. \\
 
 A working flowchart representing this quantitative method in Figure 3-1.
 
@@ -35,7 +35,7 @@ A working flowchart representing this quantitative method in Figure 3-1.
 \section{Dataset Information}
 \label{sec:sec3_2}
 
-This study investigated mRNA-seq datasets for BT, PCOS, hypothyroidism, ACM, and arrhythmia, and microarray datasets for T2D and hypogonadism, available in Gene Expression Omnibus (GEO), which is maintained by National Center for Biotechnology Information (NCBI) \cite{b3}, to identify the genetic link between beta-thalassemia and its comorbidities. Each and every datasets has two group normal tissue and malignant or affected tissue. This work compares these normal and malignant samples to indicate which genes are expressed differentially. Those differences can then point out the possible genetic links between BT and its comorbidities.
+This study investigated mRNA-seq datasets for BT, PCOS, hypothyroidism, ACM, and arrhythmia, and microarray datasets for T2D and hypogonadism, available in Gene Expression Omnibus (GEO), which is maintained by National Center for Biotechnology Information (NCBI) \cite{b13}, to identify the genetic link between beta-thalassemia and its comorbidities. Each and every datasets has two group normal tissue and malignant or affected tissue. This work compares these normal and malignant samples to indicate which genes are expressed differentially. Those differences can then point out the possible genetic links between BT and its comorbidities.
 
 For BT, GSE117221 GEO mRNA-seq dataset are selected which has total 49 samples. 17 samples are normal tissue that means healthy patient and 32 samples are malignant tissue where (15 samples for thalassemia intermediate and 17 samples for thalassemia major) both type of patients are either female or male. 
 
@@ -50,30 +50,6 @@ GSE26966 GEO microarray datasets are used for hypogonadism with 23 samples where
 For arrhythmia GSE175944 mRNA-seq datasets are collected which introduced the most common arrhythmia is atrial fibrillation with 6 samples where 3 samples for control patient and 3 samples for case samples. 
 
 Table 3-1 provides a detailed representation of datasets including GEO accession id, Gender (no. of male and no. of female), samples (divided into case and control groups), associated diseases and source name that indicates the tissue type, cell type or experimental conditions.
-
-% \begin{table}[h]
-% \caption{Augmentation Parameters}
-% \begin{center}
-% \begin{tabular}{|c|c|c|}
-% \hline
-% \textbf{Augmentation Technique} & \textbf{Parameter} & \textbf{Value} \\
-% \hline
-% \multirow{4}{*}{RGB Shift} 
-% & R Shift & 5 \\ \cline{2-3}
-% & G Shift & 5 \\ \cline{2-3}
-% & B Shift & 5 \\ \cline{2-3}
-% & Probability & 0.7 \\
-% \hline
-% Random Brightness & Probability & 0.7 \\
-% \hline
-% \multirow{2}{*}{Motion Blur} 
-% & Blur & 7 \\ \cline{2-3} & Probability & 0.7 \\
-% \hline
-% \end{tabular}
-% \caption{Augmentation Parameters}
-% \label{tab:augmentation}
-% \end{center}
-% \end{table}
 
 \vspace*{-\parskip} % Remove extra paragraph spacing before table
 \begin{longtable}{|p{0.5cm}|p{2.0cm}|p{1.4cm}|p{1.8cm}|p{2.0cm}|p{2.3cm}|p{2.0cm}|}
@@ -116,7 +92,7 @@ This section provides a detailed overview of the methodology applied in this stu
 \label{sec:sec3_4_1}
 For BdSL classification, this study used pre-trained convolutional neural networks, ResNet-50 for feature extraction and evaluating two classifiers SVM (Support Vector Machine) and CNN (Convolutional Neural Network) for the final classification job.
 
-For this study, a reliable and relevant data was selected for investigating the genetic association between BT and its comorbidities. Two types of datasets were utilized that are mRNA-seq datasets and microarray datasets which were selected from the Gene Expression Omnibus (GEO), a public functional genomics data repository maintained by the National Center for Biotechnology Information (NCBI) [new ref].
+For this study, a reliable and relevant data was selected for investigating the genetic association between BT and its comorbidities. Two types of datasets were utilized that are mRNA-seq datasets and microarray datasets which were selected from the Gene Expression Omnibus (GEO), a public functional genomics data repository maintained by the National Center for Biotechnology Information (NCBI) \cite{b10}.
 
 \begin{itemize}
     \item mRNA-seq datasets (gene expression that is profiling by high throughput sequencing ) were selected for BT, PCOS, hypothyroidism, ACM and arrhythmia. These datasets provide a comprehensive view of transcriptional expression.
@@ -176,7 +152,7 @@ Differential gene expression analysis is a base of bioinformatics for understand
 \textbf{Data Pre-processing and Normalization}
 \vspace{7mm}
 
-To reduce experimental differences and keep the data consistent, gene expression values in each dataset were normalized using the Z-score method. This approach standardizes the expression values to make them comparable across different samples~\cite{b15}. The Z-score transformation for a gene expression value is calculated as:
+To reduce experimental differences and keep the data consistent, gene expression values in each dataset were normalized using the Z-score method. This approach standardizes the expression values to make them comparable across different samples \cite{b3}. The Z-score transformation for a gene expression value is calculated as:
 \begin{equation}
 z_{ij} = \frac{x_{ij} - \mu_i}{\sigma_i}
 \label{eq:zscore}
@@ -195,7 +171,7 @@ The normalization method was applied to both microarray (for T2D and hypogonadis
 \textbf{Statistical Analysis for DEG Identification}
 \vspace{5mm}
 
-We identified the differentially expressed genes (DEGs) by applying the Benjamini-Hochberg (BH) correction method, which minimizes false positives by controlling the false discovery rate (FDR). The BH formula is:
+We identified the differentially expressed genes (DEGs) by applying the Benjamini-Hochberg (BH) correction method, which minimizes false positives by controlling the false discovery rate (FDR) \cite{b10}. The BH formula is:
 \begin{equation}
 \text{BH adjusted } p\text{-value} = \frac{i}{m} Q
 \label{eq:bh_formula}
@@ -227,7 +203,7 @@ Each node represents either a disease or a gene, where diseases are source nodes
 \label{eq:shared_genes}
 \end{equation}
 
-By using the Jaccard Coefficient, this study measured the similarity between disease pairs, which evaluates the overlap relative to the total unique genes. The edge weight or similarity score between diseases \(d_1\) and \(d_2\) is calculated as:
+By using the Jaccard Coefficient, this study measured the similarity between disease pairs, which evaluates the overlap relative to the total unique genes. The edge weight or similarity score between diseases \(d_1\) and \(d_2\) is calculated as \cite{b16}:
 \begin{equation}
 X(d_1, d_2) = \frac{|Z_1 \cap Z_2|}{|Z_1 \cup Z_2|}
 \label{eq:jaccard}
@@ -242,13 +218,13 @@ Two separate networks were constructed for up-regulated and down-regulated DEGs 
 
 Pathway analysis involves the systematic identification of enriched biological pathways from sets of differentially expressed genes (DEGs) that are shared between beta-thalassemia and its comorbidities. This study identifies significant pathways using Enrichr, a public tool developed by the Ma'ayan Laboratory for Computational Systems Biology for gene set enrichment analysis (GSEA). Enrichr works by comparing input gene lists with collections of curated biological databases. The method applies statistical tests to measure significance, ensuring reliable and meaningful insights into the underlying molecular mechanisms.
 
-A pathway is a sequence of molecular interactions that results in a specific change or product in a cell. It is a standard method for understanding the connections between complex diseases~\cite{b5}. We investigated dysregulated gene pathways across four databases using Enrichr: Reactome, KEGG, WikiPathways, and BioCarta.
+A pathway is a sequence of molecular interactions that results in a specific change or product in a cell. It is a standard method for understanding the connections between complex diseases \cite{b14}. We investigated dysregulated gene pathways across four databases using Enrichr: Reactome, KEGG, WikiPathways, and BioCarta.
 
 \begin{enumerate}
     \item \textbf{Preparation of Input Gene Sets} \\
-          Enrichr compares the input gene list against a reference set that includes all known annotated genes in the human genome (approximately 20,000--30,000), depending on each library. Using this background, it ensures that the analysis is fair and considers the full range of genes that could potentially be expressed.
+          Enrichr compares the input gene list against a reference set that includes all known annotated genes in the human genome (approximately 20,000--30,000), depending on each library. Using this background, it ensures that the analysis is fair and considers the full range of genes that could potentially be expressed \cite{b17}.
     \item \textbf{Selection of Pathway Libraries} \\
-          Enrichr compares the input gene list against multiple pathway-focused databases. This study selects four databases based on their relevance to biological processes:
+          Enrichr compares the input gene list against multiple pathway-focused databases. This study selects four databases based on their relevance to biological processes \cite{b19}:
           \begin{itemize}
               \item \textbf{KEGG} (Kyoto Encyclopedia of Genes and Genomes) provides correlated sets of genes involved in metabolic, signaling, and disease pathways.
               \item \textbf{Reactome} is an open-source database of manually curated biological pathways, focusing on reactions and interactions.

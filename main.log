@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  24 AUG 2025 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  24 AUG 2025 23:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1688,6 +1688,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 ])
 
 [6] (frontmatter/nomenclature.tex
+Overfull \hbox (18.30382pt too wide) in paragraph at lines 21--22
+   [] \T1/futs/m/n/14.4 (-20) Search Tool for the Re-trieval of In-ter-act-ing Genes/Proteins 
+ []
+
+
 
 [7
 
@@ -1710,8 +1715,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
 
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+
 
 [3]
 
@@ -1719,1201 +1739,1299 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 [5]
 
-[6]) (chapters/chapter02/chap02.tex
+[6]
 
-[7]
+[7]) (chapters/chapter02/chap02.tex
 
-[8
+[8]
+
+[9
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-[9]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 []|\T1/futs/b/n/12 (+20) Limitations of
  []
 
 
-Overfull \hbox (5.89787pt too wide) in alignment at lines 41--46
+Overfull \hbox (5.89787pt too wide) in alignment at lines 45--50
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 []|\T1/futs/b/n/12 (+20) Limitations of
  []
 
 
-Overfull \hbox (5.89787pt too wide) in alignment at lines 46--51
+Overfull \hbox (5.89787pt too wide) in alignment at lines 50--55
  [] [] [] [] 
  []
 
 
-Overfull \hbox (5.89787pt too wide) in alignment at lines 51--53
+Overfull \hbox (5.89787pt too wide) in alignment at lines 55--57
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\T1/futs/m/n/12 (+20) 135 Beta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/futs/m/n/12 (+20) Thalassemia
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 54--54
+Underfull \hbox (badness 4819) in paragraph at lines 58--58
 \T1/futs/m/n/12 (+20) Ma-jor (BTM)
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 54--54
+Underfull \hbox (badness 1057) in paragraph at lines 58--58
 []|\T1/futs/m/n/12 (+20) Statistical anal-y-sis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/futs/m/n/12 (+20) and lab-o-ra-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []|\T1/futs/m/n/12 (+20) No ge-netic and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\T1/futs/m/n/12 (+20) Akiki, N., Ho-droj,
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 56--56
+Underfull \hbox (badness 1910) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) R., Matli, K., Taher,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\T1/futs/m/n/12 (+20) Secondary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\T1/futs/m/n/12 (+20) Summarizing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) pat-terns, mech-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) nisms, di-ag-nos-tic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) meth-ods, pre-ven-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) tive mea-sures,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) and treat-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 \T1/futs/m/n/12 (+20) re-ported in the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 []|\T1/futs/m/n/12 (+20) No re-la-tion-ships
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \T1/futs/m/n/12 (+20) shown among
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 \T1/futs/m/n/12 (+20) dis-ease and its
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 58--58
+Underfull \hbox (badness 3492) in paragraph at lines 62--62
 []|\T1/futs/m/n/12 (+20) Podder, N.K., Rana,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 \T1/futs/m/n/12 (+20) H.K., Azam, M.S.,
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 58--58
+Underfull \hbox (badness 5954) in paragraph at lines 62--62
 \T1/futs/m/n/12 (+20) Rana, M.S., Akhtar,
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 58--58
+Underfull \hbox (badness 3690) in paragraph at lines 62--62
 \T1/futs/m/n/12 (+20) Rah-man, M.H. and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\T1/futs/m/n/12 (+20) Statistical meth-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 \T1/futs/m/n/12 (+20) ods, quan-ti-ta-tive
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 58--58
+Underfull \hbox (badness 2970) in paragraph at lines 62--62
 \T1/futs/m/n/12 (+20) and multi-layered
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 []|\T1/futs/m/n/12 (+20) Fails to cal-cu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 \T1/futs/m/n/12 (+20) late large-scale
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 58--59
+Underfull \hbox (badness 4205) in paragraph at lines 62--63
 \T1/futs/m/n/12 (+20) pro-tein iden-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 58--59
+Underfull \hbox (badness 2237) in paragraph at lines 62--63
 \T1/futs/m/n/12 (+20) tion; No phy-lo-ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\T1/futs/m/n/12 (+20) Podder, N.K., Shill,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \T1/futs/m/n/12 (+20) S.B.S., Al Shahriar,
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 60--60
+Underfull \hbox (badness 6252) in paragraph at lines 64--64
 \T1/futs/m/n/12 (+20) M.M.H. and Azam,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 []|\T1/futs/m/n/12 (+20) mRNA and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \T1/futs/m/n/12 (+20) mi-croar-ray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \T1/futs/m/n/12 (+20) and al-go-rithm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \T1/futs/m/n/12 (+20) and Benjamini-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 \T1/futs/m/n/12 (+20) Hochberg al-go-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 []|\T1/futs/m/n/12 (+20) No phy-lo-ge-netic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 \T1/futs/m/n/12 (+20) anal-y-sis; Fails
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 \T1/futs/m/n/12 (+20) to val-i-date their
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\T1/futs/m/n/12 (+20) ing GEO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\T1/futs/m/n/12 (+20) and Clue-Pe-dia
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 66--67
+[]|\T1/futs/m/n/12 (+20) -Fails to cre-ate a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) Datta, R., Pod-der,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) N.K., Rana, H.K.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) Is-lam, M.K.B. and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) Microarray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) and mRNA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) Statistical meth-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) ods (t-test), z-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) transformation,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) and neigh-bor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) hood bench-mark
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 []|\T1/futs/m/n/12 (+20) No drug pro-tein
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \T1/futs/m/n/12 (+20) iden-ti-fi-ca-tion;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \T1/futs/m/n/12 (+20) No phy-lo-ge-netic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []|\T1/futs/m/n/12 (+20) Statistical and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \T1/futs/m/n/12 (+20) bioin-for-mat-ics
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 []|\T1/futs/m/n/12 (+20) No sig-nif-i-cant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \T1/futs/m/n/12 (+20) iden-ti-fi-ca-tion of
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 64--65
+Underfull \hbox (badness 1655) in paragraph at lines 70--71
 \T1/futs/m/n/12 (+20) sig-nal-ing path-way
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 64--65
+Underfull \hbox (badness 4391) in paragraph at lines 70--71
 \T1/futs/m/n/12 (+20) and GO anal-y-sis;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \T1/futs/m/n/12 (+20) Fails to val-i-date
  []
 
 
-Underfull \hbox (badness 2990) in paragraph at lines 66--66
+Underfull \hbox (badness 2990) in paragraph at lines 72--72
 []|\T1/futs/m/n/12 (+20) Rana, M.S., Pod-der,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) N.K., Rana, H.K.,
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 66--66
+Underfull \hbox (badness 6094) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) Hasan, M.I., Azam,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) M.S., Rahim, M.A.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) Iqbal, S.H.S. and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\T1/futs/m/n/12 (+20) mRNA and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) mi-croar-ray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\T1/futs/m/n/12 (+20) Benjamini-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) Hochberg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) al-go-rithm,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) neighborhood-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) and mul-ti-layer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 []|\T1/futs/m/n/12 (+20) Fails to iden-tify
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\T1/futs/m/n/12 (+20) Microarray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \T1/futs/m/n/12 (+20) and mRNA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 []|\T1/futs/m/n/12 (+20) No phy-lo-ge-netic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 \T1/futs/m/n/12 (+20) anal-y-sis; Fails
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 \T1/futs/m/n/12 (+20) to iden-tify drug
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\T1/futs/m/n/12 (+20) Talihati, Z.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) Abudurousuli, K.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) Nuer, M., Khan,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) N., Mai-he-muti, N.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\T1/futs/m/n/12 (+20) TCGA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) database,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) ge-nomic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) database,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) tran-scrip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) tomic, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\T1/futs/m/n/12 (+20) Limma pack-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) in R, STRING
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 70--70
+Underfull \hbox (badness 2460) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) database, molec-u-
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 70--71
+Underfull \hbox (badness 2865) in paragraph at lines 76--77
 \T1/futs/m/n/12 (+20) phy-lo-ge-netic, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/futs/m/n/12 (+20) Barua, J.D., Omit,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/futs/m/n/12 (+20) S.B.S., Rana, H.K.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/futs/m/n/12 (+20) hury, U.N. and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/futs/m/n/12 (+20) Z-transformation,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/futs/m/n/12 (+20) neighborhood-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/futs/m/n/12 (+20) benchmark, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []|\T1/futs/m/n/12 (+20) Fails to iden-tify
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 \T1/futs/m/n/12 (+20) drug pro-tein;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 \T1/futs/m/n/12 (+20) No phy-lo-ge-netic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\T1/futs/m/n/12 (+20) Design ma-trix
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \T1/futs/m/n/12 (+20) model, fit-linear,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \T1/futs/m/n/12 (+20) and Bayesian
  []
 
 
-Overfull \hbox (5.89787pt too wide) in alignment at lines 53--76
+Overfull \hbox (5.89787pt too wide) in alignment at lines 57--82
  [] [] [] [] 
  []
 
-[11] [12]
-Overfull \hbox (4.03738pt too wide) in paragraph at lines 86--86
+[12] [13] [14]
+Overfull \hbox (1.19194pt too wide) in paragraph at lines 92--92
 []|\T1/futs/b/n/12 (-20) Related
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 []|\T1/futs/b/n/12 (+20) PDI, Phy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 \T1/futs/b/n/12 (+20) lo-ge-netic
  []
 
 
-Overfull \hbox (9.76198pt too wide) in alignment at lines 83--88
+Overfull \hbox (12.60742pt too wide) in alignment at lines 89--94
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (4.03738pt too wide) in paragraph at lines 91--91
+Overfull \hbox (1.19194pt too wide) in paragraph at lines 97--97
 []|\T1/futs/b/n/12 (-20) Related
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []|\T1/futs/b/n/12 (+20) PDI, Phy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \T1/futs/b/n/12 (+20) lo-ge-netic
  []
 
 
-Overfull \hbox (9.76198pt too wide) in alignment at lines 88--93
+Overfull \hbox (12.60742pt too wide) in alignment at lines 94--99
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (9.76198pt too wide) in alignment at lines 93--95
+Overfull \hbox (12.60742pt too wide) in alignment at lines 99--101
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []|\T1/futs/m/n/12 (+20) Microarray
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 96--96
+Underfull \hbox (badness 1642) in paragraph at lines 102--102
 \T1/futs/m/n/12 (+20) mor-bidi-ties; Weld-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+[]|\T1/futs/m/n/12 (+20) [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\T1/futs/m/n/12 (+20) mRNA and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 \T1/futs/m/n/12 (+20) mi-croar-ray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 []|\T1/futs/m/n/12 (+20) NO but
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[]|\T1/futs/m/n/12 (+20) [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 []|\T1/futs/m/n/12 (+20) Microarray
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 100--100
+Underfull \hbox (badness 1642) in paragraph at lines 106--106
 \T1/futs/m/n/12 (+20) mor-bidi-ties; Weld-ing
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 102--102
+Underfull \hbox (badness 1910) in paragraph at lines 108--108
 []|\T1/futs/m/n/12 (+20) Glioblastoma vs. co-
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 102--102
+Underfull \hbox (badness 4403) in paragraph at lines 108--108
 []|\T1/futs/m/n/12 (+20) NO but DGN:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\T1/futs/m/n/12 (+20) mRNA and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \T1/futs/m/n/12 (+20) mi-croar-ray
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 104--104
+Underfull \hbox (badness 5954) in paragraph at lines 110--110
 []|\T1/futs/m/n/12 (+20) Parkinson's vs. neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 []|\T1/futs/m/n/12 (+20) NO but
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 \T1/futs/m/n/12 (+20) Phy-lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 \T1/futs/m/n/12 (+20) ge-netic:
  []
 
 
-Overfull \hbox (12.16351pt too wide) in paragraph at lines 106--106
+Overfull \hbox (9.31807pt too wide) in paragraph at lines 112--112
 []|\T1/futs/m/n/12 (-20) Proposed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\T1/futs/m/n/12 (+20) mRNA and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 \T1/futs/m/n/12 (+20) mi-croar-ray
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\T1/futs/m/n/12 (+20) Beta-thalassemia vs.
  []
 
 
-Overfull \hbox (9.76198pt too wide) in alignment at lines 95--108
+Overfull \hbox (12.60742pt too wide) in alignment at lines 101--114
  [] [] [] [] [] 
  []
 
-[13]
+[15]) (chapters/chapter03/chap03.tex
 
-[14]) (chapters/chapter03/chap03.tex
+[16]
 
-[15]
-
-[16
+[17
 
 ]
-<chapters/chapter03/./fig/p1.PNG, id=567, 551.81157pt x 441.14813pt>
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+<chapters/chapter03/./fig/p1.PNG, id=587, 551.81157pt x 441.14813pt>
 File: chapters/chapter03/./fig/p1.PNG Graphic file (type png)
 <use chapters/chapter03/./fig/p1.PNG>
 Package pdftex.def Info: chapters/chapter03/./fig/p1.PNG  used on input line 30.
 (pdftex.def)             Requested size: 398.33858pt x 318.46783pt.
 
 
-[17]
+[18]
 
-[18 <./chapters/chapter03/./fig/p1.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[19 <./chapters/chapter03/./fig/p1.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\T1/futs/b/n/12 (+20) S.
  []
 
 
-Overfull \hbox (2.6874pt too wide) in paragraph at lines 82--82
+Overfull \hbox (2.6874pt too wide) in paragraph at lines 58--58
 \T1/futs/b/n/12 (-20) No.| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\T1/futs/b/n/12 (+20) Disease
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/futs/b/n/12 (+20) ces-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\T1/futs/b/n/12 (+20) Gender
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/futs/b/n/12 (+20) (Male +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []|\T1/futs/b/n/12 (+20) Sample
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/futs/b/n/12 (+20) (Case +
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 82--82
+Underfull \hbox (badness 6348) in paragraph at lines 58--58
 []|\T1/futs/b/n/12 (+20) Disease sta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/futs/b/n/12 (+20) tus (case,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 []|\T1/futs/b/n/12 (+20) Source
  []
 
 
-Overfull \hbox (11.80008pt too wide) in alignment at lines 79--84
+Overfull \hbox (11.80008pt too wide) in alignment at lines 55--60
  [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/futs/b/n/12 (+20) S.
  []
 
 
-Overfull \hbox (2.6874pt too wide) in paragraph at lines 87--87
+Overfull \hbox (2.6874pt too wide) in paragraph at lines 63--63
 \T1/futs/b/n/12 (-20) No.| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/futs/b/n/12 (+20) Disease
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 \T1/futs/b/n/12 (+20) ces-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/futs/b/n/12 (+20) Gender
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 \T1/futs/b/n/12 (+20) (Male +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 []|\T1/futs/b/n/12 (+20) Sample
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 \T1/futs/b/n/12 (+20) (Case +
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 87--87
+Underfull \hbox (badness 6348) in paragraph at lines 63--63
 []|\T1/futs/b/n/12 (+20) Disease sta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
 \T1/futs/b/n/12 (+20) tus (case,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []|\T1/futs/b/n/12 (+20) Source
  []
 
 
-Overfull \hbox (11.80008pt too wide) in alignment at lines 84--89
+Overfull \hbox (11.80008pt too wide) in alignment at lines 60--65
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (11.80008pt too wide) in alignment at lines 89--91
+Overfull \hbox (11.80008pt too wide) in alignment at lines 65--67
  [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) Beta-
  []
 
 
-Overfull \hbox (1.49458pt too wide) in paragraph at lines 92--92
+Overfull \hbox (1.49458pt too wide) in paragraph at lines 68--68
 \T1/futs/m/n/12 (-20) thalassemia| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) 49 to-tal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\T1/futs/m/n/12 (+20) Thalassemia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) (TI) and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) Tha-lassemia
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 92--92
+Underfull \hbox (badness 1902) in paragraph at lines 68--68
 \T1/futs/m/n/12 (+20) ma-jor (TM),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 []|\T1/futs/m/n/12 (+20) Healthy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \T1/futs/m/n/12 (+20) ErPCs,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 \T1/futs/m/n/12 (+20) TI-ErPCs,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []|\T1/futs/m/n/12 (+20) 13 to-tal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []|\T1/futs/m/n/12 (+20) Non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \T1/futs/m/n/12 (+20) diabetic,
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 94--94
+Underfull \hbox (badness 2401) in paragraph at lines 70--70
 \T1/futs/m/n/12 (+20) and Type 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 []|\T1/futs/m/n/12 (+20) Human
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \T1/futs/m/n/12 (+20) diabetic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 \T1/futs/m/n/12 (+20) and Hu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 []|\T1/futs/m/n/12 (+20) 07 to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 \T1/futs/m/n/12 (+20) tal, (07
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 []|\T1/futs/m/n/12 (+20) Cumulus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 \T1/futs/m/n/12 (+20) gran-ule
  []
 
 
-Overfull \hbox (1.13408pt too wide) in paragraph at lines 98--98
+Overfull \hbox (1.13408pt too wide) in paragraph at lines 74--74
 []|\T1/futs/m/n/12 (-20) Hypothyroi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []|\T1/futs/m/n/12 (+20) 08 to-tal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 \T1/futs/m/n/12 (+20) Hy-pothy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 []|\T1/futs/m/n/12 (+20) Whole
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\T1/futs/m/n/12 (+20) 12 to-tal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 []|\T1/futs/m/n/12 (+20) ACM, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
 \T1/futs/m/n/12 (+20) Healthy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 []|\T1/futs/m/n/12 (+20) Cardiac
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 \T1/futs/m/n/12 (+20) mes-enchy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 \T1/futs/m/n/12 (+20) mal stro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/futs/m/n/12 (+20) Hypogona-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/futs/m/n/12 (+20) 23 to-tal,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/futs/m/n/12 (+20) Normal pi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/futs/m/n/12 (+20) and Go-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/futs/m/n/12 (+20) nadotrope
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []|\T1/futs/m/n/12 (+20) NP at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 \T1/futs/m/n/12 (+20) au-topsy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 \T1/futs/m/n/12 (+20) time of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 \T1/futs/m/n/12 (+20) transsphe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 \T1/futs/m/n/12 (+20) noidal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\T1/futs/m/n/12 (+20) GSE-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 104--104
+Underfull \hbox (badness 1406) in paragraph at lines 80--80
 []|\T1/futs/m/n/12 (+20) Not men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 []|\T1/futs/m/n/12 (+20) Cell line
  []
 
 
-Underfull \hbox (badness 7722) in paragraph at lines 104--105
+Underfull \hbox (badness 7722) in paragraph at lines 80--81
 \T1/futs/m/n/12 (+20) of hu-man
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 \T1/futs/m/n/12 (+20) in-duced
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 \T1/futs/m/n/12 (+20) pluripo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 \T1/futs/m/n/12 (+20) tent
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 104--105
+Underfull \hbox (badness 6016) in paragraph at lines 80--81
 \T1/futs/m/n/12 (+20) stem cells
  []
 
 
-Overfull \hbox (11.80008pt too wide) in alignment at lines 91--106
+Overfull \hbox (11.80008pt too wide) in alignment at lines 67--82
  [] [] [] [] [] [] [] 
  []
-
-[19]
 
 [20]
 
 [21]
-Overfull \hbox (44.62694pt too wide) in paragraph at lines 171--172
+
+[22]
+Overfull \hbox (44.62694pt too wide) in paragraph at lines 147--148
  [][] 
  []
 
 
 
-[22]
-
 [23]
 
 [24]
-Overfull \hbox (7.26398pt too wide) in paragraph at lines 250--253
+
+[25]
+Overfull \hbox (7.26398pt too wide) in paragraph at lines 226--229
 \T1/futs/m/n/12 (-20) Enrichr com-pares the in-put gene list against mul-ti-ple pathway-focused databases.
  []
 
 
-Package natbib Warning: Citation `go_ref' on page 25 undefined on input line 266.
-
-
-Package natbib Warning: Citation `go_ref' on page 25 undefined on input line 266.
-
-
-
-[25]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 284.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 284.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 284.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 284.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.3> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 284.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 284.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 284.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 284.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 284.
-
-
-Package natbib Warning: Citation `updown_reg_ref' on page 26 undefined on input line 296.
-
-
 
 [26]
-<chapters/chapter03/./fig/disease.png, id=627, 1204.5pt x 685.56125pt>
+
+Package natbib Warning: Citation `go_ref' on page 27 undefined on input line 242.
+
+
+Package natbib Warning: Citation `go_ref' on page 27 undefined on input line 242.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 260.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 260.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 260.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.3> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 260.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 260.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 260.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 260.
+
+Package natbib Warning: Citation `updown_reg_ref' on page 27 undefined on input line 272.
+
+
+
+[27]
+<chapters/chapter03/./fig/disease.png, id=653, 1204.5pt x 685.56125pt>
 File: chapters/chapter03/./fig/disease.png Graphic file (type png)
 <use chapters/chapter03/./fig/disease.png>
-Package pdftex.def Info: chapters/chapter03/./fig/disease.png  used on input line 300.
+Package pdftex.def Info: chapters/chapter03/./fig/disease.png  used on input line 276.
 (pdftex.def)             Requested size: 395.98996pt x 225.38858pt.
 
 
-Package natbib Warning: Citation `common_deg_ref' on page 27 undefined on input line 309.
+Package natbib Warning: Citation `common_deg_ref' on page 28 undefined on input line 285.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
@@ -2921,66 +3039,66 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[27 <./chapters/chapter03/./fig/disease.png>]
+[28 <./chapters/chapter03/./fig/disease.png>]
 
-Package natbib Warning: Citation `ppi_ref1' on page 28 undefined on input line 315.
-
-
-Package natbib Warning: Citation `ppi_ref2' on page 28 undefined on input line 315.
+Package natbib Warning: Citation `ppi_ref1' on page 29 undefined on input line 291.
 
 
-Package natbib Warning: Citation `pdi_ref1' on page 28 undefined on input line 330.
+Package natbib Warning: Citation `ppi_ref2' on page 29 undefined on input line 291.
 
 
-Package natbib Warning: Citation `pdi_ref2' on page 28 undefined on input line 330.
+Package natbib Warning: Citation `pdi_ref1' on page 29 undefined on input line 306.
 
 
-Package natbib Warning: Citation `pdi_ref3' on page 28 undefined on input line 330.
+Package natbib Warning: Citation `pdi_ref2' on page 29 undefined on input line 306.
 
 
-Package natbib Warning: Citation `pdi_ref1' on page 28 undefined on input line 334.
-
-
-
-[28]
-
-Package natbib Warning: Citation `pdi_colinge' on page 29 undefined on input line 338.
-
-
-Package natbib Warning: Citation `phy_ref1' on page 29 undefined on input line 350.
-
-
-Package natbib Warning: Citation `phy_ref1' on page 29 undefined on input line 350.
-
-
-Package natbib Warning: Citation `phy_ref2' on page 29 undefined on input line 352.
+Package natbib Warning: Citation `pdi_ref3' on page 29 undefined on input line 306.
 
 
 
 [29]
 
-Package natbib Warning: Citation `phy_ref3' on page 30 undefined on input line 355.
+Package natbib Warning: Citation `pdi_ref1' on page 30 undefined on input line 310.
 
 
-Package natbib Warning: Citation `val_ref1' on page 30 undefined on input line 362.
+Package natbib Warning: Citation `pdi_colinge' on page 30 undefined on input line 314.
 
 
-Package natbib Warning: Citation `val_ref1' on page 30 undefined on input line 362.
+Package natbib Warning: Citation `phy_ref1' on page 30 undefined on input line 326.
 
 
-Package natbib Warning: Citation `algo_ref1' on page 30 undefined on input line 372.
+Package natbib Warning: Citation `phy_ref1' on page 30 undefined on input line 326.
+
+
+Package natbib Warning: Citation `phy_ref2' on page 30 undefined on input line 328.
 
 
 
 [30]
 
-[31]) (chapters/chapter04/chap04.tex
+Package natbib Warning: Citation `phy_ref3' on page 31 undefined on input line 331.
+
+
+Package natbib Warning: Citation `val_ref1' on page 31 undefined on input line 338.
+
+
+Package natbib Warning: Citation `val_ref1' on page 31 undefined on input line 338.
+
+
+Package natbib Warning: Citation `algo_ref1' on page 31 undefined on input line 348.
+
+
+
+[31]
 
 [32]
 
-[33]
+[33]) (chapters/chapter04/chap04.tex
 
-[34
+[34]
+
+[35
 
 ]
 Overfull \hbox (4.41475pt too wide) in paragraph at lines 40--53
@@ -2989,7 +3107,7 @@ Overfull \hbox (4.41475pt too wide) in paragraph at lines 40--53
 
 
 
-[35]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []|\T1/futs/m/n/12 (+20) Hypogona-
  []
@@ -3504,7 +3622,7 @@ Overfull \hbox (26.02646pt too wide) in alignment at lines 58--68
  [] [] [] [] [] [] [] 
  []
 
-[36]
+[37]
 Overfull \hbox (7.35475pt too wide) in paragraph at lines 74--86
  [][] 
  []
@@ -3516,7 +3634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
 
 
-[37]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -3551,27 +3669,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--123
 \T1/futs/m/n/12 (+20) FXYD6; SOCS1;
  []
 
-<chapters/chapter04/./fig/fig4_1.png, id=696, 421.137pt x 427.3785pt>
+<chapters/chapter04/./fig/fig4_1.png, id=723, 421.137pt x 427.3785pt>
 File: chapters/chapter04/./fig/fig4_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_1.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_1.png  used on input line 134.
 (pdftex.def)             Requested size: 392.52086pt x 398.33858pt.
 
 
-[38]
-<chapters/chapter04/./fig/fig4_2.png, id=702, 470.0835pt x 472.7115pt>
+[39]
+<chapters/chapter04/./fig/fig4_2.png, id=728, 470.0835pt x 472.7115pt>
 File: chapters/chapter04/./fig/fig4_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_2.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_2.png  used on input line 144.
 (pdftex.def)             Requested size: 396.13704pt x 398.33858pt.
 
 
-[39 <./chapters/chapter04/./fig/fig4_1.png>]
+[40 <./chapters/chapter04/./fig/fig4_1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-<chapters/chapter04/./fig/fig4_3.png, id=708, 400.49625pt x 326.72063pt>
+<chapters/chapter04/./fig/fig4_3.png, id=734, 400.49625pt x 326.72063pt>
 File: chapters/chapter04/./fig/fig4_3.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_3.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_3.png  used on input line 156.
@@ -3583,14 +3701,14 @@ Overfull \hbox (1.69615pt too wide) in paragraph at lines 156--158
 
 
 
-[40 <./chapters/chapter04/./fig/fig4_2.png>]
+[41 <./chapters/chapter04/./fig/fig4_2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
  []
 
 
 
-[41 <./chapters/chapter04/./fig/fig4_3.png>]
+[42 <./chapters/chapter04/./fig/fig4_3.png>]
 Underfull \hbox (badness 1629) in paragraph at lines 178--178
 \T1/futs/m/n/12 (+20) (HRI) to Heme De-fi-
  []
@@ -3717,15 +3835,15 @@ Overfull \hbox (3.05289pt too wide) in paragraph at lines 174--201
 
 
 
-[42]
-<chapters/chapter04/./fig/fig4_4.png, id=723, 557.83406pt x 286.06876pt>
+[43]
+<chapters/chapter04/./fig/fig4_4.png, id=749, 557.83406pt x 286.06876pt>
 File: chapters/chapter04/./fig/fig4_4.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_4.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_4.png  used on input line 228.
 (pdftex.def)             Requested size: 388.38725pt x 199.16928pt.
 
 
-[43 <./chapters/chapter04/./fig/fig4_4.png>]
+[44 <./chapters/chapter04/./fig/fig4_4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 239--239
 []|\T1/futs/m/n/12 (+20) Significant
  []
@@ -3950,23 +4068,23 @@ Overfull \hbox (3.05289pt too wide) in alignment at lines 236--261
  [] [] [] [] 
  []
 
-[44]
+[45]
 
-Package natbib Warning: Citation `6' on page 45 undefined on input line 263.
+Package natbib Warning: Citation `6' on page 46 undefined on input line 263.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<chapters/chapter04/./fig/fig4_5.png, id=734, 563.10374pt x 283.0575pt>
+<chapters/chapter04/./fig/fig4_5.png, id=760, 563.10374pt x 283.0575pt>
 File: chapters/chapter04/./fig/fig4_5.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_5.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_5.png  used on input line 267.
 (pdftex.def)             Requested size: 396.23207pt x 199.16928pt.
 
 
-[45 <./chapters/chapter04/./fig/fig4_5.png>]
+[46 <./chapters/chapter04/./fig/fig4_5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []|\T1/futs/m/n/12 (+20) Cross-presentation
  []
@@ -4056,16 +4174,16 @@ Underfull \hbox (badness 1831) in paragraph at lines 298--299
 \T1/futs/m/n/12 (+20) to di-a-betes and tha-
  []
 
-<chapters/chapter04/./fig/fig4_6.png, id=740, 567.62062pt x 284.56313pt>
+<chapters/chapter04/./fig/fig4_6.png, id=766, 567.62062pt x 284.56313pt>
 File: chapters/chapter04/./fig/fig4_6.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_6.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_6.png  used on input line 304.
 (pdftex.def)             Requested size: 397.30573pt x 199.16928pt.
 
 
-[46]
+[47]
 
-[47 <./chapters/chapter04/./fig/fig4_6.png>]
+[48 <./chapters/chapter04/./fig/fig4_6.png>]
 Underfull \hbox (badness 3612) in paragraph at lines 356--356
 []|\T1/futs/b/n/10.95 (+20) Most Rel-e-vant Dis-
  []
@@ -4120,14 +4238,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 356--356
 \T1/futs/m/n/10.95 (+20) (Homo sapi-ens,
  []
 
-<chapters/chapter04/./fig/fig4_7.png, id=750, 578.91281pt x 279.29344pt>
+<chapters/chapter04/./fig/fig4_7.png, id=776, 578.91281pt x 279.29344pt>
 File: chapters/chapter04/./fig/fig4_7.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_7.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_7.png  used on input line 361.
 (pdftex.def)             Requested size: 412.84183pt x 199.16928pt.
 
 
-[48]
+[49]
 Underfull \hbox (badness 3612) in paragraph at lines 412--412
 []|\T1/futs/b/n/10.95 (+20) Most Rel-e-vant Dis-
  []
@@ -4194,751 +4312,741 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--412
 
 
 
-[49 <./chapters/chapter04/./fig/fig4_7.png>]
+[50 <./chapters/chapter04/./fig/fig4_7.png>]
 
-[50]
-<chapters/chapter04/./fig/fig4_8.png, id=765, 575.90157pt x 282.30469pt>
+[51]
+<chapters/chapter04/./fig/fig4_8.png, id=791, 575.90157pt x 282.30469pt>
 File: chapters/chapter04/./fig/fig4_8.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_8.png>
 Package pdftex.def Info: chapters/chapter04/./fig/fig4_8.png  used on input line 426.
 (pdftex.def)             Requested size: 406.30943pt x 199.16928pt.
 
-Overfull \hbox (59.9584pt too wide) in alignment at lines 433--438
- [] [] [] [] 
- []
-
-
-Overfull \hbox (59.9584pt too wide) in alignment at lines 438--440
- [] [] [] [] 
- []
-
-
-Overfull \hbox (59.9584pt too wide) in alignment at lines 440--442
- [] [] [] [] 
- []
-
-
-Overfull \hbox (59.9584pt too wide) in alignment at lines 442--445
- [] [] [] [] 
- []
-
-
-Overfull \hbox (59.9584pt too wide) in alignment at lines 445--447
- [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
 []|\T1/futs/m/n/10.95 (+20) Metallothioneins Bind
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 451--451
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 440--440
 []|\T1/futs/m/n/12 (-20) 1.362354723| 
  []
 
 
-Overfull \hbox (9.0914pt too wide) in paragraph at lines 453--453
+Overfull \hbox (9.0914pt too wide) in paragraph at lines 442--442
 []|\T1/futs/m/n/12 (-20) 0.0000020563| 
  []
 
 
-Underfull \hbox (badness 6001) in paragraph at lines 455--455
+Underfull \hbox (badness 6001) in paragraph at lines 444--444
 []|\T1/futs/m/n/12 (+20) Neurotransmitter Re-
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 455--455
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 444--444
 []|\T1/futs/m/n/12 (-20) 0.013131521| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 []|\T1/futs/m/n/12 (+20) Synthesis of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 \T1/futs/m/n/12 (+20) Prostaglandins (PG)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
 \T1/futs/m/n/12 (+20) and Throm-box-anes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 448--448
 []|\T1/futs/m/n/12 (+20) Zinc Home-osta-sis
  []
 
 
-Overfull \hbox (9.0914pt too wide) in paragraph at lines 459--459
+Overfull \hbox (9.0914pt too wide) in paragraph at lines 448--448
 []|\T1/futs/m/n/12 (-20) 0.0001265177| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
 []|\T1/futs/m/n/12 (+20) Prostaglandin Syn-
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 461--461
+Underfull \hbox (badness 4913) in paragraph at lines 450--450
 []|\T1/futs/m/it/12 (+20) PTGER4; AKR1B1; PT-GDS;
  []
 
 
-Overfull \hbox (9.0914pt too wide) in paragraph at lines 461--461
+Overfull \hbox (9.0914pt too wide) in paragraph at lines 450--450
 []|\T1/futs/m/n/12 (-20) 0.0001577216| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--463
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
 []|\T1/futs/m/n/12 (+20) Copper Home-osta-sis
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 463--463
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 452--452
 []|\T1/futs/m/n/12 (-20) 0.000174674| 
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 463--464
+Underfull \hbox (badness 4441) in paragraph at lines 452--453
 []|\T1/futs/m/n/12 (+20) Arrhythmia and car-
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 465--465
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 454--454
 []|\T1/futs/m/n/12 (-20) 0.000644711| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--467
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 []|\T1/futs/m/n/12 (+20) JAK-STAT Sig-nal-ing
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 467--467
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 456--456
 []|\T1/futs/m/n/12 (-20) 0.113203704| 
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 469--469
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 458--458
 []|\T1/futs/m/n/12 (-20) 0.113203704| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 []|\T1/futs/m/n/12 (+20) Hypogonadism, di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 \T1/futs/m/n/12 (+20) a-betes, ar-rhyth-mia,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 []|\T1/futs/m/n/12 (+20) Eicosanoid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 \T1/futs/m/n/12 (+20) Metabolism
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
 \T1/futs/m/n/12 (+20) (Homo sapi-ens,
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 471--471
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 460--460
 []|\T1/futs/m/n/12 (-20) 0.018593144| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []|\T1/futs/m/n/12 (+20) Pertussis Toxin-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--473
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 \T1/futs/m/n/12 (+20) (Homo sapi-ens,
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 473--473
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 462--462
 []|\T1/futs/m/n/12 (-20) 0.083487378| 
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 475--475
+Underfull \hbox (badness 5008) in paragraph at lines 464--464
 \T1/futs/m/n/12 (+20) way (Homo sapi-ens,
  []
 
 
-Overfull \hbox (3.35254pt too wide) in paragraph at lines 475--475
+Overfull \hbox (3.35254pt too wide) in paragraph at lines 464--464
 []|\T1/futs/m/n/12 (-20) 0.083487378| 
  []
 
 
-Overfull \hbox (59.9584pt too wide) in alignment at lines 447--477
+Overfull \hbox (59.9584pt too wide) in alignment at lines 432--466
  [] [] [] [] 
  []
 
-[51 <./chapters/chapter04/./fig/fig4_8.png>]
+[52 <./chapters/chapter04/./fig/fig4_8.png>]
 
-[52]
-<chapters/chapter04/./fig/fig4_9.png, id=775, 581.92406pt x 280.04625pt>
+[53]
+<chapters/chapter04/./fig/fig4_9.png, id=801, 581.92406pt x 280.04625pt>
 File: chapters/chapter04/./fig/fig4_9.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_9.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_9.png  used on input line 491.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_9.png  used on input line 480.
 (pdftex.def)             Requested size: 413.87933pt x 199.16928pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
 []|\T1/futs/b/n/10.95 (+20) Most Rel-e-vant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
 \T1/futs/m/n/10.95 (+20) Cell Tol-er-ance
  []
 
 
-Overfull \hbox (2.02234pt too wide) in paragraph at lines 523--523
+Overfull \hbox (2.02234pt too wide) in paragraph at lines 512--512
 []|\T1/futs/m/n/10.95 (-20) Cardiomyopathy| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
+Underfull \hbox (badness 10000) in paragraph at lines 512--512
 []|\T1/futs/m/n/10.95 (+20) T2D and car-
  []
 
 
 
-[53 <./chapters/chapter04/./fig/fig4_9.png>]
+[54 <./chapters/chapter04/./fig/fig4_9.png>]
 
-[54]
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/b/n/10.95 (+20) Most rel-e-vant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) PTGER4;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) LGALS1; IFI16;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) NINJ1; SIRPA;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) METRNL;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) TN-FRSF1A;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/n/10.95 (+20) Positive Reg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/n/10.95 (+20) u-la-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/n/10.95 (+20) Interleukin-4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) CEBPB; RARA;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/n/10.95 (+20) Regulation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/n/10.95 (+20) Interleukin-6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) C1QTNF4;
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 567--567
+Underfull \hbox (badness 1852) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) CD74; GP-NMB;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) SIRPA; GAS6;
  []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 567--567
+Underfull \hbox (badness 5217) in paragraph at lines 556--556
 []|\T1/futs/m/n/10.95 (+20) Intrinsic Apop-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/n/10.95 (+20) totic Sig-nal-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) IFI16; BCL2;
  []
 
 
-Overfull \hbox (15.29018pt too wide) in paragraph at lines 567--567
+Overfull \hbox (15.29018pt too wide) in paragraph at lines 556--556
 []|\T1/futs/m/n/10.95 (-20) Glomerulonephritis| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) C1QB; C1QA;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/n/10.95 (+20) Periorbital
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) ADAMTS2;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 \T1/futs/m/it/10.95 (+20) RIN2; TN-
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 567--567
+Underfull \hbox (badness 2057) in paragraph at lines 556--556
 []|\T1/futs/m/n/10.95 (+20) Systemic lu-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 []|\T1/futs/m/it/10.95 (+20) IGHM; BCL2;
  []
 
 
-Package natbib Warning: Citation `6' on page 55 undefined on input line 571.
+Package natbib Warning: Citation `6' on page 56 undefined on input line 560.
 
 
 
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []|\T1/futs/b/n/10.95 (+20) Most rel-e-vant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []|\T1/futs/m/n/10.95 (+20) Osteoclast Dif-
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 610--610
+Underfull \hbox (badness 4024) in paragraph at lines 599--599
 \T1/futs/m/n/10.95 (+20) rial skin in-fec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []|\T1/futs/m/n/10.95 (+20) Diabetes and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 []|\T1/futs/m/n/10.95 (+20) Chronic ob-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--610
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
 \T1/futs/m/n/10.95 (+20) struc-tive pul-
  []
 
 
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\T1/futs/b/n/10.95 (+20) Most rel-e-vant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (+20) Regulation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 \T1/futs/m/n/10.95 (+20) Amyloid-Beta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (+20) Integrated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (+20) Cholesterol
  []
 
 
-Overfull \hbox (14.04588pt too wide) in paragraph at lines 640--640
+Overfull \hbox (14.04588pt too wide) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (-20) Aplasia/Hypoplasia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 \T1/futs/m/n/10.95 (+20) in-volv-ing the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (+20) Urinary gly-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 \T1/futs/m/n/10.95 (+20) cosamino-gly-
  []
 
 
-Overfull \hbox (14.39034pt too wide) in paragraph at lines 640--640
+Overfull \hbox (14.39034pt too wide) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (-20) Hypergonadotropic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
 []|\T1/futs/m/n/10.95 (+20) Hypogonadism
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 659--659
 []|\T1/futs/b/n/10.95 (+20) Most rel-e-vant
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 670--670
+Underfull \hbox (badness 1337) in paragraph at lines 659--659
 []|\T1/futs/m/n/10.95 (+20) Glomerular Ep-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 659--659
 []|\T1/futs/m/n/10.95 (+20) Regulation of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--670
+Underfull \hbox (badness 10000) in paragraph at lines 659--659
 \T1/futs/m/n/10.95 (+20) Ep-ithe-lial Cell
  []
 
 
-Overfull \hbox (1.51996pt too wide) in paragraph at lines 670--670
+Overfull \hbox (1.51996pt too wide) in paragraph at lines 659--659
 []|\T1/futs/m/n/10.95 (-20) Cardiomyopathy
  []
 
 
-Overfull \hbox (14.04588pt too wide) in paragraph at lines 670--670
+Overfull \hbox (14.04588pt too wide) in paragraph at lines 659--659
 []|\T1/futs/m/n/10.95 (-20) Aplasia/Hypoplasia
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 670--670
+Underfull \hbox (badness 1383) in paragraph at lines 659--659
 \T1/futs/m/n/10.95 (+20) of the ab-dom-i-
  []
 
 
 
-[57]
-Underfull \hbox (badness 10000) in paragraph at lines 673--674
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []|\T1/futs/b/n/10.95 (+20) Most rel-e-vant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []|\T1/futs/m/n/10.95 (+20) T-helper Cell
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []|\T1/futs/m/n/10.95 (+20) Prostanoid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 \T1/futs/m/n/10.95 (+20) Metabolic Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 []|\T1/futs/m/n/10.95 (+20) Progressive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 687--687
 \T1/futs/m/n/10.95 (+20) mus-cle weak-
  []
 
 
 
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
-
- []
-
-
-
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 729--730
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--732
+Underfull \hbox (badness 10000) in paragraph at lines 697--698
 
  []
 
 
 
 [60]
-<chapters/chapter04/./fig/fig4_10.png, id=829, 749.04843pt x 447.92343pt>
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 720--721
+
+ []
+
+
+
+[61]
+<chapters/chapter04/./fig/fig4_10.png, id=855, 749.04843pt x 447.92343pt>
 File: chapters/chapter04/./fig/fig4_10.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_10.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_10.png  used on input line 779.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_10.png  used on input line 768.
 (pdftex.def)             Requested size: 333.0569pt x 199.16928pt.
-<chapters/chapter04/./fig/fig4_11.png, id=830, 469.755pt x 403.0695pt>
+<chapters/chapter04/./fig/fig4_11.png, id=856, 469.755pt x 403.0695pt>
 File: chapters/chapter04/./fig/fig4_11.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_11.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_11.png  used on input line 790.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_11.png  used on input line 779.
 (pdftex.def)             Requested size: 331.60023pt x 284.52756pt.
 
 
-[61 <./chapters/chapter04/./fig/fig4_10.png>]
+[62 <./chapters/chapter04/./fig/fig4_10.png>]
 
-[62 <./chapters/chapter04/./fig/fig4_11.png>]
+[63 <./chapters/chapter04/./fig/fig4_11.png>]
 
-Package natbib Warning: Citation `8' on page 63 undefined on input line 818.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 818--819
-
- []
+Package natbib Warning: Citation `8' on page 64 undefined on input line 807.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--821
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
 
  []
 
 
-Package natbib Warning: Citation `8' on page 63 undefined on input line 824.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 824--825
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--847
+Package natbib Warning: Citation `8' on page 64 undefined on input line 813.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 836--836
 []|\T1/futs/m/n/10.95 (+20) Gemtuzumab
  []
 
 
 
-[63]
-<chapters/chapter04/./fig/fig4_12_1.png, id=846, 298.86656pt x 298.86656pt>
+[64]
+<chapters/chapter04/./fig/fig4_12_1.png, id=872, 298.86656pt x 298.86656pt>
 File: chapters/chapter04/./fig/fig4_12_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_12_1.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_12_1.png  used on input line 864.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_12_1.png  used on input line 853.
 (pdftex.def)             Requested size: 200.078pt x 200.07993pt.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 865.
+Package nag Warning: \label in float, but not after \caption on input line 854.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 865.
+Package nag Warning: \label in float, but not after \caption on input line 854.
 
-<chapters/chapter04/./fig/fig4_12_2.png, id=847, 298.11375pt x 299.61937pt>
+<chapters/chapter04/./fig/fig4_12_2.png, id=873, 298.11375pt x 299.61937pt>
 File: chapters/chapter04/./fig/fig4_12_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_12_2.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_12_2.png  used on input line 870.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_12_2.png  used on input line 859.
 (pdftex.def)             Requested size: 200.078pt x 201.08682pt.
 
-Package nag Warning: \label in float, but not after \caption on input line 871.
+Package nag Warning: \label in float, but not after \caption on input line 860.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 871.
+Package nag Warning: \label in float, but not after \caption on input line 860.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
+Underfull \hbox (badness 10000) in paragraph at lines 896--896
 []|\T1/futs/m/n/10.95 (+20) (1R)-1,2,2-TRIMETHYLPROPYL (R)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--907
+Underfull \hbox (badness 10000) in paragraph at lines 896--896
 []|\T1/futs/m/n/10.95 (+20) Hydroxy-Phenyl-Acetic Acid 8-Methyl-8-Aza-
  []
 
 
 
-[64 <./chapters/chapter04/./fig/fig4_12_1.png> <./chapters/chapter04/./fig/fig4_12_2.png>]
-<chapters/chapter04/./fig/fig4_13_1.png, id=854, 298.86656pt x 298.86656pt>
+[65 <./chapters/chapter04/./fig/fig4_12_1.png> <./chapters/chapter04/./fig/fig4_12_2.png>]
+<chapters/chapter04/./fig/fig4_13_1.png, id=880, 298.86656pt x 298.86656pt>
 File: chapters/chapter04/./fig/fig4_13_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_13_1.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_13_1.png  used on input line 915.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_13_1.png  used on input line 904.
 (pdftex.def)             Requested size: 200.078pt x 200.07993pt.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 916.
+Package nag Warning: \label in float, but not after \caption on input line 905.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 916.
+Package nag Warning: \label in float, but not after \caption on input line 905.
 
-<chapters/chapter04/./fig/fig4_13_2.png, id=855, 298.11375pt x 299.61937pt>
+<chapters/chapter04/./fig/fig4_13_2.png, id=881, 298.11375pt x 299.61937pt>
 File: chapters/chapter04/./fig/fig4_13_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_13_2.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_13_2.png  used on input line 921.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_13_2.png  used on input line 910.
 (pdftex.def)             Requested size: 200.078pt x 201.08682pt.
 
-Package nag Warning: \label in float, but not after \caption on input line 922.
+Package nag Warning: \label in float, but not after \caption on input line 911.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 922.
+Package nag Warning: \label in float, but not after \caption on input line 911.
 
-<chapters/chapter04/./fig/fig4_14_1.png, id=856, 292.09125pt x 706.64pt>
+<chapters/chapter04/./fig/fig4_14_1.png, id=882, 292.09125pt x 706.64pt>
 File: chapters/chapter04/./fig/fig4_14_1.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_14_1.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_14_1.png  used on input line 932.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_14_1.png  used on input line 921.
 (pdftex.def)             Requested size: 235.22432pt x 569.05511pt.
 
-Package nag Warning: \label in float, but not after \caption on input line 933.
+Package nag Warning: \label in float, but not after \caption on input line 922.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 933.
+Package nag Warning: \label in float, but not after \caption on input line 922.
 
 
-Overfull \hbox (35.14632pt too wide) in paragraph at lines 932--934
+Overfull \hbox (35.14632pt too wide) in paragraph at lines 921--923
  [][] 
  []
 
-<chapters/chapter04/./fig/fig4_14_2.png, id=857, 512.91624pt x 669.50125pt>
+<chapters/chapter04/./fig/fig4_14_2.png, id=883, 512.91624pt x 669.50125pt>
 File: chapters/chapter04/./fig/fig4_14_2.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_14_2.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_14_2.png  used on input line 938.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_14_2.png  used on input line 927.
 (pdftex.def)             Requested size: 227.6248pt x 569.09918pt.
 
-Package nag Warning: \label in float, but not after \caption on input line 939.
+Package nag Warning: \label in float, but not after \caption on input line 928.
 
 
-Package nag Warning: \label in float, but not after \caption on input line 939.
+Package nag Warning: \label in float, but not after \caption on input line 928.
 
 
-Overfull \hbox (27.5468pt too wide) in paragraph at lines 938--940
+Overfull \hbox (27.5468pt too wide) in paragraph at lines 927--929
  [][] 
  []
 
 
 
-[65 <./chapters/chapter04/./fig/fig4_13_1.png> <./chapters/chapter04/./fig/fig4_13_2.png>]
+[66 <./chapters/chapter04/./fig/fig4_13_1.png> <./chapters/chapter04/./fig/fig4_13_2.png>]
 
-Package natbib Warning: Citation `8' on page 66 undefined on input line 948.
-
-
-Package natbib Warning: Citation `8' on page 66 undefined on input line 948.
+Package natbib Warning: Citation `8' on page 67 undefined on input line 937.
 
 
-LaTeX Warning: Reference `fig:phylogenetic_tree' on page 66 undefined on input line 948.
+Package natbib Warning: Citation `8' on page 67 undefined on input line 937.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--949
+LaTeX Warning: Reference `fig:phylogenetic_tree' on page 67 undefined on input line 937.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
 
  []
 
 
 
-[66 <./chapters/chapter04/./fig/fig4_14_1.png> <./chapters/chapter04/./fig/fig4_14_2.png>]
-<chapters/chapter04/./fig/fig4_15.png, id=870, 480.29437pt x 336.50719pt>
+[67 <./chapters/chapter04/./fig/fig4_14_1.png> <./chapters/chapter04/./fig/fig4_14_2.png>]
+<chapters/chapter04/./fig/fig4_15.png, id=896, 480.29437pt x 336.50719pt>
 File: chapters/chapter04/./fig/fig4_15.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_15.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_15.png  used on input line 952.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_15.png  used on input line 941.
 (pdftex.def)             Requested size: 406.10483pt x 284.52756pt.
 
 
-[67 <./chapters/chapter04/./fig/fig4_15.png>]
-<chapters/chapter04/./fig/fig4_16.png, id=879, 418.1805pt x 416.2095pt>
+[68 <./chapters/chapter04/./fig/fig4_15.png>]
+<chapters/chapter04/./fig/fig4_16.png, id=906, 418.1805pt x 416.2095pt>
 File: chapters/chapter04/./fig/fig4_16.png Graphic file (type png)
 <use chapters/chapter04/./fig/fig4_16.png>
-Package pdftex.def Info: chapters/chapter04/./fig/fig4_16.png  used on input line 962.
+Package pdftex.def Info: chapters/chapter04/./fig/fig4_16.png  used on input line 951.
 (pdftex.def)             Requested size: 285.884pt x 284.52756pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 969--970
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
  []
 
 
 
-[68 <./chapters/chapter04/./fig/fig4_16.png>]) (chapters/chapter05/chap05.tex
+[69 <./chapters/chapter04/./fig/fig4_16.png>]) (chapters/chapter05/chap05.tex
 
-[69]
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
-[70
+ []
 
-])
 
-[71]
+
+[71
+
+]
+Overfull \hbox (12.94064pt too wide) in paragraph at lines 19--20
+[]\T1/futs/m/n/12 (-20) Overall, this in-ves-ti-ga-tion deep-ens the molec-u-lar un-der-stand-ing of beta-thalassemia^^MÄôs
+ []
+
+
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+)
+
+[73]
 
 Package nag Warning: Command \centerline is TeX. 
 (nag)                Use \centering or center environment instead on input line 266.
 
 
 
-[72
+[74
 
 ]
 
-[73]
-Underfull \hbox (badness 1168) in paragraph at lines 293--294
-[]\T1/futs/m/n/12 (+20) Gupta, R., et al., 2023. Preva-lence of en-docrine com-pli-ca-tions in beta-
- []
+[75]
 
+[76]
 
 Package natbib Warning: There were undefined citations.
 
@@ -4947,7 +5055,7 @@ Package nag Warning: 14 complaints in total.
 
 
 
-[74]
+[77]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -4970,27 +5078,27 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1F668592D91A493EC9DCFD188D3040ED;8890.
+(rerunfilecheck)             Checksum: 4A1357B06BE510537D8F5D3C1CCE2A15;8754.
  )
-(\end occurred when \ifx on line 828 was incomplete)
-(\end occurred when \ifx on line 736 was incomplete)
-(\end occurred when \ifx on line 712 was incomplete)
+(\end occurred when \ifx on line 817 was incomplete)
+(\end occurred when \ifx on line 725 was incomplete)
+(\end occurred when \ifx on line 701 was incomplete)
 (\end occurred when \ifx on line 173 was incomplete)
 (\end occurred when \ifx on line 104 was incomplete)
 (\end occurred when \ifx on line 73 was incomplete)
 (\end occurred when \ifx on line 39 was incomplete) 
 Here is how much of TeX's memory you used:
- 39840 strings out of 468134
- 748956 string characters out of 5429736
- 1307038 words of memory out of 5000000
- 66552 multiletter control sequences out of 15000+600000
- 833056 words of font info for 711 fonts, out of 8000000 for 9000
+ 39885 strings out of 468134
+ 749545 string characters out of 5429736
+ 1311011 words of memory out of 5000000
+ 66566 multiletter control sequences out of 15000+600000
+ 835679 words of font info for 731 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 86i,15n,131p,2071b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,15n,131p,2116b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\AB Noor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mex.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putbi8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><C:/Users/AB Noor/AppData/Local/Programs/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (85 pages, 4731097 bytes).
+Output written on main.pdf (88 pages, 4747344 bytes).
 PDF statistics:
- 1028 PDF objects out of 1200 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
- 158755 words of extra memory for PDF output out of 184870 (max. 10000000)
+ 1056 PDF objects out of 1200 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 154659 words of extra memory for PDF output out of 184870 (max. 10000000)
 
