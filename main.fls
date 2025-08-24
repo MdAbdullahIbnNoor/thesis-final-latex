@@ -625,16 +625,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fo
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8t.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futmii.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ml.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8r.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
 INPUT .\chapters\chapter01\chap01.tex
 INPUT chapters\chapter01\chap01.tex
 INPUT .\chapters\chapter01\chap01.tex
@@ -651,9 +641,16 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\fut
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futmii.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ml.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8c.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-orns.tfm
 INPUT .\chapters\chapter02\chap02.tex
@@ -675,6 +672,9 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\fut
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ml.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futmii.tfm
@@ -729,12 +729,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fu
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
-INPUT .\chapters\chapter03\.\fig\disease.png
-INPUT chapters\chapter03\.\fig\disease.png
-INPUT .\chapters\chapter03\.\fig\disease.png
-INPUT .\chapters\chapter03\.\fig\disease.png
-INPUT .\chapters\chapter03\.\fig\disease.png
-INPUT .\chapters\chapter03\.\fig\disease.png
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
 INPUT .\chapters\chapter04\chap04.tex
 INPUT chapters\chapter04\chap04.tex
@@ -756,12 +750,12 @@ INPUT .\chapters\chapter04\.\fig\fig4_2.png
 INPUT .\chapters\chapter04\.\fig\fig4_2.png
 INPUT .\chapters\chapter04\.\fig\fig4_2.png
 INPUT .\chapters\chapter04\.\fig\fig4_2.png
-INPUT .\chapters\chapter04\.\fig\fig4_3.png
-INPUT chapters\chapter04\.\fig\fig4_3.png
-INPUT .\chapters\chapter04\.\fig\fig4_3.png
-INPUT .\chapters\chapter04\.\fig\fig4_3.png
-INPUT .\chapters\chapter04\.\fig\fig4_3.png
-INPUT .\chapters\chapter04\.\fig\fig4_3.png
+INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
+INPUT chapters\chapter04\.\fig\fig4_3.jpg
+INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
+INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
+INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
+INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futri8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-ita.tfm
 INPUT .\chapters\chapter04\.\fig\fig4_4.png
@@ -822,6 +816,12 @@ INPUT .\chapters\chapter04\.\fig\fig4_11.png
 INPUT .\chapters\chapter04\.\fig\fig4_11.png
 INPUT .\chapters\chapter04\.\fig\fig4_11.png
 INPUT .\chapters\chapter04\.\fig\fig4_11.png
+INPUT .\chapters\chapter04\.\fig\fig4_17_2.png
+INPUT chapters\chapter04\.\fig\fig4_17_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_17_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_17_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_17_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_17_2.png
 INPUT .\chapters\chapter04\.\fig\fig4_12_1.png
 INPUT chapters\chapter04\.\fig\fig4_12_1.png
 INPUT .\chapters\chapter04\.\fig\fig4_12_1.png

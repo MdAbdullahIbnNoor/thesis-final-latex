@@ -1,86 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Up and Down-regulated Genes Chart</title>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f5f5f5;
-        }
-        #geneChart {
-            max-width: 600px;
-            width: 100%;
-        }
-    </style>
-    </head>
-    <body>
-        <canvas id="geneChart"></canvas>
-        <script>
-        const ctx = document.getElementById('geneChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['Beta-thalassemia','PCOS', 'Hypothyroidism','Hypogonadism', 'T2D','ACM', 'Arrhythmia' ],
-                datasets: [
-                    {
-                        label: 'Up-regulated',
-                        data: [123, 1, 1, 4 , 0, 1 , 14 ],
-                        backgroundColor: 'rgba(255, 99, 132, 0.6)',
-                        borderColor: 'rgba(255, 99, 132, 1)',
-                        borderWidth: 1
-                    },
-                    {
-                        label: 'Down-regulated',
-                        data: [991, 12, 12, 161, 14, 10, 30],
-                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
-                        borderColor: 'rgba(54, 162, 235, 1)',
-                        borderWidth: 1
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Disease',
-                            font: { size: 14, family: 'Times New Roman' }
-                        },
-                        ticks: { font: { size: 12, family: 'Times New Roman' } }
-                    },
-                    y: {
-                        type: 'logarithmic',
-                        title: {
-                            display: true,
-                            text: 'Number of Genes (Log Scale)',
-                            font: { size: 14, family: 'Times New Roman' }
-                        },
-                        ticks: {
-                            font: { size: 12, family: 'Times New Roman' },
-                            callback: function(value) {
-                                return Number(value.toString());
-                            }
-                        },
-                        beginAtZero: true
-                    }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Up and Down-regulated Genes Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    }
+    #geneChart {
+      max-width: 800px;
+      width: 100%;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="geneChart"></canvas>
+  <script>
+    const ctx = document.getElementById('geneChart').getContext('2d');
 
-                },
-                plugins: {
-                    legend: {
-                        labels: { font: { size: 12, family: 'Times New Roman' } }
-                    }
-                }
+    // Gradient colors
+    const gradientUp = ctx.createLinearGradient(0, 0, 0, 400);
+    gradientUp.addColorStop(0, 'rgba(255, 99, 132, 0.9)');
+    gradientUp.addColorStop(1, 'rgba(255, 180, 200, 0.6)');
+
+    const gradientDown = ctx.createLinearGradient(0, 0, 0, 400);
+    gradientDown.addColorStop(0, 'rgba(54, 162, 235, 0.9)');
+    gradientDown.addColorStop(1, 'rgba(180, 220, 255, 0.6)');
+
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Beta-thalassemia','PCOS', 'Hypothyroidism','Hypogonadism', 'T2D','ACM', 'Arrhythmia' ],
+        datasets: [
+          {
+            label: 'Up-regulated',
+            data: [123, 1, 1, 4, 0, 1, 14],
+            backgroundColor: gradientUp,
+            borderColor: 'rgba(200, 30, 80, 1)',
+            borderWidth: 1,
+            borderRadius: 8
+          },
+          {
+            label: 'Down-regulated',
+            data: [991, 12, 12, 161, 14, 10, 30],
+            backgroundColor: gradientDown,
+            borderColor: 'rgba(30, 90, 200, 1)',
+            borderWidth: 1,
+            borderRadius: 8
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        animation: {
+          duration: 1500,
+          easing: 'easeOutBounce'
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'Disease',
+              font: { size: 16, family: 'Times New Roman', weight: 'bold' },
+              color: '#333'
+            },
+            ticks: { font: { size: 14, family: 'Times New Roman' }, color: '#555' },
+            grid: { color: 'rgba(0,0,0,0.05)' }
+          },
+          y: {
+            type: 'logarithmic',
+            title: {
+              display: true,
+              text: 'Number of Genes (Log Scale)',
+              font: { size: 16, family: 'Times New Roman', weight: 'bold' },
+              color: '#333'
+            },
+            ticks: {
+              font: { size: 12, family: 'Times New Roman' },
+              color: '#555',
+              callback: function(value) {
+                return Number(value.toString());
+              }
+            },
+            grid: { color: 'rgba(0,0,0,0.05)' },
+            beginAtZero: true
+          }
+        },
+        plugins: {
+          legend: {
+            labels: {
+              font: { size: 14, family: 'Times New Roman' },
+              color: '#333'
             }
-        });
-    </script>
-    </body>
+          },
+          tooltip: {
+            backgroundColor: 'rgba(0,0,0,0.8)',
+            titleFont: { family: 'Times New Roman', size: 14, weight: 'bold' },
+            bodyFont: { family: 'Times New Roman', size: 12 },
+            cornerRadius: 8,
+            callbacks: {
+              label: function(context) {
+                return `${context.dataset.label}: ${context.raw} genes`;
+              }
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
 </html>

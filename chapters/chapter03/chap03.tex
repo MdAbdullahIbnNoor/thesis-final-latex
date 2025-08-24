@@ -6,7 +6,7 @@
 \let\textcircled=\pgftextcircled
 \chapter{Methodology}
 \label{chap:methodology}
-In this chapter, the methodology has been clarified. For discussion convenience, there are a total of 3 sub-chapters under chapter 3, which we introduced. In section 3.1, we discussed the collected dataset; in section 3.2, we discussed data pre-processing; in section 3.3, we discussed proposed deep learning architectures.
+In this chapter, the methodology for analyzing beta-thalassemia and its comorbidities has been detailed. For discussion convenience, there are a total of 4 sub-chapters under Chapter 3. In section 3.1, we discussed the collection of genetic datasets; in section 3.2, we described the differential gene expression analysis; in section 3.3, we outlined the pathway and network analysis; and in section 3.4, we explained the validation and visualization techniques.
 
 \vspace{150mm}
 %\vspace{2mm}
@@ -271,12 +271,12 @@ The common DEGs identified through cross-comparative analysis of GEO datasets we
 
 Downregulation is the process in which a cell reduces the expression level of a gene compared to a reference in response to an external variable. Upregulation refers to an increase in expression level compared to a reference. Here, the expression level indicates the abundance of biological components, such as RNA or protein~\cite{updown_reg_ref}. These changes are typically determined by comparing two groups: a reference or control sample, often healthy tissue, and a test sample, such as diseased or mutant tissue. The expression values of the test sample are compared against those of the reference sample to generate expression ratios, which is standard practice in gene expression analysis. These ratios are typically transformed into a logarithmic scale for easier interpretation. A positive log value indicates that the gene expression is higher in the test sample compared to the reference, indicating upregulation. A negative log value signifies reduced expression in the test sample relative to the reference, indicating downregulation. Thus, by comparing the expression profiles of two samples, it is possible to determine whether a gene is up- or down-regulated under specific conditions.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.95\textwidth]{./fig/disease}
-\caption{Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log_2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}
-\label{fig:up_down_genes}
-\end{figure}
+% \begin{figure}[h]
+% \centering
+% \includegraphics[width=0.95\textwidth]{./fig/disease}
+% \caption{Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log_2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}
+% \label{fig:up_down_genes}
+% \end{figure}
 
 \vspace*{-\parskip}
 \subsection{Common Dysregulated Genes}

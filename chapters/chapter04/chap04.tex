@@ -153,7 +153,7 @@ This study visualizes a heat-map to represent the expression levels of different
 
 \begin{figure}[H]
 \centering
-\includegraphics[height=12cm]{./fig/fig4_3.png} 
+\includegraphics[height=12cm]{./fig/fig4_3.jpg} 
 \centering
 \caption{Heatmap visualization of gene expression.}
 \label{Heatmap}
@@ -429,10 +429,10 @@ Regulation of MAP Kinase Pathways Through Dual Specificity Phosphatases (Homo sa
 \label{Graphical depiction of   pathways of ACM.}
 \end{figure}
 
-\begin{longtable}{|p{4cm}|p{5cm}|p{2cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{4cm}|p{2.4cm}|p{3cm}|}
     \caption[Significant pathways of Arrhythmia of shared DEGs]{Significant pathways of Arrhythmia of shared DEGs}
     \label{tab:Arrhythmia_pathways} \\
-    \hline
+    \hline 
     \textbf{Significant Pathways} & \textbf{Gene Symbols} & \textbf{Adjusted P-Value} & \textbf{Most Relevant Disease for this Pathway} \\
     \hline
       \renewcommand{\arraystretch}{1.2} % spacing between rows
@@ -765,7 +765,7 @@ Protein-Protein Interaction (PPI) analysis is a cornerstone of systems biology, 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=7cm]{./fig/fig4_10.png}
+    \includegraphics[height=9cm]{./fig/fig4_10.png}
     \centering
     \caption{Clusters information's of PPI networks of hub proteins of beta-thalassemia and comorbidities.}
     \label{PPI networks of hub proteins}
@@ -781,6 +781,18 @@ The PPI network is shown below in Figure 4.11:
     \caption{PPI networks of hub proteins of beta-thalassemia and comorbidities.}
     \label{PPI networks of hub proteins of beta-thalassemia and comorbidities.}
 \end{figure}
+
+To further elucidate the structural organization of the PPI network, we performed a cluster analysis to identify densely connected regions of hub proteins, providing deeper insights into their functional roles. The results are visualized in the following figure.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=7cm]{./fig/fig4_17_2.png}
+    \centering
+    \caption{Detailed cluster analysis of PPI networks for hub proteins of beta-thalassemia and comorbidities.}
+    \label{fig:ppi_cluster_analysis}
+\end{figure}
+
+The cluster analysis highlights distinct modules within the PPI network, with CD74 and BCL2 forming central clusters linked to inflammation and apoptosis. These modules underscore the critical roles of these hub proteins in mediating iron overload effects across comorbidities, supporting their potential as therapeutic targets. 
 
 \begin{itemize}
     \item \textbf{CD74} is a central hub in the PPI network. \textit{CD74} manages MHC class II antigen processing, guiding peptide-free complexes to endosomal/lysosomal systems. In beta-thalassemia, it drives immune dysregulation worsened by iron overload, fueling inflammation in hypogonadism, T2D, and arrhythmia. Its link to MIF amplifies systemic inflammation across these comorbidities.
