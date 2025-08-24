@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Up and Down-regulated Genes Chart</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Up and Down-regulated Genes Chart</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
         body {
             font-family: 'Times New Roman', Times, serif;
             display: flex;
@@ -20,26 +20,26 @@
             width: 100%;
         }
     </style>
-</head>
-<body>
-    <canvas id="geneChart"></canvas>
-    <script>
+    </head>
+    <body>
+        <canvas id="geneChart"></canvas>
+        <script>
         const ctx = document.getElementById('geneChart').getContext('2d');
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Beta-thalassemia', 'T2D', 'PCOS', 'Hypogonadism'],
+                labels: ['Beta-thalassemia','PCOS', 'Hypothyroidism','Hypogonadism', 'T2D','ACM', 'Arrhythmia' ],
                 datasets: [
                     {
                         label: 'Up-regulated',
-                        data: [50, 40, 45, 30],
+                        data: [123, 1, 1, 4 , 0, 1 , 14 ],
                         backgroundColor: 'rgba(255, 99, 132, 0.6)',
                         borderColor: 'rgba(255, 99, 132, 1)',
                         borderWidth: 1
                     },
                     {
                         label: 'Down-regulated',
-                        data: [30, 25, 20, 35],
+                        data: [991, 12, 12, 161, 14, 10, 30],
                         backgroundColor: 'rgba(54, 162, 235, 0.6)',
                         borderColor: 'rgba(54, 162, 235, 1)',
                         borderWidth: 1
@@ -58,15 +58,21 @@
                         ticks: { font: { size: 12, family: 'Times New Roman' } }
                     },
                     y: {
+                        type: 'logarithmic',
                         title: {
                             display: true,
-                            text: 'Number of Genes',
+                            text: 'Number of Genes (Log Scale)',
                             font: { size: 14, family: 'Times New Roman' }
                         },
-                        ticks: { font: { size: 12, family: 'Times New Roman' } },
-                        beginAtZero: true,
-                        max: 100
+                        ticks: {
+                            font: { size: 12, family: 'Times New Roman' },
+                            callback: function(value) {
+                                return Number(value.toString());
+                            }
+                        },
+                        beginAtZero: true
                     }
+
                 },
                 plugins: {
                     legend: {
@@ -76,5 +82,5 @@
             }
         });
     </script>
-</body>
+    </body>
 </html>

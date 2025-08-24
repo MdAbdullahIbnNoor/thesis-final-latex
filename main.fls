@@ -21,9 +21,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\base\leqno.clo
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\base\leqno.clo
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\base\leqno.clo
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem12.clo
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem12.clo
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem12.clo
@@ -678,8 +675,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\fut
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ml.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8r.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futmii.tfm
@@ -745,39 +740,124 @@ INPUT .\chapters\chapter04\chap04.tex
 INPUT chapters\chapter04\chap04.tex
 INPUT .\chapters\chapter04\chap04.tex
 INPUT chapters\chapter04\chap04.tex
-INPUT .\chapters\chapter04\.\fig\accuracy_curve.pdf
-INPUT chapters\chapter04\.\fig\accuracy_curve.pdf
-INPUT .\chapters\chapter04\.\fig\accuracy_curve.pdf
-INPUT .\chapters\chapter04\.\fig\accuracy_curve.pdf
-INPUT .\chapters\chapter04\.\fig\accuracy_curve.pdf
-INPUT .\chapters\chapter04\.\fig\loss_curve.pdf
-INPUT chapters\chapter04\.\fig\loss_curve.pdf
-INPUT .\chapters\chapter04\.\fig\loss_curve.pdf
-INPUT .\chapters\chapter04\.\fig\loss_curve.pdf
-INPUT .\chapters\chapter04\.\fig\loss_curve.pdf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
-INPUT .\chapters\chapter04\.\fig\per_class.pdf
-INPUT chapters\chapter04\.\fig\per_class.pdf
-INPUT .\chapters\chapter04\.\fig\per_class.pdf
-INPUT .\chapters\chapter04\.\fig\per_class.pdf
-INPUT .\chapters\chapter04\.\fig\per_class.pdf
-INPUT .\chapters\chapter04\.\fig\per_class2.pdf
-INPUT chapters\chapter04\.\fig\per_class2.pdf
-INPUT .\chapters\chapter04\.\fig\per_class2.pdf
-INPUT .\chapters\chapter04\.\fig\per_class2.pdf
-INPUT .\chapters\chapter04\.\fig\per_class2.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix.pdf
-INPUT chapters\chapter04\.\fig\confusion_matrix.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix_2.pdf
-INPUT chapters\chapter04\.\fig\confusion_matrix_2.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix_2.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix_2.pdf
-INPUT .\chapters\chapter04\.\fig\confusion_matrix_2.pdf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futrc8t.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futrc8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt.tfm
+INPUT .\chapters\chapter04\.\fig\fig4_1.png
+INPUT chapters\chapter04\.\fig\fig4_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_2.png
+INPUT chapters\chapter04\.\fig\fig4_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_3.png
+INPUT chapters\chapter04\.\fig\fig4_3.png
+INPUT .\chapters\chapter04\.\fig\fig4_3.png
+INPUT .\chapters\chapter04\.\fig\fig4_3.png
+INPUT .\chapters\chapter04\.\fig\fig4_3.png
+INPUT .\chapters\chapter04\.\fig\fig4_3.png
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futri8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-ita.tfm
+INPUT .\chapters\chapter04\.\fig\fig4_4.png
+INPUT chapters\chapter04\.\fig\fig4_4.png
+INPUT .\chapters\chapter04\.\fig\fig4_4.png
+INPUT .\chapters\chapter04\.\fig\fig4_4.png
+INPUT .\chapters\chapter04\.\fig\fig4_4.png
+INPUT .\chapters\chapter04\.\fig\fig4_4.png
+INPUT .\chapters\chapter04\.\fig\fig4_5.png
+INPUT chapters\chapter04\.\fig\fig4_5.png
+INPUT .\chapters\chapter04\.\fig\fig4_5.png
+INPUT .\chapters\chapter04\.\fig\fig4_5.png
+INPUT .\chapters\chapter04\.\fig\fig4_5.png
+INPUT .\chapters\chapter04\.\fig\fig4_5.png
+INPUT .\chapters\chapter04\.\fig\fig4_6.png
+INPUT chapters\chapter04\.\fig\fig4_6.png
+INPUT .\chapters\chapter04\.\fig\fig4_6.png
+INPUT .\chapters\chapter04\.\fig\fig4_6.png
+INPUT .\chapters\chapter04\.\fig\fig4_6.png
+INPUT .\chapters\chapter04\.\fig\fig4_6.png
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
+INPUT .\chapters\chapter04\.\fig\fig4_7.png
+INPUT chapters\chapter04\.\fig\fig4_7.png
+INPUT .\chapters\chapter04\.\fig\fig4_7.png
+INPUT .\chapters\chapter04\.\fig\fig4_7.png
+INPUT .\chapters\chapter04\.\fig\fig4_7.png
+INPUT .\chapters\chapter04\.\fig\fig4_7.png
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8t.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futri8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-ita.tfm
+INPUT .\chapters\chapter04\.\fig\fig4_8.png
+INPUT chapters\chapter04\.\fig\fig4_8.png
+INPUT .\chapters\chapter04\.\fig\fig4_8.png
+INPUT .\chapters\chapter04\.\fig\fig4_8.png
+INPUT .\chapters\chapter04\.\fig\fig4_8.png
+INPUT .\chapters\chapter04\.\fig\fig4_8.png
+INPUT .\chapters\chapter04\.\fig\fig4_9.png
+INPUT chapters\chapter04\.\fig\fig4_9.png
+INPUT .\chapters\chapter04\.\fig\fig4_9.png
+INPUT .\chapters\chapter04\.\fig\fig4_9.png
+INPUT .\chapters\chapter04\.\fig\fig4_9.png
+INPUT .\chapters\chapter04\.\fig\fig4_9.png
+INPUT .\chapters\chapter04\.\fig\fig4_10.png
+INPUT chapters\chapter04\.\fig\fig4_10.png
+INPUT .\chapters\chapter04\.\fig\fig4_10.png
+INPUT .\chapters\chapter04\.\fig\fig4_10.png
+INPUT .\chapters\chapter04\.\fig\fig4_10.png
+INPUT .\chapters\chapter04\.\fig\fig4_10.png
+INPUT .\chapters\chapter04\.\fig\fig4_11.png
+INPUT chapters\chapter04\.\fig\fig4_11.png
+INPUT .\chapters\chapter04\.\fig\fig4_11.png
+INPUT .\chapters\chapter04\.\fig\fig4_11.png
+INPUT .\chapters\chapter04\.\fig\fig4_11.png
+INPUT .\chapters\chapter04\.\fig\fig4_11.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_1.png
+INPUT chapters\chapter04\.\fig\fig4_12_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_2.png
+INPUT chapters\chapter04\.\fig\fig4_12_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_12_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_1.png
+INPUT chapters\chapter04\.\fig\fig4_13_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_2.png
+INPUT chapters\chapter04\.\fig\fig4_13_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_13_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_1.png
+INPUT chapters\chapter04\.\fig\fig4_14_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_1.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_2.png
+INPUT chapters\chapter04\.\fig\fig4_14_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_2.png
+INPUT .\chapters\chapter04\.\fig\fig4_14_2.png
 INPUT .\chapters\chapter05\chap05.tex
 INPUT chapters\chapter05\chap05.tex
 INPUT .\chapters\chapter05\chap05.tex
@@ -796,6 +876,8 @@ INPUT .\main.out
 INPUT .\main.out
 INPUT C:\Users\AB Noor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\AB Noor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-mex.pfb
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-mex.pfb
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-mlit.pfb
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-mlit.pfb
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\type1\public\fourier\fourier-ms.pfb

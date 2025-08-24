@@ -3,15 +3,23 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{19}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{28}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log _2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}}{29}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Working flow diagram of this investigation}}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}}{22}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Workflow for Gene Ontology (GO) analysis using Enrichr to identify significant functional terms associated with DEGs.}}{26}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Number of up- and down-regulated genes across diseases, identified by comparing expression levels between test and control samples using $\log _2$ fold change thresholds (e.g., $\log FC > 1$ for up-regulated, $\log FC < -1$ for down-regulated, $p \leq 0.05$).}}{27}{figure.caption.13}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Accuracy Curve (ResNet-50 + Dense Layer)}}{37}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Loss Curve (ResNet-50 + Dense Layer)}}{37}{figure.caption.17}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + SVM)}}{39}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Per-Class Performance Metrics (ResNet-50 + Dense Layer)}}{39}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Confusion Matrix (ResNet-50 + SVM)}}{40}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Confusion Matrix (ResNet-50 + Dense Layer)}}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Loss Curve (DGNs network for up-regulation of common DEGs. Orange-colored nodes are genes, pink-colored nodes are comorbidities and the center represents the beta-thalassemia.)}}{39}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces DGNs network for down-regulation of common DEGs. Orange-colored nodes are genes, pink-colored nodes are comorbidities and the center represents the beta-thalassemia. Genes that are linked to several diseases are represented by the red color.}}{40}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Heatmap visualization of gene expression.}}{41}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Graphical depiction of pathways of Hypothyroidism}}{43}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Graphical depiction of pathways of Hypogonadism}}{45}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Graphical depiction of pathways of PCOS.}}{47}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Graphical depiction of pathways of T2D.}}{49}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graphical depiction of pathways of ACM.}}{51}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graphical depiction of pathways of Arrhythmia.}}{53}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Clusters information's of PPI networks of hub proteins of beta-thalassemia and comorbidities.}}{61}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces PPI networks of hub proteins of beta-thalassemia and comorbidities.}}{62}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Network Topology of Subnetwork1. }}{64}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Network Topology of Subnetwork2. }}{65}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces PDI networks of drug proteins of beta-thalassemia and comorbidities.}}{66}{figure.caption.49}%
 \addvspace {10pt}

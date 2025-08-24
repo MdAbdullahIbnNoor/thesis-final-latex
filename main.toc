@@ -4,49 +4,51 @@
 \contentsline {chapter}{List of Tables}{viii}{section*.7}%
 \contentsline {chapter}{List of Figures}{ix}{section*.8}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.1}General Introduction}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}General Background}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Motivation}{3}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Problem Statement}{3}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Thesis Objectives}{5}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Thesis Contribution}{6}{section.1.6}%
+\contentsline {section}{\numberline {1.5}Thesis Objectives}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Thesis Contribution}{5}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Significance}{6}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Thesis Layout}{7}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Conclusion}{8}{section.1.9}%
-\contentsline {chapter}{\chapternumberline {2}Literature Review}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Thesis Literature}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Brief Summary of Related Work}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Research Gap}{14}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Conclusion}{15}{section.2.4}%
-\contentsline {chapter}{\chapternumberline {3}Methodology}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{18}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Overview of Analytical Approaches}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Dataset Information}{19}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Methodology}{22}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Selection of mRNA-seq and Microarray Datasets}{22}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Differential Gene Expression Analysis}{23}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Gene Diseases Network Analysis}{25}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Pathway and Functional Association Analysis}{26}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Gene Ontology Analysis}{27}{subsection.3.4.5}%
-\contentsline {paragraph}{GO Analysis Workflow}{28}{section*.11}%
-\contentsline {subsection}{\numberline {3.4.6}Up and Down-regulated Identification}{28}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Common Dysregulated Genes}{29}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}Network Construction of PPI}{29}{subsection.3.4.8}%
-\contentsline {subsection}{\numberline {3.4.9}Protein-Drug Interactions Network Analysis}{30}{subsection.3.4.9}%
-\contentsline {subsection}{\numberline {3.4.10}Phylogenetic Analysis}{31}{subsection.3.4.10}%
-\contentsline {subsection}{\numberline {3.4.11}Validation Analysis}{32}{subsection.3.4.11}%
-\contentsline {subsection}{\numberline {3.4.12}Working Algorithm}{32}{subsection.3.4.12}%
-\contentsline {subsection}{\numberline {3.4.13}Algorithm}{32}{subsection.3.4.13}%
-\contentsline {subsection}{\numberline {3.4.14}Experimental Setup}{34}{subsection.3.4.14}%
-\contentsline {subsection}{\numberline {3.4.15}Conclusion}{34}{subsection.3.4.15}%
-\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{35}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Experimental Elements}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Result}{36}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Classification Report}{37}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Per Class Performance}{39}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Confusion Matrix}{40}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Discussion}{41}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{42}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{43}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{43}{section.5.2}%
-\contentsline {chapter}{REFERENCES}{44}{chapter*.23}%
+\contentsline {section}{\numberline {1.9}Conclusion}{7}{section.1.9}%
+\contentsline {chapter}{\chapternumberline {2}Literature Review}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Review of Literature}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Brief Summary of Related Work}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Research Gap}{13}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Conclusion}{14}{section.2.4}%
+\contentsline {chapter}{\chapternumberline {3}Methodology}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Overview of Analytical Approaches}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dataset Information}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Methodology}{21}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Selection of mRNA-seq and Microarray Datasets}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Differential Gene Expression Analysis}{22}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Gene Diseases Network Analysis}{24}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Pathway and Functional Association Analysis}{25}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Gene Ontology Analysis}{26}{subsection.3.4.5}%
+\contentsline {paragraph}{GO Analysis Workflow}{26}{section*.11}%
+\contentsline {subsection}{\numberline {3.4.6}Up and Down-regulated Identification}{26}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Common Dysregulated Genes}{27}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}Network Construction of PPI}{28}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}Protein-Drug Interactions Network Analysis}{28}{subsection.3.4.9}%
+\contentsline {subsection}{\numberline {3.4.10}Phylogenetic Analysis}{29}{subsection.3.4.10}%
+\contentsline {subsection}{\numberline {3.4.11}Validation Analysis}{30}{subsection.3.4.11}%
+\contentsline {subsection}{\numberline {3.4.12}Working Algorithm}{30}{subsection.3.4.12}%
+\contentsline {subsection}{\numberline {3.4.13}Algorithm}{30}{subsection.3.4.13}%
+\contentsline {subsection}{\numberline {3.4.14}Experimental Setup}{32}{subsection.3.4.14}%
+\contentsline {subsection}{\numberline {3.4.15}Conclusion}{33}{subsection.3.4.15}%
+\contentsline {chapter}{\chapternumberline {4}Result Analysis and Discussion}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Genetic Profiling Analysis}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Heatmap Visualization}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Pathway and Functional Association Analysis}{41}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Significant Pathways of Arrhythmia}{51}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.5}Gene Ontology (GO) Analysis}{53}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Protein-Protein Interactions Analysis}{60}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Protein-Drug Interactions Analysis}{63}{section.4.7}%
+\contentsline {chapter}{\chapternumberline {5}Conclusion and Future Work}{67}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{68}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{68}{section.5.2}%
+\contentsline {chapter}{REFERENCES}{69}{chapter*.50}%

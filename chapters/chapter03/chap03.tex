@@ -19,18 +19,17 @@ This chapter outlines the proposed model and methodology for analyzing the genet
 The methodology involves data preprocessing, genetic profiling, pathway enrichment, functional ontology, protein-protein and protein-drug interaction networks, phylogenetic analysis and validation analysis. These approaches aim to identify key biomarkers, therapeutic targets and evolutionary insights between the genes of BT and its comorbidities. The details of these analytical approaches are presented in the following sections.
 
 \section{Overview of Analytical Approaches}
-\label{sec:sec3_2}
+\label{sec:sec3_3}
 
 This chapter show a standard analytical procedure to gain the genetic link between beta-thalassemia and its comorbidities by analyzing the microarray and mRNA sequence datasets. We have used Gene Expression Omnibus (GEO) datasets for each diseases where each datasets has two groups: normal tissue (healthy or control samples) and malignant tissue (affected samples). Comparing these normal and malignant tissues by using Benjamini-Hochberg method to make sure that the significant genes are reliable and control the false discovery rate by adjusting p-value. A Limma package of R language to identify differentially expressed genes (DEGs) between BT and PCOS, T2D, hypothyroidism, hypogonadism, ACM, arrhythmia respectively. After applying the Benjamini-Hochberg correction to control the false discovery rate, this study applies statistical thresholds to differentiate up-regulated and down-regulated genes. And then by finding common DEGs, disease-gene network was constructed to visualize their co-relations. This study performed ontological analysis, pathway analysis, PPI, PDI, phylogenetic analysis and their respective networks. After that it performed validation analysis using gold benchmark datasets including dbGaP and OMIM. 
 
 A working flowchart representing this quantitative method in Figure 3-1.
 
 \begin{figure}[H]
-\begin{center}
-    \includegraphics[width=15cm]{./fig/p1.PNG}
-\end{center}
-\caption{Working flow diagram of this investigation}
-\label{fig:dataset_mass_images}
+    \centering
+    \includegraphics[width=14cm]{./fig/p1.PNG}
+    \caption{Working flow diagram of this investigation}
+    \label{fig:dataset_mass_images}
 \end{figure}
 
 \section{Dataset Information}
@@ -140,8 +139,9 @@ For this study, a reliable and relevant data was selected for investigating the 
 Differential gene expression analysis is a base of bioinformatics for understanding the molecular and genetic inter-relations of complex diseases like beta-thalassemia and its comorbidities. In this study, we performed gene expression analysis on microarray and mRNA-seq datasets to identify differentially expressed genes (DEGs) between case disease and control samples for BT, PCOS, hypothyroidism, hypogonadism, T2D, ACM and arrhythmia. The analysis was conducted using the GEO2R tool on NCBI Gene Expression Omnibus (GEO) website and the Limma package in R which are widely used for strong statistical frameworks.
 
 \begin{figure}[H]
-\begin{center}
+\centering
 \begin{tikzpicture}[
+  scale=0.6, % Reduces the entire figure to 70% of original size
   process/.style={rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!20},
   decision/.style={diamond, minimum width=2.5cm, minimum height=1cm, text centered, draw=black, fill=green!20},
   startstop/.style={ellipse, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!20},
@@ -171,14 +171,12 @@ Differential gene expression analysis is a base of bioinformatics for understand
 \end{tikzpicture}
 \caption{Workflow for Differential Gene Expression Analysis of Beta-Thalassemia and Comorbidities.}
 \label{fig:deg-workflow}
-\end{center}
 \end{figure}
-
 \vspace*{-\parskip} % Counteract extra paragraph spacing
 \textbf{Data Pre-processing and Normalization}
 \vspace{7mm}
 
-To reduce experimental differences and keep the data consistent, gene expression values in each dataset were normalized using the Z-score method. This approach standardizes the expression values to make them comparable across different samples~\cite{zscore_ref}. The Z-score transformation for a gene expression value is calculated as:
+To reduce experimental differences and keep the data consistent, gene expression values in each dataset were normalized using the Z-score method. This approach standardizes the expression values to make them comparable across different samples~\cite{b15}. The Z-score transformation for a gene expression value is calculated as:
 \begin{equation}
 z_{ij} = \frac{x_{ij} - \mu_i}{\sigma_i}
 \label{eq:zscore}
@@ -211,8 +209,8 @@ where:
 
 The adjusted $p$-value threshold of BH was set to $\leq 0.05$ to ensure statistical significance. These genes were classified based on the $\log_2$ fold change ($\log FC$) values by applying the following conditions:
 \begin{itemize}
-    \item To identify up-regulated genes: $\textbf{log FC} > \text{threshold}$,
-    \item To identify down-regulated genes: $\textbf{log FC} < \text{threshold}$.
+    \item To identify up-regulated genes: $\left| \log FC \right| > 1$,
+    \item To identify down-regulated genes: $\left| \log FC \right| < -1$.
 \end{itemize}
 
 These threshold values were used to identify significant DEGs between case and control groups.
@@ -234,7 +232,7 @@ By using the Jaccard Coefficient, this study measured the similarity between dis
 X(d_1, d_2) = \frac{|Z_1 \cap Z_2|}{|Z_1 \cup Z_2|}
 \label{eq:jaccard}
 \end{equation}
-Here, \(|Z_1 \cap Z_2|\) represents the set of common DEGs, and \(|Z_1 \cup Z_2|\) represents the union of DEGs for the two diseases. The Jaccard Coefficient \(X(d_1, d_2)\) ranges from 0 to 1, where a higher value indicates greater similarity in the genetic profiles of the diseases~\cite{jaccard_ref}.
+Here, \(|Z_1 \cap Z_2|\) represents the set of common DEGs, and \(|Z_1 \cup Z_2|\) represents the union of DEGs for the two diseases. The Jaccard Coefficient \(X(d_1, d_2)\) ranges from 0 to 1, where a higher value indicates greater similarity in the genetic profiles of the diseases~\cite{b20}.
 
 Two separate networks were constructed for up-regulated and down-regulated DEGs to show the distinct regulatory patterns. The DGNs were visualized and analyzed using the Cytoscape platform. Cytoscape enabled the mapping of disease-gene associations by optimizing the layouts to highlight connectivity patterns, such as hub genes across multiple comorbidities.
 
@@ -244,7 +242,7 @@ Two separate networks were constructed for up-regulated and down-regulated DEGs 
 
 Pathway analysis involves the systematic identification of enriched biological pathways from sets of differentially expressed genes (DEGs) that are shared between beta-thalassemia and its comorbidities. This study identifies significant pathways using Enrichr, a public tool developed by the Ma'ayan Laboratory for Computational Systems Biology for gene set enrichment analysis (GSEA). Enrichr works by comparing input gene lists with collections of curated biological databases. The method applies statistical tests to measure significance, ensuring reliable and meaningful insights into the underlying molecular mechanisms.
 
-A pathway is a sequence of molecular interactions that results in a specific change or product in a cell. It is a standard method for understanding the connections between complex diseases~\cite{pathway_ref}. We investigated dysregulated gene pathways across four databases using Enrichr: Reactome, KEGG, WikiPathways, and BioCarta.
+A pathway is a sequence of molecular interactions that results in a specific change or product in a cell. It is a standard method for understanding the connections between complex diseases~\cite{b5}. We investigated dysregulated gene pathways across four databases using Enrichr: Reactome, KEGG, WikiPathways, and BioCarta.
 
 \begin{enumerate}
     \item \textbf{Preparation of Input Gene Sets} \\
