@@ -518,6 +518,9 @@ INPUT .\frontmatter\acknowledgment.tex
 INPUT .\frontmatter\acknowledgment.tex
 INPUT .\frontmatter\acknowledgment.tex
 INPUT frontmatter\acknowledgment.tex
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futri8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-ita.tfm
 INPUT .\frontmatter\abstract.tex
 INPUT .\frontmatter\abstract.tex
 INPUT .\frontmatter\abstract.tex
@@ -651,7 +654,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fo
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futmii.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ml.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futsy.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ms.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mcl.tfm
@@ -763,8 +765,6 @@ INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
 INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
 INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
 INPUT .\chapters\chapter04\.\fig\fig4_3.jpg
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futri8t.vf
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-ita.tfm
 INPUT .\chapters\chapter04\.\fig\fig4_4.png
 INPUT chapters\chapter04\.\fig\fig4_4.png
 INPUT .\chapters\chapter04\.\fig\fig4_4.png
