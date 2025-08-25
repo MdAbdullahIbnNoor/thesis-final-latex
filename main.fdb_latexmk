@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex main.idx"] 1756063980.6984 "main.idx" "main.ind" "main" 1756064231.6067 0
-  "main.idx" 1756064217 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1756100909.9212 "main.idx" "main.ind" "main" 1756101313.90742 0
+  "main.idx" 1756101304 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1756064216.27915 "d:/Thesis Poster & Presentation/Thesis/My Thesis Paper/main.tex" "main.pdf" "main" 1756064231.60826 0
+["pdflatex"] 1756101302.81335 "d:/Thesis Poster & Presentation/Thesis/My Thesis Paper/main.tex" "main.pdf" "main" 1756101313.90815 0
   "C:/Users/AB Noor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755957657 126279 9535662d13f9d349a2c242a76b995bff ""
   "C:/Users/AB Noor/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1200.pk" 1755861247 24152 6db2b524d23f17ce57496fa7360faa0c ""
   "C:/Users/AB Noor/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1754928755 688 37338d6ab346c2f1466b29e195316aa4 ""
@@ -314,7 +314,7 @@
   "chapters/chapter01/chap01.tex" 1756055861 17960 0113ec562840cc81965129ca94099b11 ""
   "chapters/chapter02/chap02.tex" 1756056844 14745 dae87c02465292534813c165d0d52864 ""
   "chapters/chapter03/./fig/p1.PNG" 1755797174 123104 1f577cbc4f62372d959ef1f61ed813c5 ""
-  "chapters/chapter03/chap03.tex" 1756063218 35445 efab24836db422ad0d2d8b237e597ae7 ""
+  "chapters/chapter03/chap03.tex" 1756101283 35438 7a5a70d4dd4665236c45bd5ad6865d57 ""
   "chapters/chapter04/./fig/fig4_1.png" 1755974056 265558 9da9a7f5bbcab0c2c446bd86f7ab85ec ""
   "chapters/chapter04/./fig/fig4_10.png" 1756030861 199631 572c91f1260e5202f4af2c4d136e402b ""
   "chapters/chapter04/./fig/fig4_11.png" 1756031663 2546982 9f2823f6db3b909ec20b297b7c1dff37 ""
@@ -339,19 +339,20 @@
   "chapters/chapter05/chap05.tex" 1756064214 5611 f64ba9d2e9684879fe943a24cbaa02f0 ""
   "d:/Thesis Poster & Presentation/Thesis/My Thesis Paper/main.tex" 1756064103 19272 43d30cf1f8fea3d46d94b77a366acf35 ""
   "frontmatter/Declaration.tex" 1755664568 1474 cb2e712813ae5e84586c7c3b0025eb94 ""
-  "frontmatter/abstract.tex" 1755537928 2245 b69fb29dea53676cc9143dcd306afc69 ""
+  "frontmatter/abstract.tex" 1756100908 2361 04f6b770a725d7b34ad0879426e92b05 ""
   "frontmatter/acknowledgment.tex" 1755662556 1382 2474fb588bde887f85b783f41af30b33 ""
   "frontmatter/certification.tex" 1756059615 1113 c455367797fa8ec2981743731538058c ""
   "frontmatter/nomenclature.tex" 1756050043 1380 e14dd3213291b3b12be092ea5f943735 ""
-  "frontmatter/title.tex" 1756059643 1664 fa2fc80cb51515e3c525151001112526 ""
+  "frontmatter/title.tex" 1756099774 1518 7b414cafbc7b868cac57af04f527f267 ""
+  "logos/abstract_fig.jpg" 1756099514 68639 e6be8f9d59005a2a1a69141c4b881de0 ""
   "logos/pust_logo.jpg" 1754928425 261735 542a5b8d17c088dcfb25beed662b27c5 ""
-  "main.aux" 1756064229 30359 1260c18cfaef9148097f4eb2cc9051e5 "pdflatex"
-  "main.ind" 1756063981 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1756064229 3561 56390eba4ec86426ad4e11affef24bf1 "pdflatex"
-  "main.lot" 1756064229 3312 4f0d626d8901f5ee960ba3ae23ad93b0 "pdflatex"
-  "main.out" 1756064229 8754 4a1357b06be510537d8f5d3c1cce2a15 "pdflatex"
+  "main.aux" 1756101312 30352 49fd1439e967ec63e50b5b16d95dec23 "pdflatex"
+  "main.ind" 1756100910 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1756101312 3562 0e2d85e52c4de674b040f0f4ae250fe7 "pdflatex"
+  "main.lot" 1756101312 3312 667dae356927b18f8a5ce370224680ca "pdflatex"
+  "main.out" 1756101312 8754 2a0b0b7909c1ab046696797ef8e16ba4 "pdflatex"
   "main.tex" 1756064103 19272 43d30cf1f8fea3d46d94b77a366acf35 ""
-  "main.toc" 1756064229 4621 14f8260ca0e545bd8e69a315556ce24e "pdflatex"
+  "main.toc" 1756101312 4619 ebeb24e9b03e149d39518818b338e346 "pdflatex"
   (generated)
   "main.aux"
   "main.idx"

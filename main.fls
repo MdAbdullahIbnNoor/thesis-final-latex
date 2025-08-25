@@ -467,6 +467,7 @@ INPUT .\frontmatter\title.tex
 INPUT .\frontmatter\title.tex
 INPUT .\frontmatter\title.tex
 INPUT frontmatter\title.tex
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
 INPUT .\logos\pust_logo.jpg
 INPUT .\logos\pust_logo.jpg
@@ -477,6 +478,7 @@ INPUT .\logos\pust_logo.jpg
 INPUT .\logos\pust_logo.jpg
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futri8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futbi8t.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
@@ -488,11 +490,12 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fo
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futbi8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futbi8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-boldita.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT .\frontmatter\Declaration.tex
 INPUT .\frontmatter\Declaration.tex
 INPUT frontmatter\Declaration.tex
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futbc8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8t.tfm
@@ -503,8 +506,6 @@ INPUT .\frontmatter\certification.tex
 INPUT frontmatter\certification.tex
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futbc8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futr8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
@@ -522,6 +523,15 @@ INPUT .\frontmatter\abstract.tex
 INPUT .\frontmatter\abstract.tex
 INPUT .\frontmatter\abstract.tex
 INPUT frontmatter\abstract.tex
+INPUT .\logos\abstract_fig.jpg
+INPUT .\logos\abstract_fig.jpg
+INPUT .\logos\abstract_fig.jpg
+INPUT .\logos\abstract_fig.jpg
+INPUT .\logos\abstract_fig.jpg
+INPUT .\logos\abstract_fig.jpg
+INPUT .\logos\abstract_fig.jpg
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
+INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futrc8t.tfm
 INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
@@ -605,8 +615,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\tex\latex\fourier\ts1futs.f
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8c.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8c.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8c.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8t.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futrc8t.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futrc8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futr8r.tfm
@@ -640,7 +648,6 @@ INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fo
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\futb8r.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-alt-bold.tfm
-INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futb8t.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\vf\public\fourier\futmii.vf
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-mlit.tfm
 INPUT C:\Users\AB Noor\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fourier\fourier-ml.tfm

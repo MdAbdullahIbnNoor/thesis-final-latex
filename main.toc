@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
 \par \nobreak \mbox {}\hfill {\nag@@warning@vi \bfseries Page}\par \nobreak 
-\contentsline {chapter}{Abbreviations and Acronyms}{vii}{chapter*.6}%
-\contentsline {chapter}{List of Tables}{viii}{section*.7}%
-\contentsline {chapter}{List of Figures}{ix}{section*.8}%
+\contentsline {chapter}{Abbreviations and Acronyms}{viii}{chapter*.7}%
+\contentsline {chapter}{List of Tables}{ix}{section*.8}%
+\contentsline {chapter}{List of Figures}{x}{section*.9}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}General Introduction}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}General Background}{3}{section.1.2}%
@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {3.4.3}Gene Diseases Network Analysis}{25}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Pathway and Functional Association Analysis}{26}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Gene Ontology Analysis}{27}{subsection.3.4.5}%
-\contentsline {paragraph}{GO Analysis Workflow}{27}{section*.11}%
+\contentsline {paragraph}{GO Analysis Workflow}{27}{section*.12}%
 \contentsline {subsection}{\numberline {3.4.6}Up and Down-regulated Identification}{28}{subsection.3.4.6}%
 \contentsline {subsection}{\numberline {3.4.7}Common Dysregulated Genes}{28}{subsection.3.4.7}%
 \contentsline {subsection}{\numberline {3.4.8}Network Construction of PPI}{28}{subsection.3.4.8}%
@@ -53,4 +53,4 @@
 \contentsline {section}{\numberline {5.1}Discussion}{72}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Future Work}{72}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Conclusion}{73}{section.5.3}%
-\contentsline {chapter}{REFERENCES}{74}{chapter*.52}%
+\contentsline {chapter}{REFERENCES}{74}{chapter*.53}%
